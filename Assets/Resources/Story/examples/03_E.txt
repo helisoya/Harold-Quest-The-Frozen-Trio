@@ -1,0 +1,30 @@
+
+show()
+playMusic(RickeyLand)
+changeCharacter(Waldo_Normal)
+setBackground(RickeyLand_MaisonHante)
+
+*Waldo "[voice(03_E_1)]Bravo ! Vous avez réussit à sortir ! C'est un exploit !"
+[MC] "Bien ! J'ai encore 2 attractions à réussir."
+
+hide()
+narrator "Je m'éloigne de Waldo et me dirige vers la prochaine attraction."
+
+setBackground(RickeyLand_Marchand)
+narrator "J'arrive après quelques minutes de marche à la troisième attraction."
+narrator "Jusqu'ici, je n'ai pas eu trop de problèmes pour finir les attractions."
+narrator "Cette attraction est cependant étrange."
+narrator "Waldo n'est pas ici, il ne gère pas l'attraction ?"
+narrator "Cette attraction se nomme 'Tir sur Marchand', un nom assez étrange."
+narrator "Je remarque une personne attaché au murs du stand de tir."
+narrator "Je m'approche de lui, qui sait ?"
+
+changeCharacter(Marchand_Chaine,true)
+show()
+[MC] "Bonjour, quelles sont les règles de cette attraction ?"
+*Marchand "[voice(03_E_2)]Dans cette attraction, vous devez me tirer des couteaux dessus. Attention à ne pas me toucher !"
+*Marchand "[voice(03_E_3)]Plus vous tirez proche de moi, plus vous gagnez de points. Si je suis touché, vous avez perdu."
+*Marchand "[voice(03_E_4)]Par pitié, ne me tuez pas ! Je n'ai rien fait de mal !"
+[MC] "Euh.... Je vais essayer l'attraction du coup...."
+*Marchand "[voice(03_E_5)]Ah, très bien... Commençons l'attraction..."
+LoadScene(TSM)

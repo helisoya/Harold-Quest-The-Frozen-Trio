@@ -1,0 +1,33 @@
+hide()
+setBackground(null)
+
+narrator "Je suis [MC], une personne ordinaire. Enfin, c'est ce que je croyait..."
+narrator "Deux événements ont marqués ma vie et m'ont poussé dans ma voie."
+narrator "Il est vraiment important que je me souvienne de ces événements."
+narrator "Sinon.... Je serais fini pour de bon....."
+narrator "Le premier fut ma quête qui mena à la mort du seigneur Braise."
+narrator "Le deuxième, quand à lui, commença durant une nuit d'hiver..."
+narrator "..................."
+
+playMusic(Night)
+setBackground(Foret_Nuit)
+[MC] "Ou suis-je ? J'ai perdu connaissance pendant un instant."
+[MC] "On dirait que je suis perdu dans une forêt, et il fait nuit."
+[MC] "Je devrais trouver un refuge pour la nuit, avant de chercher la raison de ma présence ici."
+narrator "Je commence donc à partir et à chercher un refuge pour la nuit."
+narrator "La lune me permet de voir clair dans la nuit. C'est très pratique pour avancer sans trébucher."
+narrator "La forêt a l'air hostile, mais il n'y a personne pour m'attaquer."
+[MC] "Il n'y a personne dans cette forêt. Je n'ai rien à craindre.""
+
+playSound(Degaine)
+narrator "Je sens un bout de métal froid qui me touche le dos."
+
+changeCharacter(Chasseur,true)
+show()
+*??? "[voice(03_A_1)]Eh, tu connais la différence entre une gallinete cendrée et un Homme en pleine nuit ?"
+[MC] "Euh... Ils ne se ressemblent pas ?"
+*??? "[voice(03_A_2)]Comment ça tu vois pas la différence entre les deux ? Moi aussi mais bon on va pas parler de ça. Meurt petit oiseau !"
+
+hide()
+narrator "Je commence à courir. Le chasseur me poursuit."
+LoadScene(CPC)

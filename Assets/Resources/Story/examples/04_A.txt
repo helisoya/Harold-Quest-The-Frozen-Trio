@@ -1,0 +1,100 @@
+hide()
+setBackground(null)
+
+narrator "Je n'arrive pas à croire que je vais le faire..."
+narrator "Je suis le coursier 10, un coursier de la lointaine cité-état de Kalia."
+narrator "J'ai été engagé par un ancien habitant de Vlatyr pour m'occuper d'une affaire."
+narrator "Ma mission est de m'infiltrer dans une forteresse nommée la forteresse Braise."
+narrator "Je dois la détruire avec une bombe, ainsi que son dangereux propriétaire."
+narrator "Selon mon employeur, c'est un puissant terroriste et chef d'une secte."
+narrator "Il mène en ce moment une réunion dans la forteresse avec ses compères."
+narrator "C'est pour cela que j'ai 'emprunté' cet avion à Kalia..."
+narrator "Cela fait plusieurs heures que je vole dans cet avion."
+
+setBackground(Braise_Exterieur)
+narrator "A l'horizon, je peut voir une grande forteresse."
+10 "C'est la forteresse dont m'a parlé mon employeur..."
+10 "Elle est vraiment grande. C'est une bonne demeure pour une secte."
+10 "Je devrais me poser hors de vue de la forteresse."
+10 "Je ne voudrait pas me faire remarquer dès le début."
+
+setBackground(Montagnes_Var2)
+narrator "Je me pose donc sur une portion plate de la montagne."
+narrator "Ainsi, je pourrais partir facilement après avoir placé la bombe."
+narrator "Une fois posé, je me dirige vers la forteresse."
+narrator "Par chance, il y a un chemin qui mène à la forteresse."
+narrator "Je marche donc en direction de la forteresse."
+narrator "Bien sur, je fais attention de ne pas me faire repérer."
+10 "J'ai l'impression que personne n'est au courant de ma présence."
+10 "C'est une bonne nouvelle, ils ne sauront pas ce qu'ils va arriver."
+
+playMusic(Exploration_3)
+setBackground(Braise_Entrée)
+narrator "Après quelques minutes, j'arrive enfin vers la forteresse."
+10 "Elle est vraiment très grande........."
+10 "Bon. Si je passe par la porte d'entrée, je vais me faire repérer."
+10 "Je dois donc trouver un autre moyen d’entrer dans la forteresse."
+narrator "Je commence à regarder si une telle chose existe."
+
+setBackground(Braise_Vent_Exterieur)
+narrator "Après quelques minutes de recherche, je trouve enfin ce que je cherchait."
+10 "Si j'utilise les conduits de la forteresse, je vais pouvoir entrer !"
+10 "J'espère qu'il n'y a pas trop d’obstacles à l'intérieur..."
+narrator "Malgré ma plainte, j'entre dans le conduit."
+
+setBackground(Braise_Vent)
+narrator "L'odeur n'est pas plaisante, mais elle n'est pas atroce."
+narrator "Cet endroit n'a pas dû être lavé depuis longtemps."
+narrator "Le conduit a l'air de passer au dessus d'une zone désaffecté de la forteresse."
+narrator "J'arrive à voir depuis le conduit les toiles d’araignée présentes."
+narrator "Je continue d'avancer dans le conduit, jusqu’à ce que..."
+10 "On dirais que le conduit est cassé plus loin..."
+10 "Je ne peux pas continuer par ici, je vais devoir ouvrir le conduit."
+narrator "Je trouve donc une grille et je l'ouvre avant de me laisser tomber."
+
+setBackground(Braise_Abandone)
+narrator "Quand je tombe dans le couloir, une quantité incroyable de poussière s'envole."
+narrator "Cet endroit est très probablement coupé de l'extérieur."
+narrator "Ce qui veux dire que je vais devoir trouver un moyen d'atteindre la forteresse."
+10 "Je devrais commencer par trouver ou je me trouve."
+narrator "J'avance donc dans le couloir en espérant trouver une réponse à ma question."
+narrator "Je trouve une porte au hasard, elle est très poussiéreuse."
+
+setBackground(Braise_Torture)
+narrator "Je l'ouvre et j'entre dans une pièce très étrange."
+narrator "Au centre, il y a une sorte de robot sur une table."
+narrator "Il à l'air d'être inachevé cependant. C'est sûrement mieux ainsi."
+10 "Si je devais faire face à une telle chose, je serais très nerveux..."
+narrator "Il me semble entendre de temps à autre des bruits étrange dans le couloir."
+10 "Pourquoi ais-je l'impression que cela va être le cas ?"
+10 "Je devrais me dépêcher de retrouver la sortie."
+
+playMusic(null)
+setBackground(Braise_Abandone)
+narrator "Je sort de la pièce en courant presque. Qui sait ce qui rôde autour de moi."
+narrator "J'espère seulement trouver la sortie de cet endroit."
+??? "[voice(04_A_1)]AH AH AH AH AH A-"
+narrator "Je sursaute. Qui est là ? Montrez-vous ! Je n'a-"
+10 ".... Qui est là ? Montrez-vous !"
+narrator "Je n'arrive pas à croire que j'ai réussi à me tromper de la sorte."
+narrator "Mais personne ne me répond..."
+10 "Si c'est ça.... Je m'en vais."
+narrator "Je reprend donc mon chemin, mais toujours pas de sortie."
+??? "[voice(04_A_2)]Je suis Rick-....."
+narrator "Une fois de plus, la voix survient d'un endroit inconnu."
+narrator "Mais elle ne fait pas de sens. Elle peine à dire un mot..."
+narrator "Je l'ignore et continue mon chemin."
+??? "[voice(04_A_3)]Je suis le plus cool. Le plus cool des -rai...."
+10 "Sortez ! Venez vous battre si c'est ce que vous voulez !"
+??? "[voice(04_A_4)]Le P-... de Rick-....."
+narrator "Si c'est un robot, c'est le robot le moins performant au monde."
+narrator "J'ignore toujours la voix, cette fois mes efforts ne sont pas vains."
+
+setBackground(Braise_Vent_Couloir)
+narrator "Je trouve une série de conduits, ils ont l'air de mener vers la forteresse.
+10 "Enfin ! Je vais pouvoir quitter cet endroit !"
+narrator "J'entends des raclements venant des conduits."
+??? "[voice(04_A_5)]RICK-........."
+narrator "La voix provient des conduits, je vais devoir m'en occuper avant de partir."
+narrator "Je me prépare mentalement."
+LoadScene(SM)

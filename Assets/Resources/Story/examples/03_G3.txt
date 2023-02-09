@@ -1,0 +1,12 @@
+
+setBackground(RickeyLand_Boutique)
+playMusic(RickeyLand)
+changeCharacter(SeigneurNoir)
+show()
+
+narrator "Le seigneur noir s’effondre au sol, vaincu et murmure des mots incompréhensible."
+[MC] "Mmhhh.... Je devrais aller au palais maintenant."
+
+hide()
+narrator "Je m'éloigne de l'homme et me dirige vers la demeure du PDG."
+Load(03_H)

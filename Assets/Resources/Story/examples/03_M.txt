@@ -1,0 +1,25 @@
+hide()
+hide()
+setBackground(ForteresseNoire_Couloir)
+
+
+narrator "Je les ai tous tués, je crois..."
+narrator "Je devrais partir avant que d'autres n'arrivent."
+
+setBackground(ForteresseNoire_Salle)
+narrator "J'arrive assez rapidement dans une salle étrange."
+[MC] "On dirait une salle de trône. Mais il n'y a personne."
+
+changeCharacter(Harold_Arme)
+show()
+*Harold "[voice(03_M_1)]Ah ! Bien le bonjour, [MC] ! C'est assez rude de tuer ses hôtes."
+[MC] "Vous ! Je vais vous le faire regretter ! C'est du kidnapping !"
+*Harold "[voice(03_M_2)]Voyons ! Vous n'aimez pas le confort de la forteresse noire ? C'est pourtant ma seconde maison !"
+[MC] "Je vais vous détruire, vous et votre culte !"
+
+changeCharacter(Adrien,true)
+*??? "Jamais !"
+Harold "[voice(03_M_3)]He He He ! On dirait qu'il n'est pas du même avis."
+Harold "[voice(03_M_4)]Regardons ce qui va ce passer, même si le résultat est évident !"
+narrator "Le guerrier sombre me fonce dessus."
+LoadScene(CCS)

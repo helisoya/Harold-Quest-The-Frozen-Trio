@@ -1,0 +1,6 @@
+hide()
+if "RickeyQuest"="100"
+  Load(Stable_CheckArea_AfterRickey)
+if "RickeyQuest"="3"
+  Load(Stable_RickeyQuest3)
+Load(Stable_CheckArea)

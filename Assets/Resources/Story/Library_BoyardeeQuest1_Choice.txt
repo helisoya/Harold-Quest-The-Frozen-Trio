@@ -1,0 +1,14 @@
+hide()
+hide()
+setBackground(Library)
+narrator "Library_BoyardeeQuest1_2"
+
+choice "Choice_Generic"
+{
+  "Choice_BoyardeeQuest_Italy"
+    Load(Library_BoyardeeQuest1_Italy)
+  "Choice_BoyardeeQuest_Christmas"
+    Load(Library_BoyardeeQuest1_Christmas)
+  "Choice_BoyardeeQuest_Secret"
+    Load(Library_BoyardeeQuest1_Secret)
+}

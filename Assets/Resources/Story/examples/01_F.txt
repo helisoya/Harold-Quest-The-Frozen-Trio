@@ -1,0 +1,54 @@
+setBackground(RickeyLand_Place)
+changeCharacter(Rickey_1,true)
+hide()
+playMusic(Rickey)
+
+narrator "J'ai fini d'écrire mon poème. J'espère qu'il sera le meilleur."
+show()
+*Rickey "[voice(01_F_1)]Bien ! Je vais commencer à lire vos poèmes ! Ah Ah !"
+narrator "Rickey ramasse les poèmes et commence sa lecture."
+narrator "Il lit certains poèmes en quelques secondes et d'autres en plusieurs minutes."
+*Rickey "[voice(01_F_2)]Tient ? Mmmmhhh...."
+*Rickey "[voice(01_F_3)]......Vraiment ?"
+*Rickey "[voice(01_F_4)]Incroyable ! J'ai trouvé notre gagnant !"
+narrator "Rickey saute de place en jetant les poèmes restant."
+*Rickey "[voice(01_F_5)]Le gagnant qui à écrit ce poème fabuleux, reflétant ma grandeur est..."
+*Rickey "[voice(01_F_6)][MC] ! Bravo, Bravo ! Tu as gagné le concours !"
+narrator "Rickey me désigne du doigt... J'ai gagné ?!"
+narrator "J'ai seulement écrit des mots au pifs sur ma feuille en plus !"
+narrator "Ce n'est pas grave, le plus important c'est que j'ai gagné !"
+narrator "Je m'avance triomphalement vers Rickey. Les autres concurrents sont mort de rage."
+*Rickey "[voice(01_F_7)]Ah ! Bravo ! Vient avec moi, nous allons passer un bon moment ensemble !"
+narrator "Je suis Rickey sous l'acclamation de certains concurrents."
+
+
+setBackground(RickeyLand_Trone)
+narrator "Il m’amène dans un somptueux palais, puis dans une salle gigantesque."
+*Rickey "[voice(01_F_8)]Ah Ah ! Bienvenue dans mon palais de PDG !"
+*Rickey "[voice(01_F_9)]En tant que gagnant de mon concours, tu as droit à un vœu !"
+*Rickey "[voice(01_F_10)]Bien sur, je vais l'exhausser, coûte que coûte ! Ah Ah !"
+[MC] "Très bien. Voici mon vœu : Ou se trouve le seigneur Braise ?"
+*Rickey "[voice(01_F_11)]Ah A- Quoi ? Vraiment ? Je ne m'attendait pas à cela !"
+*Rickey "[voice(01_F_12)]A vrai dire, je pensait voir débarquer ce fou en armure... Il allait sûrement me demander un harem..."
+[MC] "QUOI ?"
+*Rickey "[voice(01_F_13)]Mais c'est pas grave ! C'est très bien quand même !"
+*Rickey "[voice(01_F_14)]Ce vœu est donc votre vœu final ?"
+[MC] "Oui, je dois trouver ce dragon à tout prix."
+*Rickey "[voice(01_F_15)]Très bien ! Je vais tout vous dire !"
+*Rickey "[voice(01_F_16)]Le dragon se terre dans la forteresse Braise, elle est plus loin dans les montagnes."
+*Rickey "[voice(01_F_17)]Pour y accéder, rien de plus simple ! Il suffit d'utiliser la porte de derrière !"
+*Rickey "[voice(01_F_18)]Allez-y ! Mes gardes vous laisseront passer !"
+[MC] "Merci beaucoup. Vous m'avez grandement aidé."
+hide()
+playMusic(null)
+
+narrator "Je me retourne et sort du palais de Rickey."
+setBackground(RickeyLand_Chateau)
+narrator "Je me dirige ensuite vers la sortie de derrière du parc."
+narrator "Je la trouve facilement, je remarque que les gardes me laisse passer sans problème."
+setBackground(Chemin_Montagnes)
+narrator "Je passe la porte et je me retrouve en face d'une grande chaîne de montagnes."
+[MC] "Le dragon se trouve dans ce montagnes, je dois faire attention."
+narrator "Je m'avance sur le chemin."
+
+Load(01_I)

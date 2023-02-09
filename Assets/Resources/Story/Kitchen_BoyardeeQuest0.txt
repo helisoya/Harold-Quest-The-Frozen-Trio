@@ -1,0 +1,35 @@
+hide()
+hide()
+setBackground(Kitchen)
+playMusic(null)
+
+narrator "Kitchen_BoyardeeQuest0_0"
+narrator "Kitchen_BoyardeeQuest0_1"
+narrator "Kitchen_BoyardeeQuest0_2"
+
+changeCharacter(Boyardee)
+show()
+*Boyardee "Kitchen_BoyardeeQuest0_3"
+narrator "Kitchen_BoyardeeQuest0_4"
+[MC] "Kitchen_BoyardeeQuest0_5"
+[MC] "Kitchen_BoyardeeQuest0_6"
+narrator "Kitchen_BoyardeeQuest0_7"
+*Boyardee "Kitchen_BoyardeeQuest0_8"
+[MC] "Kitchen_BoyardeeQuest0_9"
+*Boyardee "Kitchen_BoyardeeQuest0_10"
+*Boyardee "Kitchen_BoyardeeQuest0_11"
+*Boyardee "Kitchen_BoyardeeQuest0_12"
+*Boyardee "Kitchen_BoyardeeQuest0_13"
+[MC] "Kitchen_BoyardeeQuest0_14"
+*Boyardee "Kitchen_BoyardeeQuest0_15"
+[MC] "Kitchen_BoyardeeQuest0_16"
+*Boyardee "Kitchen_BoyardeeQuest0_17"
+*Boyardee "Kitchen_BoyardeeQuest0_18"
+*Boyardee "Kitchen_BoyardeeQuest0_19"
+narrator "Kitchen_BoyardeeQuest0_20"
+[MC] "Kitchen_BoyardeeQuest0_21"
+*Boyardee "Kitchen_BoyardeeQuest0_22"
+narrator "Kitchen_BoyardeeQuest0_23"
+narrator "Kitchen_BoyardeeQuest0_24"
+variable(BoyardeeQuest,1)
+Load(Kitchen_Arrive)

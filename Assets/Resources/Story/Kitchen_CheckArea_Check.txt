@@ -1,0 +1,6 @@
+hide()
+if "BoyardeeQuest"="1"
+  Load(Kitchen_BoyardeeQuest1)
+if "BoyardeeQuest"="2"
+  Load(Kitchen_BoyardeeQuest2)
+Load(Kitchen_CheckArea)

@@ -1,0 +1,31 @@
+show()
+show()
+changeCharacter(Katsumoto)
+setBackground(ChezHarold_Exterieur)
+
+playMusic(Katsumoto)
+narrator "J'arrive sans trop de mal à contrer le samurai."
+*Katsumoto "[voice(01_D_1)]Impossible ! La technique des sept dragons est pourtant infaillible."
+*Katsumoto "[voice(01_D_2)]J'aurais ma vengeance ! Je retiendrais votre nom, [MC] !"
+hide()
+playMusic(null)
+
+narrator "Le samurai s'enfuie en courant."
+[MC] "Un bien étrange personnage..."
+[MC] "Je devrais me dépêcher, il ne faut pas qu'il arrive au dragon avant moi."
+
+playMusic(Exploration_1)
+setBackground(Intersection)
+narrator "J'arrive à une intersection. Le chemin se divise en deux."
+narrator "A gauche, le chemin va vers un château magnifique. C'est peu être la forteresse du Dragon."
+narrator "A droite, le chemin continue et entre au loin dans une forêt dense."
+narrator "Je vais devoir choisir par quel chemin passer."
+[MC] "Mais quel chemin est le bon ? Aucun moyen de savoir..."
+
+choice "Quel chemin prendre ?"
+{
+  "Gauche"
+    Load(01_E)
+  "Droite"
+    Load(01_G)
+}

@@ -1,0 +1,7 @@
+show()
+changeCharacter(Harold_Cafe)
+show()
+setBackground(ChezHarold_Salon)
+*Harold "ChezHarold_Harold_Quest0_1"
+*Harold "ChezHarold_Harold_Quest0_2"
+Load(ChezHarold_Harold_Choix0)

@@ -1,0 +1,12 @@
+show()
+changeCharacter(Boyardee)
+show()
+setBackground(Flashback_Boyardee)
+Harold "ChezHarold_Harold_Quest1_Boyardee_1"
+Harold "ChezHarold_Harold_Quest1_Boyardee_2"
+Harold "ChezHarold_Harold_Quest1_Boyardee_3"
+setBackground(ChezHarold_Salon)
+changeCharacter(Harold_Cafe)
+show()
+*Harold "ChezHarold_Harold_Quest1_Boyardee_4"
+Load(ChezHarold_Harold_Choix1)

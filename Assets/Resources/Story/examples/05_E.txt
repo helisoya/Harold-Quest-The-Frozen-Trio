@@ -1,0 +1,41 @@
+show()
+show()
+changeCharacter(Robot)
+setBackground(Manoir_Exterieur)
+
+narrator "J'arrive à répondre sans mal aux questions des robots."
+*ROBOT "[voice(05_E_1)]TRES BIEN ! VOUS ETES EN REGLE ! VOUS POUVEZ ENTRER !"
+*ROBOT "[voice(05_E_2)]GLOIRE AU CHEVALIER DE RUNAN !"
+
+hide()
+narrator "Les robots utilisent des propulseurs afin de remonter sur le toit."
+narrator "L'entrée étant libre, j'entre dans le manoir."
+
+setBackground(Manoir_Interieur)
+narrator "Le manoir est immense, il y a même plusieurs étages..."
+[MC] "Je dois trouver le Chevalier maintenant..."
+narrator "Je commence donc à marcher dans les couloirs du manoir."
+narrator "Après quelques minutes de recherche, je trouve enfin ma cible."
+
+setBackground(Manoir_Trone)
+narrator "J'arrive dans une salle du trône gigantesque."
+narrator "Et, en son centre, ma cible, le Chevalier de Runan !"
+[MC] "CHEVALIER DE RUNAN ! Votre heure a sonné !"
+narrator "Le Chevalier se retourne et s'approche de moi."
+
+changeCharacter(ChevalierRunan)
+show()
+*Chevalier "[voice(05_E_3)]Hmmm.... Qui est-tu, , nabot ?"
+[MC] "L'homme qui va vous tuer ! Vous êtes un monstre !"
+*Chevalier "[voice(05_E_4)]Et toi ? ... Ah oui... Je te reconnais...."
+*Chevalier "[voice(05_E_5)]Je t'ai vu dans le journal, tu as brûlé une maison ainsi que ses habitants non ?"
+[MC] "Ces monstres étaient des terroristes ! Je n'avais pas le choix !"
+*Chevalier "[voice(05_E_6)]Pfff ! Tu es vraiment touché par l'ignorance...."
+*Chevalier "[voice(05_E_7)]Je ne vois plus qu'une seule solution : un duel !"
+narrator "Le Chevalier sort deux raquettes de tennis et m'en lance une."
+*Chevalier "[voice(05_E_8)]Nous allons voir qui est le plus fort !"
+*Chevalier "[voice(05_E_9)]Bien sur, c'est moi le plus fort !"
+narrator "Le Chevalier fait apparaître une boule de feu dans sa main."
+[MC] "C'est ça ! Allons-y !"
+narrator "Nous commençons notre partie de tennis."
+LoadScene(MTG)

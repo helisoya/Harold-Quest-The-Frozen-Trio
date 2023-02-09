@@ -1,0 +1,28 @@
+
+show()
+playMusic(RickeyLand)
+changeCharacter(Waldo_Normal)
+setBackground(RickeyLand_Quiz)
+
+*Waldo "[voice(03_D_1)]Bravo ! Vous avez réussit le quiz ! C'est un exploit pour vous !"
+[MC] "Bien ! J'ai encore 3 attractions à réussir."
+
+hide()
+narrator "Je m'éloigne de Waldo et me dirige vers la prochaine attraction."
+
+setBackground(RickeyLand_MaisonHante)
+narrator "J'arrive assez rapidement à la maison hantée du parc."
+narrator "Cette attraction est la prochaine sur ma liste."
+narrator "J'espère qu'elle sera aussi simple que le quiz."
+narrator "Je m'approche du gérant de l'attraction."
+
+show()
+[MC] "Bonjour, pouvez-vous m'expliquez les règles de cette attraction ?"
+narrator "Mais.... C'est encore Waldo !"
+narrator "Après tout... Il a bien dit qu'il était le seul employé du parc."
+*Waldo "[voice(03_D_2)]Dans cette attraction, vous devez trouver la sortie de la maison hantée."
+*Waldo "[voice(03_D_3)]Faites attention ! Si vous mourrez, ce n'est absolument pas de la faute du PDG qui s'amuse à faire des blagues dans l'attraction."
+narrator "J'ai l'impression que c'est un peu dangereux..."
+[MC] "Très bien, je voudrais commencer l'attraction."
+*Waldo "[voice(03_D_4)]Parfait ! Commençons l'attraction ! Vous allez avoir peur !"
+LoadScene(MHR)

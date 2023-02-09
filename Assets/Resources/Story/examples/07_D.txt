@@ -1,0 +1,11 @@
+hide()
+setBackground(Ramos_Intérieur)
+
+Harold "[voice(07_D_1)]Pfff..... Pffff......."
+Harold "[voice(07_D_2)]C'est bon.... Le rocher ne me menace plus maintenant...."
+Harold "[voice(07_D_3)]Vous allons bien, docteur ? Votre corde vou-"
+Harold "[voice(07_D_4)]....... Il n'est pas avec moi...."
+Harold "[voice(07_D_5)]Je dois le retrouver, mais je suis perdu...."
+Harold "[voice(07_D_6)]Je vais devoir trouver mon chemin dans ce temple...."
+narrator "Je commence à marcher dans le temple."
+LoadScene(ERR)

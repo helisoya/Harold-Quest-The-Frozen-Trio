@@ -1,0 +1,13 @@
+changeCharacter(Harold_Cafe)
+show()
+setBackground(ChezHarold_Salon)
+
+Adrien "Non ! Je ne vais pas vous aider ! Je n'ai rien à voir avec cette histoire !"
+Harold "................................"
+
+playSound(Degaine)
+changeCharacter(Harold_Arme)
+*Harold "[voice(02_A_18)]Vous n'avez pas compris... Vous... allez... m'aider..."
+Adrien "Je... Bien... Hmm... J'accepte ?"
+changeCharacter(Harold_Cafe)
+Load(02_A3)

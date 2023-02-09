@@ -1,0 +1,7 @@
+hide()
+hide()
+setBackground(Cave1)
+narrator "Cave_CheckArea_0"
+if "Cave1"="1"
+  Load(Cave1_CheckArea_None)
+Load(Cave1_CheckArea_Reindeer)

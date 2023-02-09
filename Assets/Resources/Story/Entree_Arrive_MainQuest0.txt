@@ -1,0 +1,63 @@
+hide()
+hide()
+setBackground(Entree)
+playMusic(null)
+
+narrator "Entree_MainQuest0_1"
+narrator "Entree_MainQuest0_2"
+narrator "Entree_MainQuest0_3"
+narrator "Entree_MainQuest0_4"
+narrator "Entree_MainQuest0_5"
+narrator "Entree_MainQuest0_6"
+narrator "Entree_MainQuest0_7"
+narrator "Entree_MainQuest0_8"
+narrator "Entree_MainQuest0_9"
+changeCharacter(Rickey_2_Normal)
+show()
+*Rickey "Entree_MainQuest0_10"
+changeCharacter(ChevalierRunan)
+*Runcan "Entree_MainQuest0_11"
+changeCharacter(Boyardee)
+*Boyardee "Entree_MainQuest0_12"
+changeCharacter(Rickey_2_Normal)
+*Rickey "Entree_MainQuest0_13"
+changeCharacter(ChevalierRunan)
+*Runcan "Entree_MainQuest0_14"
+changeCharacter(Rickey_2_Angry)
+*Rickey "Entree_MainQuest0_15"
+changeCharacter(ChevalierRunan)
+*Runcan "Entree_MainQuest0_16"
+changeCharacter(Rickey_2_Normal)
+*Rickey "Entree_MainQuest0_17"
+*Rickey "Entree_MainQuest0_18"
+changeCharacter(Boyardee)
+*Boyardee "Entree_MainQuest0_19"
+changeCharacter(Rickey_2_Normal)
+*Rickey "Entree_MainQuest0_20"
+changeCharacter(ChevalierRunan)
+*Runcan "Entree_MainQuest0_21"
+changeCharacter(Rickey_2_Normal)
+*Rickey "Entree_MainQuest0_22"
+changeCharacter(ChevalierRunan)
+*Runcan "Entree_MainQuest0_23"
+changeCharacter(Rickey_2_Angry)
+*Rickey "Entree_MainQuest0_24"
+changeCharacter(Boyardee)
+*Boyardee "Entree_MainQuest0_25"
+changeCharacter(Rickey_2_Normal)
+*Rickey "Entree_MainQuest0_26"
+changeCharacter(ChevalierRunan)
+*Runcan "Entree_MainQuest0_27"
+hide()
+narrator "Entree_MainQuest0_28"
+narrator "Entree_MainQuest0_29"
+narrator "Entree_MainQuest0_30"
+narrator "Entree_MainQuest0_31"
+narrator "Entree_MainQuest0_32"
+narrator "Entree_MainQuest0_33"
+narrator "Entree_MainQuest0_34"
+variable(MainQuest,1)
+variable(BoyardeeQuest,0)
+variable(RickeyQuest,0)
+variable(RuncanQuest,0)
+Load(Entree_Arrive_Normal)

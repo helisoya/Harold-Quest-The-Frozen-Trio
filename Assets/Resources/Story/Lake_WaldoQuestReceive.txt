@@ -1,0 +1,23 @@
+hide()
+hide()
+setBackground(Lake)
+narrator "Lake_CheckArea_WaldoQuestReceive_0"
+narrator "Lake_CheckArea_WaldoQuestReceive_1"
+narrator "Lake_CheckArea_WaldoQuestReceive_2"
+
+changeCharacter(Waldo_Normal)
+show()
+*Waldo "Lake_CheckArea_WaldoQuestReceive_3"
+*Waldo "Lake_CheckArea_WaldoQuestReceive_4"
+[MC] "Lake_CheckArea_WaldoQuestReceive_5"
+*Waldo "Lake_CheckArea_WaldoQuestReceive_6"
+[MC] "Lake_CheckArea_WaldoQuestReceive_7"
+*Waldo "Lake_CheckArea_WaldoQuestReceive_8"
+*Waldo "Lake_CheckArea_WaldoQuestReceive_9"
+[MC] "Lake_CheckArea_WaldoQuestReceive_10"
+*Waldo "Lake_CheckArea_WaldoQuestReceive_11"
+[MC] "Lake_CheckArea_WaldoQuestReceive_12"
+narrator "Lake_CheckArea_WaldoQuestReceive_13"
+
+variable(WaldoQuest,0)
+Load(Lake_Arrive)

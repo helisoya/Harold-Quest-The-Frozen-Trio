@@ -1,0 +1,8 @@
+hide()
+if "RuncanQuest"!="100"
+  Load(Lake_MainQuest_NotDone)
+if "RickeyQuest"!="100"
+  Load(Lake_MainQuest_NotDone)
+if "BoyardeeQuest"!="100"
+  Load(Lake_MainQuest_NotDone)
+Load(Lake_MainQuest_Done)

@@ -1,0 +1,34 @@
+hide()
+setBackground(RickeyLand_Couloir)
+
+[MC] "*Pff* *Pff* Pourquoi dois-je courir aussi vite ?"
+[MC] "Mais je crois que je l'ai semé, je dois trouver un endroit ou me cacher maintenant..."
+
+show()
+changeCharacter(Rickey_3_Angry,true)
+*Rickey "[voice(03_I_1)]C'est ce que tu crois, petite ordure !"
+
+hide()
+playSound(Frappe)
+setBackground(null)
+narrator "Je me prend un violent coup sur la tête, je perd connaissance."
+narrator "............."
+narrator "J'ai l'impression que ma tête va exploser..."
+narrator "J'essaie d'ouvrir mes yeux, afin de regarder ou je me trouve."
+
+setBackground(RickeyLand_Torture)
+narrator "............."
+narrator "On dirait que je suis retenu prisonnier dans une salle de torture..."
+narrator "Je suis attaché à une chaise, je ne peut pas m'enfuir."
+narrator "La porte s'ouvre brusquement et Rickey entre dans la pièce."
+
+changeCharacter(Rickey_3_Normal,true)
+show()
+*Rickey "[voice(03_I_2)]Ah ! Vous êtes réveillé, espion d'Harold ! Je vais vous faire souffrir ! Ah Ah !"
+*Rickey "[voice(03_I_3)]Je vous laisse une dernière chance pour tout me dire, ou sinon... Je vous tue ! Ah Ah !"
+*Rickey "[voice(03_I_4)]Alors ? Ou se trouve Harold ? Je dois tuer cette enflure pour me venger !"
+[MC] "...Jamais....."
+*Rickey "[voice(03_I_5)]On fait le dur à cuire ? Pas de problèmes, j'ai la solution idéal ! Ah Ah !"
+*Rickey "[voice(03_I_6)]1000 Volt pour toi ! C'est suffisant non ? Ah Ah !"
+narrator "Rickey prépare son matériel et s'approche de moi avec un air menaçant."
+LoadScene(ST)

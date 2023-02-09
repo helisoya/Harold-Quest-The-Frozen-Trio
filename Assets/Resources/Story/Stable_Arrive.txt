@@ -1,0 +1,14 @@
+hide()
+hide()
+setBackground(Stable)
+playMusic(Exploration_2)
+narrator "Stable_Arrive"
+
+
+choice "Choice_Generic"
+{
+  "Choice_CheckArea"
+    Load(Stable_CheckArea_Check)
+  "Choice_Map"
+    Map(Stable)
+}

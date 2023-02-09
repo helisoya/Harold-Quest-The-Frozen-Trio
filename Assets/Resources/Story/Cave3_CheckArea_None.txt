@@ -1,0 +1,5 @@
+hide()
+hide()
+setBackground(Cave3)
+narrator "Cave_CheckArea_1"
+Load(Cave3_Arrive)

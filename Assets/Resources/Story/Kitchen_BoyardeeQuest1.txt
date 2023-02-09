@@ -1,0 +1,6 @@
+hide()
+hide()
+setBackground(Kitchen)
+
+narrator "Kitchen_BoyardeeQuest1_0"
+Load(Kitchen_Arrive)

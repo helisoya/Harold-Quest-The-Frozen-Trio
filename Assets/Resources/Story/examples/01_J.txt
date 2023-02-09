@@ -1,0 +1,35 @@
+setBackground(Montagnes_Var1)
+changeCharacter(Mage)
+show()
+
+narrator "J'ai réussit à éviter tout les rochers, le mage est furieux."
+*Mage "[voice(01_J_1)]Impossible ! Ma magie est la plus cool !"
+*Mage "[voice(01_J_2)]Je sais ! Je vais te transformer en renard !"
+*Mage "[voice(01_J_3)]Prend garde ! AH AH AH !"
+narrator "Le mage pointe ses mains en ma direction !"
+
+hide()
+narrator "... Et il explose dans une fumée grandiose."
+[MC] "Il a pris la fuite ? Vraiment ?"
+[MC] "Bon, j'ai assez perdu de temps avec ce mage."
+[MC] "Le dragon ne devrais plus être loin."
+narrator "Je continue d'avancer sur le chemin montagneux."
+
+
+setBackground(Montagnes_Var2)
+narrator "Après quelques heures de marche, j'arrive enfin à ma destination."22
+
+setBackground(Braise_Exterieur)
+narrator "Devant moi se dresse une grande forteresse."
+[MC] "C'est sûrement la forteresse Braise. Le repère du dragon."
+[MC] "Harold veut que j'y aille pour tuer le seigneur Braise et prendre son trésor."
+[MC] "Mais... en suis-je capable ? Suis-je vraiment son 'Héro' ?"
+[MC] "J'ai vraiment un doute, je risque ma vie ici..."
+
+choice "Que faire ?"
+{
+  "Continuer"
+    Load(01_K)
+  "Fuir"
+    Load(01_BEND)
+}

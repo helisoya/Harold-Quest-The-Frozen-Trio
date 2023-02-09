@@ -1,0 +1,34 @@
+hide()
+hide()
+setBackground(Beach)
+playMusic(null)
+
+narrator "Beach_MainQuest4_0"
+
+changeCharacter(PasContent)
+show()
+
+*PasContent "Beach_MainQuest4_1"
+[MC] "Beach_MainQuest4_2"
+*PasContent "Beach_MainQuest4_3"
+[MC] "Beach_MainQuest4_4"
+*PasContent "Beach_MainQuest4_5"
+[MC] "Beach_MainQuest4_6"
+*PasContent "Beach_MainQuest4_7"
+narrator "Beach_MainQuest4_8"
+
+changeCharacter(Todd)
+*Todd "Beach_MainQuest4_9"
+[MC] "Beach_MainQuest4_10"
+*Todd "Beach_MainQuest4_11"
+[MC] "Beach_MainQuest4_12"
+*Todd "Beach_MainQuest4_13"
+*Todd "Beach_MainQuest4_14"
+*Todd "Beach_MainQuest4_15"
+*Todd "Beach_MainQuest4_16"
+narrator "Beach_MainQuest4_17"
+*Todd "Beach_MainQuest4_18"
+[MC] "Beach_MainQuest4_19"
+*Todd "Beach_MainQuest4_20"
+narrator "Beach_MainQuest4_21"
+LoadScene(BAT)

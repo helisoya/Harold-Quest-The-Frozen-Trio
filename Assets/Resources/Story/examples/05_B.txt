@@ -1,0 +1,54 @@
+hide()
+setBackground(ForteresseNoire_Entrée)
+
+narrator "J'ai réussi à vain-... entraîner les invocateurs."
+
+changeCharacter(Invocateur,true)
+show()
+*Invocateur "[voice(05_B_1)]Mille fois merci, Monsieur [MC] ! Nous avons compris maintenant !"
+[MC] "Très bien.... Je vais accomplir ma mission maintenant"
+
+hide()
+narrator "Je sort donc de la forteresse noire après avoir dis au revoir."
+
+playMusic(Exploration_2)
+setBackground(ForteresseNoire_Exterieur)
+narrator "Une fois à l’extérieur, je suis accueilli par un vent glacial."
+[MC] "C'est vrai, il fait froid dans cette région."
+[MC] "Runan est plus au nord, j'y trouverait sûrement un indice sur ma cible."
+[MC] "Je ne doit pas perdre une seule seconde, qui sait ce dont ce monstre est capable ?"
+narrator "Je me met donc en route vers la ville de Runan."
+
+setBackground(Runan_Var1)
+narrator "Après quelques heures de marche, j'arrive enfin à ma destination."
+narrator "Runan est une petite ville, mais elle déborde d'activités."
+narrator "Enfin, ce n'est pas comme si je voulait me ressourcer ici."
+narrator "Je dois trouver des indices sur la position du Chevalier."
+narrator "L'un des moyens les plus simple est de demander à la population locale."
+narrator "Je me met donc à chercher une personne susceptible de m'aider."
+narrator "Mais j'ai l'air d'avoir un problème. Tout le monde m'évite."
+narrator "Certains cachent même leur visage, de peur..."
+narrator "Je ne comprend pas... C'est mon masque qui leur fait peur ?"
+narrator "Je continue donc d'avancer, espérant trouver une personne normal dans cette ville."
+
+setBackground(Runan_Var2)
+narrator "Après avoir marché plusieurs minutes dans des rues désertes, je croise la personne."
+narrator "Une sorte de voyante est assise derrière une table, elle ne me fuis pas."
+narrator "Je m'approche et m'assied en face d'elle."
+
+playMusic(null)
+changeCharacter(Edna)
+show()
+[MC] "Bonjour, j'aimerais des re-"
+*??? "[voice(05_B_2)]Une fois de plus, la vérité m'a été élégamment révélée..."
+*??? "[voice(05_B_3)]Un soldat prêt au combat cherche la position de son ennemi ?"
+narrator "Qu- Quoi ? Comment a-t-elle su ? C'est de la magie !"
+[MC] "Peut être... Pouvez-vous m'aider ?"
+*??? "[voice(05_B_4)]Mmmhhh.... J'ai perdu ma pièce..."
+[MC] "Je vous demande pardon ?"
+*??? "[voice(05_B_5)]J'ai perdu ma pièce, aidez-moi à la retrouver et je vous aiderais."
+narrator "Je remarque qu'il y a trois gobelets sur sa table."
+[MC] "Vous voulez que je trouve la pièce qui est sous l'un des gobelets ?"
+narrator "La voyante lève un gobelet, la pièce est dessous."
+narrator "Je me prépare au pire."
+LoadScene(TP)

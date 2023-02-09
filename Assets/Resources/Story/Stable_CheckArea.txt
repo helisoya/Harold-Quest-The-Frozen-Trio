@@ -1,0 +1,5 @@
+hide()
+hide()
+setBackground(Stable)
+narrator "Stable_CheckArea"
+Load(Stable_Arrive)

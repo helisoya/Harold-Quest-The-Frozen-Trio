@@ -1,0 +1,29 @@
+setBackground(Intersection_Aube)
+hide()
+
+narrator "J'avance sur le chemin de droite en espérant ne pas marcher trop longtemps."
+narrator "J'arrive de nouveau sur une longue route. On dirait que je n'ai pas pris le chemin le plus court...."
+narrator "Selon les indications d'Harold, elle mène à un marais maudit. Espérons qu'il ait tord."
+
+setBackground(Marais_Lisiere)
+narrator "Au bout d'une heure de marche, j'arrive à l'entrée du marais."
+narrator "Devant moi se dresse une immense forêt de plusieurs kilomètres."
+[MC] "C'est donc cela le marais ? Je ferais mieux de ne pas me perdre..."
+narrator "Il me semble voir une ombre dans les arbres."
+[MC] "?!"
+narrator "Une flèche passe à coté de moi et se plante dans un arbre."
+[MC] "Une flèche ? On essaie de me tuer ?!"
+
+show()
+changeCharacter(Archer_Normal)
+*??? "[voice(02_D_1)]Ah Ah ! Je vais te tuer, toi qui ose empiéter sur mon territoire !"
+*??? "[voice(02_D_2)]Fuis ! Cela ne sert à rien ! Je te retrouverais !"
+
+hide()
+setBackground(Marais_Var1)
+narrator "Je cours dans la forêt en espérant semer l'archer."
+narrator "J'espère qu'il ne va pas me suivre dans le marais. Sinon, cela va être difficile."
+narrator "J'entends du bruit dans les arbres. On dirait que c'est l'archer."
+Archer "[voice(02_D_3)]Tu ne peut pas fuir ! Tu dois mourir !"
+narrator "Je continue de courir, je ne sait pas ou je vais arriver."
+LoadScene(CPA)

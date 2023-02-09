@@ -1,0 +1,36 @@
+hide()
+hide()
+setBackground(SantaHouse_Exterieur)
+playMusic(null)
+
+narrator "SantaHouse_RickeyQuest0_0"
+narrator "SantaHouse_RickeyQuest0_1"
+narrator "SantaHouse_RickeyQuest0_2"
+narrator "SantaHouse_RickeyQuest0_3"
+
+playSound(Tir)
+narrator "SantaHouse_RickeyQuest0_4"
+narrator "SantaHouse_RickeyQuest0_5"
+
+setBackground(SantaHouse_Interieur)
+narrator "SantaHouse_RickeyQuest0_6"
+
+changeCharacter(Rickey_2_Angry)
+show()
+*Rickey "SantaHouse_RickeyQuest0_7"
+changeCharacter(PereNoel)
+*Santa "SantaHouse_RickeyQuest0_8"
+changeCharacter(Rickey_2_Normal)
+*Rickey "SantaHouse_RickeyQuest0_9"
+changeCharacter(PereNoel)
+*Santa "SantaHouse_RickeyQuest0_10"
+changeCharacter(Rickey_2_Normal)
+*Rickey "SantaHouse_RickeyQuest0_11"
+narrator "SantaHouse_RickeyQuest0_12"
+[MC] "SantaHouse_RickeyQuest0_13"
+changeCharacter(Rickey_2_Normal)
+*Rickey "SantaHouse_RickeyQuest0_14"
+*Rickey "SantaHouse_RickeyQuest0_15"
+*Rickey "SantaHouse_RickeyQuest0_16"
+narrator "SantaHouse_RickeyQuest0_17"
+LoadScene(BAR_1)

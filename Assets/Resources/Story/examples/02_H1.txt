@@ -1,0 +1,25 @@
+hide()
+setBackground(Montagnes_Var1)
+
+narrator "Je marche sur le chemin, l'air est froid dans les montagnes."
+narrator "Heureusement pour moi, il n'y a personne dans les montagnes."
+narrator "Qui sait ce que j'aurais du faire contre un autre ennemi, j'ai déjà eu ma dose."
+narrator "Je continue de marcher sur le chemin, je n'ai clairement pas pris le chemin le plus court."
+[MC] "Espérons que le château ne soit pas loin."
+[MC] "...On dirait que je le vois..."
+[MC] "Mais...il est à plusieurs heures de marches, je doit me dépêcher...
+narrator "J'accélère la cadence de marche, et je me dirige vers le château."
+narrator "D'un coup, le sol tremble et des rochers commencent à tomber."
+narrator "Je fais une roulade, évitant les rochers."
+??? "[voice(02_H_1)]Ah Ah Ah !"
+narrator "Je me retourne pour voir un mage au dessus de moi."
+
+show()
+changeCharacter(Mage)
+*Mage "[voice(02_H_2)]J'ai réussi ! J'ai enfin tué un passant !"
+[MC] "Je suis toujours en vie..."
+*Mage "[voice(02_H_3)]Comment ! Impossible ! J'ai pourtant fait tomber trois rochers !"
+*Mage "[voice(02_H_4)]Je vais devoir finir le travail ! A l'attaque !"
+narrator "Le mage brandit ses bras vers le ciel et le sol tremble a nouveau."
+narrator "Je me prépare à éviter ses rochers."
+LoadScene(AV2_1)

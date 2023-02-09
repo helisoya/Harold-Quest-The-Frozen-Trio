@@ -1,0 +1,14 @@
+hide()
+hide()
+setBackground(Entree)
+playMusic(Exploration_1)
+narrator "Entree_Normal"
+
+
+choice "Choice_Generic"
+{
+  "Choice_CheckArea"
+    Load(Entree_CheckArea)
+  "Choice_Map"
+    Map(Entree)
+}

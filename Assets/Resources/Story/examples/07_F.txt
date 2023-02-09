@@ -1,0 +1,38 @@
+show()
+show()
+changeCharacter(Ramos)
+setBackground(Ramos_Intérieur)
+
+narrator "Je gagne sans mal le bras de fer."
+*Ramos "[voice(07_F_1)]Je.... Impossible.... Je suis pourtant ceinture noire...."
+Harold "[voice(07_F_2)]Personne ne bat Harold ! Je suis le plus fort !"
+*Ramos "[voice(07_F_3)]Je...... Nine......."
+
+hide()
+narrator "Le docteur tombe raide mort au sol. Il n'a pas encaissé le choc."
+Harold "[voice(07_F_4)]Ah Ah ! L'orbe est à moi maintenant !"
+narrator "J'entre donc dans la salle de l'artefact."
+
+setBackground(Ramos_Salle)
+narrator "La salle est grande, très grande. Je ne voit pas le plafond."
+narrator "Au centre, l'orbe est présenté en pièce maîtresse. "
+Harold "[voice(07_F_5)]Enfin ! L’orbe ultime ! Mon maître sera fier !"
+narrator "Je m'approche de l'orbe, elle est si belle...."
+??? "[voice(07_F_6)]Halte ! Eh Eh Eh ! Pas touche !"
+
+changeCharacter(Genie,true)
+show()
+narrator "Une sorte de génie sort de nul part et se met à protéger l'orbe."
+*Génie "[voice(07_F_7)]Je suis le génie du temple, gardien de l'orbe Ramos !"
+*Génie "[voice(07_F_8)]Tu vient voler l'orbe ? C'est pas cool ça ! "
+*Génie "[voice(07_F_9)]Et puis, tu es pas sympa ! Tu as tué le type dehors !"
+Harold "[voice(07_F_10)]Mais il a tenté de me tuer ! Et puis, il est mort d'une crise cardiaque !"
+*Génie "[voice(07_F_11)]Ouais Ouais, c'est ça ! Je sais tout, je suis le génie du temple !"
+*Génie "[voice(07_F_12)]Pour châtier ton insolence, je vais utiliser ma magie de génie !"
+*Génie "[voice(07_F_13)]BABABBABABABBABABABBABBABABABBABAB !"
+narrator "Un robot géant tombe du plafond, il est actif et à l'air hostile."
+*Génie "[voice(07_F_14)]Ouais ! Voila pour toi, papi ! Le Robot de Défense Ultime (TM), ou RDU (TM)."
+*Génie "[voice(07_F_15)]Allez ! Défonce-le, RDU (TM) !"
+narrator "Le robot commence à m'attaquer, je dois riposter !"
+narrator "Je me prépare au combat."
+LoadScene(CCRDU)

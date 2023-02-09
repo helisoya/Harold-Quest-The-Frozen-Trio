@@ -1,0 +1,6 @@
+show()
+changeCharacter(Harold_Cafe)
+setBackground(ChezHarold_Chambre)
+
+[MC] "Je refuse de v-"
+Load(01_B3)

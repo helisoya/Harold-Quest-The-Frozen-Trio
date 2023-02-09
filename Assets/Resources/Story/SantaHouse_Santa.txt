@@ -1,0 +1,15 @@
+changeCharacter(PereNoel)
+changeCharacter(PereNoel)
+show()
+setBackground(SantaHouse_Interieur)
+*Santa "SantaHouse_Santa"
+
+choice "Choice_Chat"
+{
+  "Choice_Chat_Santa_Topic1"
+    Load(SantaHouse_Santa_Topic1)
+  "Choice_Chat_Santa_Topic2"
+    Load(SantaHouse_Santa_Topic2)
+  "Choice_Chat_Nothing"
+    Load(SantaHouse_Arrive)
+}

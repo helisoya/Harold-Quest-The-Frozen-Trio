@@ -1,0 +1,78 @@
+setBackground(Intersection_Aube)
+hide()
+
+narrator "J'avance sur le chemin de gauche en espérant ne pas tomber sur d'autre personnes étranges."
+
+playMusic(RickeyLand)
+setBackground(RickeyLand_Entree)
+narrator "J'approche du château, on dirait un parc gigantesque."
+narrator "J'arrive vers une porte massive, c'est sûrement l'entrée du parc."
+narrator "Je dois faire attention, ce parc ne me dit rien de bon."
+narrator "Je vais devoir traverser le parc pour atteindre les montagnes, mais comment entrer ?"
+narrator "Je sonne à l'aide du bouton situé à coté de la porte."
+??? "[voice(02_F_1)]Qui est la ? Le parc est fermée, revenez plus tard. Ah Ah !"
+[MC] "Bonjour, j'aimerais traverser votre parc, c'est pour me rendre dans les montagnes."
+??? "[voice(02_F_2)]Un Espion ! Tu va mourir insolent ! Gardes !!!"
+
+playMusic(null)
+changeCharacter(GardeRickey)
+show()
+playSound(Degaine)
+narrator "La porte s'ouvre d'un coup et un garde sort pour me tenir en joue."
+*Garde "[voice(02_F_3)]Halte !!! Mettez les mains en l'air !"
+*Garde "[voice(02_F_4)]Vous avez l'air d'un espion Oremilien ! Le PDG a raison !"
+[MC] "Quoi ? Qu'est ce que vous voulez dire ?"
+*Garde "[voice(02_F_5)]Silence ! Je vais vous exécuter, vil espion !"
+narrator "Le garde me met en joue ! Je dois agir, vite !"
+narrator "C'est à ce moment que mon fusil me vient à l'esprit."
+narrator "Je le sort et met tire sur le garde sans réfléchir."
+
+hide()
+narrator "Le garde tombe au sol, il est mort."
+[MC] "Bon.... J'ai vais devoir être discret dans le parc..."
+narrator "J'entre dans discrètement dans le parc."
+
+setBackground(RickeyLand_Allée)
+narrator "Le parc à l'air d'être en rénovation, mais quelque chose cloche."
+[MC] "Pourquoi il y a autant de gardes ?"
+narrator "Il y environ 1 garde pour 10 m2... C'est beaucoup trop à mon goût."
+narrator "D'un coup, une voix commence à parler à travers l'interphone."
+Rickey "[voice(02_F_6)]Ah Ah ! Ici le PDG Rickey ! J'ai une très bonne nouvelle !"
+Rickey "[voice(02_F_7)]Un espion est venu à l'entrée du parc, l'un des votre l'a intercepté."
+Rickey "[voice(02_F_8)]Cependant, il n'a pas donné de nouvelles depuis ! Ah Ah !"
+Rickey "[voice(02_F_9)]Ce qui veut dire qu'un espion se ballade dans le parc en liberté !"
+Rickey "[voice(02_F_10)]Ne me décevez pas ! Trouver cet intrus et amenez le moi ! Ah Ah !"
+Rickey "[voice(02_F_11)]Si il s'échappe, VOUS ALLEZ LE REG-"
+narrator "Les gardes commencent à courir dans tout les sens."
+narrator "Je dois faire très attention dans ce parc."
+narrator "Il y a environ une centaine de personnes qui me recherchent..."
+narrator "Je me faufile donc discrètement dans une allé déserte."
+
+setBackground(RickeyLand_Boisson)
+narrator "Il n'y a personne ici. Je suis en sécurité..."
+??? "[voice(02_F_12)]Hé ! Qui êtes-vous ? Que faites-vous ici ?"
+narrator "Un homme m’interpelle dans la rue. Je suis fichu."
+
+changeCharacter(Waldo_Normal)
+show()
+*??? "[voice(02_F_13)]Le parc est en rénovation, il n’accueille pas les visiteurs."
+*??? "[voice(02_F_14)]En réalité, je trouve cela triste. C'est mon premier jour..."
+*??? "[voice(02_F_15)]Mais peut être voulez-vous une boisson ?"
+[MC] "Euh... Je n'ai pas très soif..."
+*??? "[voice(02_F_16)]Vraiment ? Pourquoi venir dans l'allée des boissons de RickeyLand alors ?"
+[MC] "Comment ? C'est l'allée des boissons ?"
+narrator "Je regarde autour de moi, il n'y a en effet que des stands de boissons."
+*??? "[voice(02_F_17)]Ce n'est pas bien grave ! Il y a d'autre allées à RickeyLand !"
+*??? "[voice(02_F_18)]On a même des attractions comme la ma-"
+
+changeCharacter(GardeRickey)
+*Garde "[voice(02_F_19)]Attendez ! Vous, là ! Plus un geste !"
+narrator "Pendant qu'il me parlait, des gardes sont entrés dans l'allée."
+*Garde "[voice(02_F_20)]Vous êtes l'espion dont a parlé le PDG, pas vrai ?"
+[MC] "Quoi ? Non ! Ce n'est pas moi !"
+*Garde "[voice(02_F_21)]C'est ça ! Allez les gars, on le capture !"
+narrator "Les gardes me foncent dessus, je dois courir."
+
+hide()
+narrator "Je commence donc à fuir."
+LoadScene(CPR)

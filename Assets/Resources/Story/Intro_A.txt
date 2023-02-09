@@ -1,0 +1,51 @@
+hide()
+
+[MC] "Intro_A_1"
+
+setBackground(ChezHarold_Chambre)
+[MC] "Intro_A_2"
+narrator "Intro_A_3"
+narrator "Intro_A_4"
+narrator "Intro_A_5"
+[MC] "Intro_A_6"
+narrator "Intro_A_7"
+narrator "Intro_A_8"
+narrator "Intro_A_9"
+Harold "Intro_A_10"
+changeCharacter(Harold_Cafe)
+show()
+narrator "Intro_A_11"
+*Harold "Intro_A_12"
+[MC] "Intro_A_13"
+*Harold "Intro_A_14"
+*Harold "Intro_A_15"
+narrator "Intro_A_16"
+*Harold "Intro_A_17"
+[MC] "Intro_A_18"
+*Harold "Intro_A_19"
+*Harold "Intro_A_20"
+[MC] "Intro_A_21"
+[MC] "Intro_A_22"
+*Harold "Intro_A_23"
+*Harold "Intro_A_24"
+narrator "Intro_A_25"
+[MC] "Intro_A_26"
+*Harold "Intro_A_27"
+*Harold "Intro_A_28"
+*Harold "Intro_A_29"
+narrator "Intro_A_30"
+[MC] "Intro_A_31"
+*Harold "Intro_A_32"
+*Harold "Intro_A_33"
+*Harold "Intro_A_34"
+narrator "Intro_A_35"
+[MC] "Intro_A_36"
+*Harold "Intro_A_37"
+narrator "Intro_A_38"
+*Harold "Intro_A_39"
+*Harold "Intro_A_40"
+[MC] "Intro_A_41"
+narrator "Intro_A_42"
+hide()
+setBackground(ChezHarold_Exterieur)
+Load(ChezHarold_Exterieur)

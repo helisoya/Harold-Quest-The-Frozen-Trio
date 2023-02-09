@@ -1,0 +1,80 @@
+hide()
+setBackground(Intersection)
+
+
+narrator "Je prend le chemin de gauche et je me dirige vers le château."
+narrator "J'espère que c'est celui du terrible Dragon..."
+setBackground(RickeyLand_Entree)
+playMusic(RickeyLand)
+narrator "J'arrive assez rapidement à l'entrée du château."
+narrator "C'est un grand château, mais quelque chose ne va pas..."
+[MC] "Pourquoi il y a des montagnes russes ? Ce n'est pas le bon endroit ?"
+??? "[voice(01_E_1)]Vous avez besoin d'aide, monsieur ?"
+
+changeCharacter(Natasha,true)
+show()
+narrator "Je me retourne, une dame me fait face."
+[MC] "Qui êtes-vous ? Quel est cet endroit ?"
+*Natasha "[voice(01_E_2)]Je suis Natasha, secrétaire du parc."
+*Natasha "[voice(01_E_3)]Cet endroit est le parc d'attractions RickeyLand."
+*Natasha "[voice(01_E_4)]C'est un endroit ou les rêves deviennent réalité."
+*Natasha "[voice(01_E_5)]Même si, récemment, c'est plutôt ceux du PDG qui le deviennent..."
+*Natasha "[voice(01_E_6)]Mais sinon... Comment puis-je vous aider ?"
+[MC] "Euh... Je cherche un dragon, je dois le tuer..."
+narrator "Espérons qu'elle ne me prenne pas pour un fou et appelle la police..."
+*Natasha "[voice(01_E_7)]Un dragon ? Je n'ai jamais entendu parler d'un dragon dans la région."
+*Natasha "[voice(01_E_8)]Cependant, vous devriez le demander au PDG, il devrait pouvoir vous répondre."
+*Natasha "[voice(01_E_9)]Je ne vis ici que depuis quelques temps, vous voyez..."
+[MC] "Je vois, merci. Je vais aller parler au PDG."
+*Natasha "[voice(01_E_10)]Ah oui. Une dernière chose, prenez garde avec le PDG."
+*Natasha "[voice(01_E_11)]Il s’énerve facilement et vous ne voulez pas le faire, croyez-moi..."
+[MC] "Très bien... Merci du conseil..."
+hide()
+narrator "Je salue la dame et j'entre dans le parc."
+
+
+setBackground(RickeyLand_Allée)
+[MC] "Dans quelle aventure je me suis laissé embarqué ?"
+[MC] "Chercher un dragon dans un parc d'attractions, c'était la pire idée au monde..."
+narrator "En m'entendant parler, un homme à coté de moi sursaute et court vers la sortie."
+narrator "Étrange... Le dragon est si terrible que ça ?"
+[MC] "Bon... Je dois trouver le PDG du parc..."
+[MC] "Mais se trouve-t-il ? Si seulement j'a-"
+Rickey "[voice(01_E_12)]AH AH ! Salut les amis ! C'est moi, Rickey, le PDG de RickeyLand !"
+narrator "Une voix résonne dans les hauts parleurs placés partout dans le parc, c'est celle du PDG."
+Rickey "[voice(01_E_13)]J'ai le plaisir de vous annoncer l'ouverture de l'attraction du midi !"
+Rickey "[voice(01_E_14)]Alors venez vite à la grande place pour réaliser vos plus grands rêves !"
+Rickey "[voice(01_E_15)]Il n'y a pas beaucoup de place, alors faites vite !"
+narrator "On dirait que le PDG est à la grande place."
+narrator "Des hordes de touristes foncent vers ce qui me semble être la place."
+Touriste "[voice(01_E_16)]WAOUH ! J'ai trop hâte ! On peux demander n'importe quoi au PDG !"
+narrator "Vraiment ? Quelle coïncidence ! Vite ,je dois aller participer moi aussi !"
+narrator "Je me dirige donc vers la grande place."
+
+setBackground(RickeyLand_Place)
+narrator "La grande place est remplit de visiteurs. Ils sont tous très excités."
+narrator "Je cherche le PDG, il doit se trouver dans les environs."
+narrator "Mon regard se pose sur une personne étrange au milieu de la place."
+
+changeCharacter(Rickey_1,true)
+playMusic(Rickey)
+show()
+*Rickey "[voice(01_E_17)]Ah Ah ! Bienvenue les amis ! Prêt pour l'attraction far du parc ?"
+Foule "[voice(01_E_18)]OUI !!!!"
+*Rickey "[voice(01_E_19)]Ah Ah ! Si vous réussissez ce concours, j’exhausserai le vœu du gagnant !"
+*Rickey "[voice(01_E_20)]Et il n'y a de limite à ce vœu que votre imagination ! Ah Ah !"
+Foule "[voice(01_E_21)]OOOUUUUAAAAAAAIIIIIIHHHHHHHH !!!!!"
+narrator "La foule est en délire, j'ai de la compétition..."
+narrator "Et puis... pourquoi ils veulent gagner à tout prix ?"
+*Rickey "[voice(01_E_22)]Bien ! Maintenant, voici les règles du concours !"
+*Rickey "[voice(01_E_23)]Chacun d'entre vous va écrire un poème dédié à moi ! Rickey, le PDG de RickeyLand !"
+*Rickey "[voice(01_E_24)]Le gagnant sera celui qui écriera le poème que je trouve le plus beau !"
+*Rickey "[voice(01_E_25)]Alors, ne perdez pas de temps ! Commencez à rédiger ! Ah Ah !"
+hide()
+
+narrator "Tout les concurrents commencent à écrire comme des fous."
+narrator "Ils veulent vraiment gagner à tout prix..."
+[MC] "Bon... Je vais devoir écrire un poème moi aussi."
+[MC] "Allez, faisons de notre mieux..."
+narrator "Je commence à écrire le poème."
+LoadScene(PPR)

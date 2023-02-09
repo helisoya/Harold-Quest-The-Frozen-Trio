@@ -1,0 +1,13 @@
+show()
+show()
+changeCharacter(Rick0,true)
+setBackground(RickeyLand_Trone)
+
+playMusic(Rickey_Angry)
+*Rick0 "[voice(06_F_1)]Im- Impossible ! Je ne peux pas perdre !"
+*Rick0 "[voice(06_F_2)]Grr ! Je n'ai plus le choix ! Je vais utiliser mon arme fatale !"
+*Rick0 "[voice(06_F_3)]Nous allons faire un duel de Rap ! Je suis le plus fort !"
+*Rick0 "[voice(06_F_4)]Je vais te montrer ma puissance ! Avec un rap fait maison !"
+*Rick0 "[voice(06_F_5)]Prépare-toi ! Tu vas pleurer de honte devant ton incompétence !"
+narrator "Je me prépare à ne pas perdre mes oreilles."
+LoadScene(DR0)

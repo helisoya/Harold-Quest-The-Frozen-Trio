@@ -1,0 +1,4 @@
+hide()
+if "BoyardeeQuest"="0"
+  Load(Kitchen_BoyardeeQuest0)
+Load(Kitchen_Arrive)

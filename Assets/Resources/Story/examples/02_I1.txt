@@ -1,0 +1,35 @@
+setBackground(Montagnes_Var1)
+show()
+changeCharacter(Mage)
+
+*Mage "[voice(02_I_1)]Impossible ! J'ai échoué 2 fois en 1 semaine !"
+*Mage "[voice(02_I_2)]Je dois affiner mes compétences en magie."
+*Mage "[voice(02_I_3)]Je vais augmenté mes capacités en destruction jusqu'au niveau 9999 !"
+*Mage "[voice(02_I_4)]Allez ! Adieux, [MC] !"
+
+hide()
+narrator "Le mage disparaît dans un nuage de fumée."
+[MC] "Comment.... Je laisse tomber..."
+[MC] "Je devrais continuer mon chemin vers le dragon."
+narrator "J'avance donc une fois de plus vers le château."
+
+setBackground(Montagnes_Var2)
+narrator "Au bout de quelques heures, j'arrive enfin à proximité de la forteresse."
+narrator "Il ne me reste plus qu'une montée, et je serais face au château."
+narrator "Il me semble qu'il n'y a personne au alentour du château."
+narrator "J'arrive enfin face au château."
+
+setBackground(Braise_Exterieur)
+[MC] "Impressionnant, la forteresse vaut bien son titre."
+[MC] "On dirait qu'elle est déserte, je devrais m'en assurer."
+narrator "Je m'approche de la forteresse. Elle est vraiment gigantesque."
+
+setBackground(Braise_Entrée)
+narrator "J'arrive vers la porte d'entrée. Toujours aucun signe de vie."
+narrator "Je décide d'entrer dans la forteresse afin de m'assurer qu'elle soit vide."
+[MC] "Hein ? La porte est verrouillé ?"
+narrator "Je remarque un boîtier à coté d'elle."
+[MC] "Un système de sécurité dans un endroit abandonné ?"
+[MC] "Je n'ai pas le choix... Je vais devoir détourner la sécurité..."
+narrator "J'ouvre le boîtier et me met au travail"
+LoadScene(HPF_1)

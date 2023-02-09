@@ -1,0 +1,62 @@
+hide()
+setBackground(Braise_Vent)
+
+narrator "Après quelques minutes, j'ai enfin placé ma bombe."
+10 "J'espère que la réunion est toujours en cours."
+narrator "J'essaie d'écouter le discours qui se passe plus haut."
+??? "[voice(04_C_1)]Notre but est bien évidement de plonger le monde dans le chaos."
+??? "[voice(04_C_2)]Mais pour plonger le monde dans le chaos, il nous faut des plans !"
+??? "[voice(04_C_3)]Mais ne vous inquiétez pas ! J'ai un plan parfait pour cela !"
+??? "[voice(04_C_4)]Mais avant cela, je dois prendre une pause de quelques minutes."
+??? "[voice(04_C_5)]Mais, mais mais ! Ne bougez pas d'un pouce pendant mon absence."
+narrator "La réunion est loin d'être terminé. J'ai de la chance. "
+narrator "Je continue d'avancer dans le conduit pour trouver la sortie."
+narrator "Heureusement pour moi, je trouve facilement une grille de ventilation."
+
+setBackground(Braise_Salle)
+narrator "Celle-ci me mène dans un couloir adjacent à la salle de réunion."
+narrator "Je n'ai donc plus qu'a trouver la sortie et partir."
+narrator "C'est tellement simple ! Il n'y a aucun moyen d'échouer !"
+narrator "Enfin... La dernière fois que j'ai dis cela...."
+narrator "Pour éviter de me faire repérer, je commence à partir."
+
+playSound(Degaine)
+??? "[voice(04_C_6)]Attendez un instant ! Ne bougez plus !"
+narrator "Je suis interpelé, quand je me retourne..."
+
+changeCharacter(Harold_Arme)
+show()
+*??? "[voice(04_C_7)]Vraiment ? Un idiot couvert de poussière ? C'est cela ?"
+*??? "[voice(04_C_8)]Je pensais que les intrus étaient bien plus farouche !"
+*??? "[voice(04_C_9)]C'est hilarant ! Pas vrai, [MC] ?"
+
+changeCharacter(Adrien,true)
+*[MC] "Oui, en effet. Ce nabot est ridicule."
+10 "Qui êtes-vous ? Vous êtes le terroriste ?"
+
+changeCharacter(Harold_Arme)
+*Harold "[voice(04_C_10)]Moi, un terroriste ? Non ! Je suis Harold !"
+*Harold "[voice(04_C_11)]Même si je suis aussi le chef d'une secte visant à détruire le monde...."
+*Harold "[voice(04_C_12)]Mais ce n'est pas la question ! Qui est-tu, petit chenapan ?"
+narrator "Mince ! Je ne dois surtout pas parler de la bombe !"
+10 "Je suis..... un voleur ?"
+*Harold "[voice(04_C_13)]Vraiment ? Ce n'est pas très convaincant !"
+*Harold "[voice(04_C_14)]Et si mon acolyte vérifiait le conduit d’où tu vient ?"
+*Harold "[voice(04_C_15)]Va-t-il y trouver... une bombe ?"
+10 "Quoi ? Une bombe ! C'est incroyablement faux !"
+10 "Je suis ici pour voler.... vos tableaux !"
+*Harold "[voice(04_C_16)]Mes tableaux ? ..................."
+*Harold "[voice(04_C_17)][MC] ! Avons-nous des tableaux ici ?"
+
+changeCharacter(Adrien,true)
+*[MC] "Non, monsieur. Nous n'avons pas de tableaux ici."
+10 "Ah....... J'ai eu de mauvais renseignements...."
+
+changeCharacter(Harold_Arme)
+*Harold "[voice(04_C_18)]Ou de mauvais cours d'improvisation !"
+*Harold "[voice(04_C_19)][MC] ! Occupez-vous de lui !"
+
+changeCharacter(Adrien,true)
+*[MC] "Tout de suite ! Meurt !"
+narrator "Le soldat me saute dessus."
+LoadScene(CCI)

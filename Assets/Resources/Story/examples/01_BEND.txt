@@ -1,0 +1,9 @@
+hide()
+setBackground(Montagnes_Var2)
+
+[MC] "Désolé Harold, mais ce n'est pas pour moi tout ça..."
+narrator "Je commence à courir sans m'arrêter pour regarder ou je vais."
+narrator "Mon aventure est fini pour de bon..."
+narrator "FIN"
+
+MainMenu()

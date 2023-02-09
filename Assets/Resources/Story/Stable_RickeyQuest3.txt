@@ -1,0 +1,37 @@
+hide()
+hide()
+setBackground(Stable)
+narrator "Stable_RickeyQuest3_0"
+
+changeCharacter(Rudolphe)
+show()
+*Rudolphe "Stable_RickeyQuest3_1"
+*Rudolphe "Stable_RickeyQuest3_2"
+*Rudolphe "Stable_RickeyQuest3_3"
+[MC] "Stable_RickeyQuest3_4"
+*Rudolphe "Stable_RickeyQuest3_5"
+*Rudolphe "Stable_RickeyQuest3_6"
+[MC] "Stable_RickeyQuest3_7"
+
+
+playMusic(null)
+hide()
+setBackground(null)
+narrator "Stable_RickeyQuest3_8"
+narrator "Stable_RickeyQuest3_9"
+narrator "Stable_RickeyQuest3_10"
+
+setBackground(Route)
+narrator "Stable_RickeyQuest3_11"
+
+changeCharacter(Rickey_2_Normal)
+show()
+*Rickey "Stable_RickeyQuest3_12"
+[MC] "Stable_RickeyQuest3_13"
+*Rickey "Stable_RickeyQuest3_14"
+*Rickey "Stable_RickeyQuest3_15"
+*Rickey "Stable_RickeyQuest3_16"
+*Rickey "Stable_RickeyQuest3_17"
+hide()
+narrator "Stable_RickeyQuest3_18"
+LoadScene(BAR_2)

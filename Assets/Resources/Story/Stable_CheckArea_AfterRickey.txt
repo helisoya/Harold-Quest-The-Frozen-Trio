@@ -1,0 +1,5 @@
+hide()
+hide()
+setBackground(Stable)
+narrator "Stable_Rudolphe"
+Load(Stable_Arrive)

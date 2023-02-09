@@ -1,0 +1,31 @@
+hide()
+setBackground(Montagnes_Var1)
+
+narrator "J'arrive assez rapidement dans les montagnes de la province."
+narrator "Elles s'étendent sur plusieurs kilomètres et sont très grandes."
+narrator "La montée est difficile, mais je dois le faire."
+narrator "Il n'y a aucune infrastructure dans les montagnes, juste une route."
+narrator "Je me demande si je vais trouver le dragon ici."
+narrator "Après quelques minutes de marche, j'arrive à coté d'une pancarte."
+[MC] "Elle va peut être m'aider. Voyons-voir..."
+[MC] "'Demeure du mage le plus cool de Vlatyr' ?"
+[MC] "Mais... il n'y a pas de maison ici... Je ne comprend pas."
+[MC], "Le panneau n'est sûrement pas au bon endroit..."
+
+changeCharacter(Mage)
+show()
+*??? "[voice(01_I_1)]Comment ?! Mon beau panneau, insolent !"
+narrator "Une sorte de mage saute à coté du panneau et agite ses bras."
+*Mage "[voice(01_I_2)]Je suis le mage le plus cool de Vlatyr, insolent !"
+*Mage "[voice(01_I_3)]Et cette magnifique demeure est mon lieu de vie !"
+[MC] "Il n'y a pas de maison... Vous ête-"
+*Mage "[voice(01_I_4)]SILENCE ! Je ne vous permet pas de dire du mal de ma maison !"
+*Mage "[voice(01_I_5)]Pour châtier votre insolence, je vais vous lancer un sort !"
+*Mage "[voice(01_I_6)]Ma puissante magie va vous détruire ! Regardez ça !"
+narrator "Le mage lève ses bras vers le ciel et commence à crier."
+*Mage "[voice(01_I_7)]MAGIE MAGIE MAGIE MAGIE MAGIE !"
+narrator "Le sol commence à trembler et le ciel se couvre."
+narrator "Des rochers commencent à tomber de la falaise."
+narrator "Ils foncent sur moi, je vais devoir les éviter."
+narrator "Je me prépare pour survivre."
+LoadScene(AV1)

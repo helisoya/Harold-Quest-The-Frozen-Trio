@@ -1,0 +1,89 @@
+# ------------------------------------------------------------------------
+# -------------------- Title Screen & Settings ---------------------------
+# ------------------------------------------------------------------------
+
+
+title_preMenu = Click to play
+title_newGame = New Game
+title_continue = Continue
+title_quit = Quit
+title_settings = Settings
+settings_audio = Audio
+settings_bgm = BGM
+settings_sfx = SFX
+settings_voice = Voice
+settings_screen = Screen
+settings_fullscreen = FullScreen
+title_enterText = Enter your name...
+title_finishText = Continue
+title_descName = Enter your name
+end_thanks = Thanks for playing !
+
+# ------------------------------------------------------------------------
+# ----------------------- Minigames --------------------------------------
+# ------------------------------------------------------------------------
+
+rules_name = Rules :
+rules_continue = Click to continue
+rules_BAT = Survive for 30 seconds. Click on Todd's projectiles before they get out of the screen. 
+rules_BAR_1 = Survive for 60 seconds. Use the left & right arrows to avoid getting shot by Rickey.
+rules_BAC = Survive for 30 seconds. Press space to refill the green energy bar. Don't let it reach 0.
+
+game_life = HP : 
+
+
+# ------------------------------------------------------------------------
+# ----------------------------- Map --------------------------------------
+# ------------------------------------------------------------------------
+
+ChezHarold = Harold's House
+Entree = Entrance
+Lake = Lake
+ToyFactory = Toy Factory
+Kitchen = Kitchen
+Library = Library
+SantaHouse = Santa's House
+Stable = Stable
+Beach = Frozen Beach
+Cave = Caves
+
+
+# ------------------------------------------------------------------------
+# -------------------------- Quests --------------------------------------
+# ------------------------------------------------------------------------
+
+MainQuest = Saving christmas
+MainQuest_0 = Go to Santa's Workshop Entrance
+MainQuest_1 = Stop Rickey, Runcan and Boyardee
+MainQuest_2 = Go see Santa Claus
+MainQuest_3 = Talk to Mr.Angry
+MainQuest_4 = Confront Mr.Angry at the frozen beach
+MainQuest_5 = Report to Santa Claus
+
+
+RickeyQuest = A panzer for christmas
+RickeyQuest_0 = Go to Santa's house
+RickeyQuest_1 = Find Rudolph at the stable
+RickeyQuest_2 = Rescue Rudolph in the caves
+RickeyQuest_3 = Report to Rudolph at the stable
+
+
+BoyardeeQuest = Christmas chef
+BoyardeeQuest_0 = Go to the Workshop's kitchen
+BoyardeeQuest_1 = Find recipes at the library 
+BoyardeeQuest_2 = Report to Boyardee
+
+
+RuncanQuest = The knight of christmas
+RuncanQuest_0 = Go to the toy factory
+RuncanQuest_1 = Confront Runcan at the lake
+
+
+WaldoQuest = The frozen man
+WaldoQuest_0 = Find tools in the toy factory
+WaldoQuest_1 = Get Waldo out the ice at the lake
+
+
+RudolphQuest = Animal protection
+RudolphQuest_0 = Save all the reindeers trapped in the caves
+RudolphQuest_1 = Report to Rudolph at the stable

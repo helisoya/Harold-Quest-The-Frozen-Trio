@@ -1,0 +1,25 @@
+show()
+show()
+changeCharacter(Ramos)
+setBackground(Ramos_PorteFerme)
+
+Harold "[voice(07_B_1)]Mais la réponse est évidente ! C'est celle-ci !"
+
+setBackground(Ramos_PorteOuverte)
+narrator "Un mur du temple commence à bouger, révélant une porte."
+*Ramos "[voice(07_B_2)]Bravo. Vous avez réussi à résoudre l'énigme la plus difficile au monde."
+Harold "[voice(07_B_3)]Super ! Allons-y ! Entrons dans le temple !"
+narrator "Nous commençons à nous approcher de l'entrée du temple."
+narrator "Soudain, une pluie de shurikens s'abat sur nous."
+Harold "[voice(07_B_4)]Quoi ? Montrez-vous, vil forban !"
+
+playMusic(Katsumoto)
+changeCharacter(Katsumoto)
+narrator "Un guerrier saute du haut d'un pilier et tombe entre nous et l'entrée."
+*Katsumoto "[voice(07_B_5)]Ah Ah Ah ! Je suis Katsumoto, le samurai le plus cool de Runan !"
+Harold "[voice(07_B_6)]Quoi ? C'est ridicule ! Et arrêtez d'utiliser ce dispositif !"
+*Katsumoto "[voice(07_B_7)]Je vais vous tuer, et je vais obtenir l'artefact ultime Ramos !"
+*Katsumoto "[voice(07_B_8)]Préparez-vous à subir ma colère, je suis le plus fort !"
+Harold "[voice(07_B_9)]C'est ce qu'on va voir, vil forban !"
+narrator "Je me prépare à combattre."
+LoadScene(CCKV2)

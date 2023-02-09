@@ -1,0 +1,28 @@
+hide()
+setBackground(Braise_Vent_Couloir)
+
+
+narrator "Après avoir contenu le robot pendant quelques temps, il s'en va."
+10 "Je suppose qu'il en a eu marre..."
+10 "Je devrais quitter les lieux, avant qu'il ne décide de revenir."
+narrator "J'entre dans les conduits et me dirige vers la forteresse."
+
+setBackground(Braise_Vent)
+narrator "J'avance pendant plusieurs minutes dans les conduits."
+narrator "La forteresse est vraiment immense."
+narrator "Mais je commence à entendre des voix, c'est bon signe."
+narrator "Je me rapproche des zones habités de la forteresse."
+narrator "J'essaie d'écouter les voix, elles pourraient me dire ou je me trouve."
+??? "[voice(04_B_1)]Alors du coup, j'ai coupé mes plants de patates pour régler ce problème..."
+10 "............................................"
+10 "Rien d'important ici, continuons..."
+narrator "Je continue d'avance dans le conduit, il y a de plus en plus de voix autour de moi."
+narrator "Soudain, j'entends une puissante voix."
+??? "[voice(04_B_2)]Mes amis ! Merci à vous d'être venu ce soir en mon humble demeure."
+??? "[voice(04_B_3)]Comme vous le savez, nous avons beaucoup à faire, mais nous triompherons !"
+narrator "J'entends des applaudissements, je dois me trouver juste à coté de la réunion de secte."
+narrator "C'est ici que je dois placer ma bombe, je dois me dépêcher."
+narrator "Si je ne le fais pas rapidement, ils vont m'échapper !"
+narrator "Je commence donc à amorcer ma bombe."
+narrator "Voyons-voir.... Comment faire ?"
+LoadScene(AB)

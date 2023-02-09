@@ -1,0 +1,4 @@
+hide()
+if "MainQuest"="0"
+  Load(Entree_Arrive_MainQuest0)
+Load(Entree_Arrive_Normal)

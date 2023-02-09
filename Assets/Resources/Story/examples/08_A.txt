@@ -1,0 +1,30 @@
+hide()
+setBackground(null)
+
+narrator "Je m’appelle [MC], j'ai vécu des aventures étranges par le passé."
+narrator "J'ai vaincu un dragon, un PDG, un robot, et même mon ancien ami."
+narrator "Je pensais que c'était la fin de ces aventures, mais je me trompait."
+narrator "Il y a quelques jours, j'ai reçu une lettre étrange."
+??? "Cher [MC],"
+??? "Je suis de retour, va vengeance est fin prête."
+??? "Pas même vous pourrez me vaincre cette fois."
+??? "Retrouvez-moi dans 4 jours au Val'Mort, dans la province de Runan."
+??? "Signé, H."
+narrator "Cela ne fait pas de doute, Harold est de retour."
+narrator "Je l'avais pourtant tué il y a quelques temps."
+narrator "Il m'a demandé de le retrouver au Val'Mort, une étrange forêt de Runan."
+narrator "Selon les légendes, elle serait hanté et extrêmement dangereuse."
+narrator "C'est donc par ici que commencera ma nouvelle aventure."
+narrator "J'espère que celle-ci sera la dernière..."
+
+setBackground(ValMort_Foret)
+narrator "Après plusieurs de marche, j'arrive enfin au Val'Mort."
+narrator "C'est une très grande forêt, je me demande sur combien de kilomètres elle s'étend."
+[MC] "Je dois trouver Harold, il avait dit dans sa lettre qu'il serait ici."
+[MC] "J'ai un mauvais pressentiment... Je dois faire attention."
+narrator "Le silence règne dans la forêt, il n'y a pas une âme."
+narrator "J'avance sur le sentier, mais je m’aperçoit qu'il commence à disparaître."
+[MC] "Il n'y a pas beaucoup de personnes qui viennent ici..."
+[MC] "Il n'y a plus de chemin dans la forêt, je devrais faire attention à ne pas me perdre."
+narrator "Je continue à marcher sur le chemin."
+LoadScene(EVM)

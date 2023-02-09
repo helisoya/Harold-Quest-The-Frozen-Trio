@@ -1,0 +1,25 @@
+show()
+show()
+changeCharacter(Harold_Kimono)
+setBackground(FVR_Pods)
+
+narrator "J'arrive sans trop de mal à blesser Harold."
+*Harold "[voice(08_J_1)]Eh Eh... Eh... Je le savais....."
+*Harold "[voice(08_J_2)]Je savais que... cette forteresse.... elle était maudite...."
+*Harold "[voice(08_J_3)]Je l'avais pourtant...... détruite de mes propres mains......."
+narrator "Il s’effondre au sol, il n'a plus beaucoup de temps à vivre."
+*Harold "[voice(08_J_4)]Eh.... Vous allez mourir ici.... Cela en valait la peine ?"
+[MC] "Si c'est pour sauver des vies innocentes, oui."
+*Harold "[voice(08_J_5)]Eh Eh.... Je ne vous comprend pas...... pourquoi ?"
+*Harold "[voice(08_J_6)]Vous auriez pu....... me rejoindre........"
+*Harold "[voice(08_J_7)]Nous aurions..... purifié le monde........"
+*Harold "[voice(08_J_8)]Mais vous avez tout......... gâché......."
+*Harold "[voice(08_J_9)]J'aurais ma vengeance..... même si elle sera dans l'autre monde......."
+*Harold "[voice(08_J_10)]Eh... Eh.... Eh................."
+
+hide()
+narrator "Harold arrête de bouger, il est mort pour de bon."
+narrator "Quand à moi... Je ne vais pas tarder à le rejoindre..."
+
+FinishChapter(8)
+LoadScene(Credits)

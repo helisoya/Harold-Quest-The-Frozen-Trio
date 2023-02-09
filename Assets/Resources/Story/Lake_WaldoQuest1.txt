@@ -1,0 +1,14 @@
+hide()
+hide()
+setBackground(Lake)
+narrator "Lake_CheckArea_WaldoQuest1_0"
+narrator "Lake_CheckArea_WaldoQuest1_1"
+narrator "Lake_CheckArea_WaldoQuest1_2"
+narrator "Lake_CheckArea_WaldoQuest1_4"
+
+changeCharacter(Waldo_Normal)
+show()
+*Waldo "Lake_CheckArea_WaldoQuest1_5"
+*Waldo "Lake_CheckArea_WaldoQuest1_6"
+variable(WaldoQuest,100)
+Load(Lake_Waldo_Talk)

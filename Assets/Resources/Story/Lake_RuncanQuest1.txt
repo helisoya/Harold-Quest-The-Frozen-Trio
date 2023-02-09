@@ -1,0 +1,32 @@
+hide()
+hide()
+setBackground(Lake)
+playMusic(null)
+
+narrator "Lake_RuncanQuest1_0"
+narrator "Lake_RuncanQuest1_1"
+narrator "Lake_RuncanQuest1_2"
+narrator "Lake_RuncanQuest1_3"
+narrator "Lake_RuncanQuest1_4"
+narrator "Lake_RuncanQuest1_5"
+
+changeCharacter(ChevalierRunan)
+show()
+*Runcan "Lake_RuncanQuest1_6"
+*Runcan "Lake_RuncanQuest1_7"
+*Runcan "Lake_RuncanQuest1_8"
+*Runcan "Lake_RuncanQuest1_9"
+[MC] "Lake_RuncanQuest1_10"
+*Runcan "Lake_RuncanQuest1_11"
+*Runcan "Lake_RuncanQuest1_12"
+*Runcan "Lake_RuncanQuest1_13"
+[MC] "Lake_RuncanQuest1_14"
+*Runcan "Lake_RuncanQuest1_15"
+narrator "Lake_RuncanQuest1_16"
+[MC] "Lake_RuncanQuest1_17"
+[MC] "Lake_RuncanQuest1_18"
+*Runcan "Lake_RuncanQuest1_19"
+*Runcan "Lake_RuncanQuest1_20"
+*Runcan "Lake_RuncanQuest1_21"
+narrator "Lake_RuncanQuest1_22"
+LoadScene(BAC)

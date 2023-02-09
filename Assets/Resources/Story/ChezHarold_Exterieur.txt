@@ -1,0 +1,14 @@
+hide()
+hide()
+setBackground(ChezHarold_Exterieur)
+playMusic(Exploration_1)
+narrator "ChezHarold_Exterieur"
+
+
+choice "Choice_Generic"
+{
+  "Choice_Harold"
+    Load(ChezHarold_Harold_Check)
+  "Choice_Map"
+    Map(ChezHarold)
+}

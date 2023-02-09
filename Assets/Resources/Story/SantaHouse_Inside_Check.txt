@@ -1,0 +1,8 @@
+hide()
+if "MainQuest"="2"
+  Load(SantaHouse_MainQuest2)
+if "MainQuest"="5"
+  Load(SantaHouse_MainQuest5)
+if "RickeyQuest"="100"
+  Load(SantaHouse_Santa)
+Load(SantaHouse_Samara)

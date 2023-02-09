@@ -1,0 +1,3 @@
+hide()
+narrator "MainQuestsNotDone_0"
+Load(Stable_Arrive)

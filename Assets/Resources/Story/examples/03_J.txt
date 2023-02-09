@@ -1,0 +1,68 @@
+
+show()
+changeCharacter(Rickey_3_Normal,true)
+setBackground(RickeyLand_Torture)
+
+*Rickey "[voice(03_J_1)]Et bien ? On survit ? C'est dommage, mes instruments ont grillés ! Je vais devoir les remplacer..."
+*Rickey "[voice(03_J_2)]Je revient bientôt, je n'ai toujours pas fini ! Ah Ah !"
+
+hide()
+narrator "Rickey sort de la salle, me laissant seul."
+narrator "Après quelques minutes, elle s'ouvre de nouveau..."
+
+show()
+changeCharacter(Waldo_Normal)
+*Waldo "[voice(03_J_3)]Salut ! Ça baigne ?"
+[MC] "Pas vraiment... Le PDG est en train de me torturer..."
+
+changeCharacter(Waldo_Angry)
+*Waldo "[voice(03_J_4)]Vraiment ? Qu'avez-vous fait de mal pour mériter cela ? Vous avez des choses atroces ?"
+[MC] "Non, je n'ai rien fait. J'essaie juste d'aider un ami."
+
+changeCharacter(Waldo_Normal)
+*Waldo "[voice(03_J_5)]Ah, si c'est ça, alors... Je suppose que je peux vous libérer."
+narrator "Waldo me libère de mes cordes. Je peux enfin bouger de cette chaise de torture."
+*Waldo "[voice(03_J_6)]Venez, allons dans un endroit sur afin que vous puissiez vous reposer."
+narrator "Je suis Waldo, il sort de la pièce et me mène dans les couloirs du palais."
+
+setBackground(RickeyLand_Placard)
+narrator "Après quelques minutes de marche, nous arrivons vers un placard."
+*Waldo "[voice(03_J_7)]Voila, c'est ma maison ! Vous pouvez vous reposez ici."
+*Waldo "[voice(03_J_8)]Quand vous serez prêt, vous pourrez aller affronter le PDG."
+
+changeCharacter(Waldo_Angry)
+*Waldo "[voice(03_J_9)]Pourquoi est-ce que vous souriez ?"
+[MC] "Pour rien... Je pense que je vais affronter Rickey tout de suite."
+
+changeCharacter(Waldo_Normal)
+*Waldo "[voice(03_J_10)]Vous partez affronter Rickey ? Je pense qu'il est dans la salle du trône."
+*Waldo "[voice(03_J_11)]Bonne chance ! Je suis sur que vous allez gagner !"
+[MC] "Merci... Je ferais attention."
+
+hide()
+narrator "Je m'éloigne de Waldo et me dirige une fois de plus vers la salle du trône."
+
+setBackground(RickeyLand_Trone)
+changeCharacter(Rickey_3_Angry,true)
+show()
+narrator "Quand j'arrive, Rickey est en train de fouiller quelque chose derrière son trône."
+[MC] "Halte ! Il est temps d'en finir !"
+*Rickey "[voice(03_J_12)]Ah ! Te voila ! Je vais te démolir ! C'est honteux de fuir ainsi ma salle de torture !"
+
+changeCharacter(Rickey_3_Normal,true)
+*Rickey "[voice(03_J_13)]Mais j'ai quelque chose à faire avant ! Je dois faire un discours de méchant pour t'expliquer mon plan diabolique ! Ah Ah !"
+*Rickey "[voice(03_J_14)]Vois-tu, je suis le plus grand PDG de la province. C'est peu être parce que je suis le seul, mais c'est pas grave ! Ah Ah !"
+*Rickey "[voice(03_J_15)]Depuis des années, j'ai tenté de forcer la population entière à venir au parc, j'ai toujours plus ou moins échoué..."
+*Rickey "[voice(03_J_16)]Mais, il y a un an, une occasion en or s'est présenté ! Le Seigneur Braise avait été tué !"
+*Rickey "[voice(03_J_17)]J'ai décidé d'en tirer profit, en prenant le contrôle de sa forteresse pour en faire mon siège social !"
+
+changeCharacter(Rickey_3_Angry,true)
+*Rickey "[voice(03_J_18)]Mais Harold... Ce monstre ! Il m'a humilié, et devant mes gardes !"
+*Rickey "[voice(03_J_19)]Je me souviendrai toujours de son regard moqueur et amusé, quand il m'a regardé en partant !"
+*Rickey "[voice(03_J_20)]Si tu es envoyé par Harold, je dois me venger ! Je dois te tuer !"
+*Rickey "[voice(03_J_21)]Tu vas subir le pire châtiment au monde !"
+
+changeCharacter(Rickey_3_Normal,true)
+*Rickey "[voice(03_J_22)]Un rap fait par moi, pour moi ! Attention ! Ah Ah !"
+narrator "Rickey commence son rap, c'est atroce."
+LoadScene(DR)

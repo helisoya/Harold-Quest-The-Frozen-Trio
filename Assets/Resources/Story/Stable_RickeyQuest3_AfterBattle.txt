@@ -1,0 +1,53 @@
+hide()
+hide()
+setBackground(Route)
+narrator "Stable_RickeyQuest3_19"
+
+changeCharacter(Rickey_2_Angry)
+show()
+*Rickey "Stable_RickeyQuest3_20"
+[MC] "Stable_RickeyQuest3_21"
+*Rickey "Stable_RickeyQuest3_22"
+*Rickey "Stable_RickeyQuest3_23"
+narrator "Stable_RickeyQuest3_24"
+*Rickey "Stable_RickeyQuest3_25"
+[MC] "Stable_RickeyQuest3_26"
+*Rickey "Stable_RickeyQuest3_27"
+
+hide()
+narrator "Stable_RickeyQuest3_28"
+narrator "Stable_RickeyQuest3_29"
+narrator "Stable_RickeyQuest3_30"
+
+changeCharacter(PereNoel)
+show()
+*Santa "Stable_RickeyQuest3_31"
+[MC] "Stable_RickeyQuest3_32"
+*Santa "Stable_RickeyQuest3_33"
+*Santa "Stable_RickeyQuest3_34"
+
+changeCharacter(Rudolphe)
+*Rudolphe "Stable_RickeyQuest3_35"
+
+changeCharacter(PereNoel)
+*Santa "Stable_RickeyQuest3_36"
+*Santa "Stable_RickeyQuest3_37"
+*Santa "Stable_RickeyQuest3_38"
+
+setBackground(null)
+hide()
+
+narrator "Stable_RickeyQuest3_39"
+
+setBackground(Stable)
+show()
+*Santa "Stable_RickeyQuest3_40"
+*Santa "Stable_RickeyQuest3_41"
+*Santa "Stable_RickeyQuest3_42"
+*Santa "Stable_RickeyQuest3_43"
+
+hide()
+narrator "Stable_RickeyQuest3_44"
+
+variable(RickeyQuest,100)
+Load(Stable_MainQuest_Check)

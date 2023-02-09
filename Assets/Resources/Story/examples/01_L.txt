@@ -1,0 +1,52 @@
+hide()
+setBackground(Braise_Couloir)
+
+narrator "Après une éternité, je trouve enfin la salle du trône."
+narrator "J'espère que je suis arrivé à temps..."
+Braise "[voice(01_L_1)]GRRRRRRR !!!"
+[MC] "Le dragon est toujours en vie ? Vite ! Allons voir !"
+narrator "J'entre dans la salle du trône en courant."
+
+setBackground(Braise_Trone)
+narrator "La salle est majestueuse, des pièces d'or sont entassés dans les coins de la salle."
+narrator "Vers le trône, un dragon puissant et terrifiant regarde dans le vide."
+
+changeCharacter(Katsumoto)
+playSound(Flute)
+show()
+narrator "Et, à coté de lui... Katsumoto avec une flûte ?"
+narrator "Katsumoto est en train de jouer de la flûte. Je ne sais pas pourquoi."
+narrator "Tente-il de charmer le dragon avec sa douce mélodie ?"
+narrator "Si c'est la cas, je n'ai plus aucune chance ! Il va réussir !"
+*Katsumoto "[voice(01_L_2)]Voyez, puissant dragon, ma mélodie est une douce berceuse."
+*Katsumoto "[voice(01_L_3)]Écoutez-la, et fermez les yeux. Dormez maintenant sans soucis."
+
+changeCharacter(Braise)
+Braise ".............................."
+narrator "Le dragon a les yeux fermés. La mélodie a l'air de marcher."
+narrator "D'un coup, il ouvre les yeux et pousse un puissant cri."
+*Braise "[voice(01_L_4)]Grr ! Tu tentes de me charmer avec une flûte ? C'est inutile !"
+*Braise "[voice(01_L_5)]Meurt, insolent ! Je ne me laisserait pas charmer comme cela !"
+playSound(Dragon_Feu)
+narrator "Le dragon crache du feu sur Katsumoto, qui meurt dans une mer de flamme."
+Katsumoto "[voice(01_L_6)]AHHHHHHH ! J'avais joué un si beau morceau pourtant !"
+narrator "Il fait tomber sa flûte, qui a miraculeusement survécu au flammes."
+narrator "Le dragon se tourne vers moi avec un regard fou."
+*Braise "[voice(01_L_7)]Grr ! Qui es-tu, mortel ? Un autre guerrier venu me tuer ?"
+[MC] "Euh... Je suis ici de la part d'un homme appelé Haro-"
+*Braise "[voice(01_L_8)]Harold ?! Ce minable t'a envoyé me tuer ?! Ridicule !"
+*Braise "[voice(01_L_9)]Si il voulait revoir son bien, il aurait mieux fait de venir lui-même !"
+[MC] "De quoi parlez-vous ? Je ne comprend pas..."
+*Braise "[voice(01_L_10)]Il ne t'a rien dit ? Son 'trésor', ce sont ses clés de voiture !"
+*Braise "[voice(01_L_11)]Grr ! Tu es venu me tuer pour des clés ! C'est ridicule !"
+[MC] "Ah... Euh.... Et bien.... C'est à dire que...."
+*Braise "[voice(01_L_12)]Silence ! Je vais te rôtir, mortel ! "
+narrator "Le dragon se prépare à me tuer avec son souffle ardent !"
+narrator "Je dois trouver une solution, vite !"
+narrator "Je remarque la flûte de Katsumoto par terre."
+narrator "Qui sait ? Je peut réussir à charmer le dragon..."
+narrator "Je prend la flûte et la porte à ma bouche."
+*Braise "[voice(01_L_13)]Quoi ? Mais tu n'as pas vu ce qui est arrivé à l'autre crétin ?"
+*Braise "[voice(01_L_14)]Cela ne sert à rien ! Je suis insensible à cela !"
+narrator "J'essaie quand même de charmer le dragon."
+LoadScene(CEF)

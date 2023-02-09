@@ -1,0 +1,4 @@
+hide()
+if "RickeyQuest"="0"
+  Load(SantaHouse_RickeyQuest0)
+Load(SantaHouse_Arrive)

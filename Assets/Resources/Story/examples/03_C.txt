@@ -1,0 +1,54 @@
+hide()
+setBackground(Chemin_Campagne)
+
+[MC] "...Je pense que je l'ai semé..."
+[MC] "Je devrais aller à RickeyLand avant qu'il ne me retrouve."
+narrator "Après quelques minutes de marche, j'arrive enfin au parc."
+
+setBackground(RickeyLand_Entree)
+narrator "Cette fois, je vais pouvoir entrer sans problèmes."
+narrator "Je m'avance vers la porte d'entrée du parc."
+narrator "Je remarque une personne étrange à coté de la porte."
+narrator "Elle me fait signe et s'approche de moi."
+
+changeCharacter(SeigneurNoir)
+show()
+*Seigneur Noir "[voice(03_C_1)]Halte ! Montrez-moi votre passe !"
+narrator "Je montre mon passe a l'homme étrange."
+*Seigneur Noir "[voice(03_C_2)]... C'est bon, vous pouvez entrer. Mais ne faites pas de bêtises à l’intérieur."
+*Seigneur Noir "[voice(03_C_3)]En tant que bras droit du PDG, je me réserve le droit de vous éliminer..."
+*Seigneur Noir "[voice(03_C_4)]N'oubliez pas de venir à la boutique de souvenir, ou je vais vous le faire regretter."
+
+hide()
+narrator "L'homme entre dans le parc et disparaît de ma vue."
+[MC] "...Je peux entrer dans RickeyLand maintenant."
+narrator "J'entre donc dans le parc à mon tour."
+
+playMusic(RickeyLand)
+setBackground(RickeyLand_Allée)
+narrator "Le parc n'a pas l'air d'avoir beaucoup changé."
+narrator "Il y a juste plus de gardes dans le parc."
+[MC] "Bon... Je devrais réussir les attractions maintenant."
+[MC] "Je vais commencer par le Quiz de Waldo, il a l'air simple."
+narrator "Je me dirige donc vers l'attraction."
+
+setBackground(RickeyLand_Quiz)
+narrator "Une fois arrivé, un panneau 'Quiz de Waldo' m’accueille."
+narrator "Il est aussi écrit 'Taux de réussite : 100%'."
+[MC] "Cette attraction a l'air si simple."
+narrator "Je m'approche de Waldo, qui gère l'attraction."
+
+changeCharacter(Waldo_Normal)
+show()
+[MC] "Bonjour, pouvez-vous m'expliquer les règles ?"
+*Waldo "[voice(03_C_5)]Dans cette attraction, vous devez répondre à mon quiz."
+*Waldo "[voice(03_C_6)]Je vais vous posez des questions de culture générale du parc. Si vous vous trompez, vous avez perdu."
+
+changeCharacter(Waldo_Angry)
+*Waldo "[voice(03_C_7)]Mais je vous prévient ! Personne n'a jamais perdu à ce quiz. Si vous perdez, vous êtes le plus nul au monde !"
+
+[MC] "Très bien, j'aimerais commencer le quiz."
+
+changeCharacter(Waldo_Normal)
+*Waldo "[voice(03_C_8)]Parfait ! Commençons le quiz !"
+LoadScene(QW)

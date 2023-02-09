@@ -1,0 +1,1 @@
+{"valBGM":0.2000003159046173,"valSFX":0.20000000298023225,"valVOICE":0.3246498703956604,"resolutionWidth":0,"resolutionHeight":0,"refreshRate":0,"fullscreen":true}

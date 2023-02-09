@@ -1,0 +1,52 @@
+hide()
+hide()
+setBackground(Runan_Route)
+
+narrator "J'arrive sans trop de mal à débrancher le robot."
+
+changeCharacter(Waldo_Uniforme_Normal)
+show()
+*Waldo "[voice(06_B_1)]Vous allez bien ? Il avait l'air fort..."
+narrator "Waldo est toujours sur son cheval, il me regard d'un air inquiet."
+[MC] "Je vais bien.... Mais ce robot... il ressemblait à...."
+*Waldo "[voice(06_B_2)]Rickey.... Oui... C'est très étrange !"
+*Waldo "[voice(06_B_3)]Pourquoi un Rickey robot était sur la route ?"
+[MC] "Et pourquoi une telle chose existe ?"
+*Waldo "[voice(06_B_4)]Oui... C'est perturbant...."
+*Waldo "[voice(06_B_5)]Mais j'ai une idée ! Allons le demander à ma mère !"
+*Waldo "[voice(06_B_6)]Elle connaît de nombreux domaines, elle va pouvoir nous aider."
+[MC] "Parfait ! Reprenons notre chemin vers Runan alors."
+*Waldo "[voice(06_B_7)]Oui ! Allons-y !"
+??? "[voice(06_B_8)]Un instant ! Ne bougez plus !"
+
+changeCharacter(NeoGardeRickey)
+narrator "Je me retourne, pour voir une nué d'hommes volants dans le ciel."
+*Garde "[voice(06_B_9)]Nous sommes la néo-garde de Rick0, le Cyber-PDG de Cyber-Néo-RickeyLand !"
+
+changeCharacter(Waldo_Uniforme_Angry)
+*Waldo "[voice(06_B_10)]Quoi ? Mais c'est impossible ! Rickey est mort !"
+
+changeCharacter(NeoGardeRickey)
+*Garde "[voice(06_B_11)]Ah Ah ! C'est faux ! Il est de retour sous sa nouvelle forme cybernétique !"
+[MC] "Quoi ?! Et c'est quoi ce Cyber-Néo-RickeyLand ?"
+*Garde "[voice(06_B_12)]C'est le nouveau nom de RickeyLand ! Le parc Cyber-Cool !"
+*Gardes "[voice(06_B_13)]RickeyLand, c'est Cyber-cool !"
+narrator "Les slogans sont de pire en pire...."
+[MC] "Mais.... vous n'avez pas de locaux ! Ou se trouve votre parc ?"
+*Garde "[voice(06_B_14)]Ah ! Mais c'est simple ! Nous avons repris le contrôle du parc de Vlatyr !"
+
+changeCharacter(Waldo_Uniforme_Angry)
+*Waldo "[voice(06_B_15)]Quoi ?! Vous avez volé mon parc ! Voleurs !"
+
+changeCharacter(NeoGardeRickey)
+*Garde "[voice(06_B_16)]Nous n'avons fait que reprendre ce qui nous appartient de droit !"
+*Garde "[voice(06_B_17)]Et maintenant, le Cyber-PDG veut son couvre chef ! Rend le nous !"
+narrator "Rickey veut sa casquette que Waldo à pris ? Vraiment ?"
+[MC] "Jamais !"
+*Garde "[voice(06_B_18)]Ah ! Si c'est ça, je n'ai plus le choix !"
+*Garde "[voice(06_B_19)]Néo-Garde ! A l'attaque ! Prenez les en otages !"
+narrator "Les gardes s'élancent vers nous, ça va être dur..."
+
+hide()
+narrator "Je me prépare à les combattre."
+LoadScene(RGR)

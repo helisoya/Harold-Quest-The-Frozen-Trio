@@ -1,0 +1,26 @@
+setBackground(Braise_Entrée)
+hide()
+
+narrator "Un archer m'attend à l'extérieur."
+
+show()
+changeCharacter(Archer_Normal)
+*Archer "[voice(02_M_1)]Ah Ah Ah ! Je t'attendait !"
+[MC] "Qui êtes-vous ? Que faites-vous ici ?"
+*Archer "[voice(02_M_2)]Je suis l'archer le plus cool de la province !"
+*Archer "[voice(02_M_3)]Je suis venu looter ce donjon, maintenant qu'il n'y a plus de boss !"
+narrator "Pourquoi ils sont tous comme ça ?"
+[MC] "Vous n'aurez rien, vil bandit !"
+*Archer "[voice(02_M_4)]Ah Ah Ah ! C'est ce que tu croit !"
+*Archer "[voice(02_M_5)]Je suis sur que je vais trouver des objets incroyable ici !"
+*Archer "[voice(02_M_6)]Alors je ne vais pas faire demi tour à a cause de toi !"
+*Archer "[voice(02_M_7)]Je vais donc te tuer de la manière la plus cool !"
+narrator "L'archer sort une bague de sa poche et la met à son doigt."
+
+changeCharacter(Archer_Ultra)
+narrator "Ses yeux se mettent immédiatement à briller."
+*Archer "[voice(02_M_8)]Ah Ah Ah ! Cette bague augmente mon attaque de 28 points !"
+[MC] "Rien que ça....."
+*Archer "[voice(02_M_9)]Allez ! Battons-nous !"
+narrator "L'archer se prépare au combat."
+LoadScene(DCA)

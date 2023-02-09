@@ -1,0 +1,80 @@
+show()
+show()
+changeCharacter(Edna)
+setBackground(Runan_Var2)
+
+
+[MC] "La pièce est ici !"
+*??? "[voice(05_C_1)]Vous êtes bien plus malin que vous le laissez imaginer..."
+*??? "[voice(05_C_2)]Je vais vous aider, comme promis..."
+*??? "[voice(05_C_3)]Le Chevalier de Runan vis à l'Ouest, dans un somptueux manoir surplombant la vallée."
+[MC] "Vous savez vraiment tout... Merci beaucoup."
+*??? "[voice(05_C_4)]Êtes-vous sur d'avoir choisi le bon chemin de vie ?"
+*??? "[voice(05_C_5)]Je ne ressent de la violence, et la mort.... dans votre futur...."
+[MC] "Vous vous faites des idées.... Au revoir..."
+
+hide()
+narrator "Cette dame est vraiment omnipotente..... Je ferais mieux de partir."
+narrator "Je sort alors de la ville et me dirige vers le manoir du Chevalier."
+
+setBackground(Runan_Route)
+narrator "La route est longue vers le manoir, cela fait des heures que je marche..."
+narrator "Il n'y a rien, aucune maisons sur la route. L'endroit est désert..."
+[MC] "C'est un endroit plutôt calme. Cela me plaît."
+*??? "[voice(05_C_6)]Attendez, mon cher monsieur ! UN INSTANT !!!!!!!!!"
+
+changeCharacter(Marchand_Normal)
+show()
+narrator "Un homme surgit de nul part en criant. Il vient vers moi."
+[MC] "Que.... Que voulez-vous ?"
+*Marchand "[voice(05_C_7)]Je suis Rodrigez, Marchand Ambulant ! Et j'ai le plaisir de v-"
+[MC] "Pas intéressé, au revoir."
+
+hide()
+narrator "Je fais volte face et commence à partir."
+
+show()
+*Marchand "[voice(05_C_8)]UN INSTANT !!!!! Ne partez pas ! J'ai des produits de qualités !"
+*Marchand "[voice(05_C_9)]Notre boutique est au bord du lac Runan ! Venez nous voir !"
+
+hide()
+[MC] "NON ! Je ne suis pas intéressé !"
+
+show()
+*Marchand "[voice(05_C_10)]UN INSTANT !!!!!!! J'ai ce qu'il faut pour vous ! Tenez !"
+narrator "Il sort un aspirateur de son sac et me le tend."
+*Marchand "[voice(05_C_11)]Avec lui, vous allez repasser deux fois plus vite ! Pour 500 pièces d'or !"
+
+hide()
+narrator "Je me retourne et commence à courir, je ne vais pas passer une seconde de plus avec lui."
+Marchand "[voice(05_C_12)]UN INSTANT !!!!! Attendez !!! Euh.... OBJECTION !!!!! Non ? ..... "
+narrator "J'ai réussi à semer l'escroc. Je dois continuer mon chemin."
+
+setBackground(Runan_Lac)
+narrator "Après quelques minutes de course, j'arrive à coté d'un lac."
+[MC] "Oh non... C'est ici que vis l'escroc de tout à l'heure...."
+[MC] "Je devrais ouvrir l’œil. Qui sait ce qu'il va me proposer cette fois..."
+??? [voice(05_C_13)]"Vous avez besoin d'aide ?"
+
+changeCharacter(Natasha,true)
+show()
+narrator "Je me retourne, pour voir une tête familière..." 
+[MC] "Vous étiez employé au parc de Vlatyr, non ?"
+*Natasha "[voice(05_C_14)]...Oui... J'étais employé il y a quelques mois... je suis Natasha."
+*Natsha "[voice(05_C_15)]Que faites vous ici ? Vous avez besoin de quelque chose ?"
+[MC] "Je recherche le Chevalier de Runan, vous savez ou il se trouve ?"
+*Natasha "[voice(05_C_16)]Le Chevalier ? Il habite dans le manoir que vous pouvez voir ici."
+narrator "Elle me pointe un manoir qui est sur une colline non loin."
+*Natasha "[voice(05_C_17)]Mais... Avant de partir, j'aimerais vous demander votre aide..."
+[MC] "Quel est le problème ? Je serais ravie de vous aider."
+*Natasha "[voice(05_C_18)]Et bien, il y a un locataire qui vit ici... dans le lac."
+[MC] "DANS le lac ? Vraiment ?"
+*Natasha "[voice(05_C_19)]Oui.... Le problème c'est qu'il ne paye pas son loyer..."
+*Natasha "[voice(05_C_20)]Je ne suis pas assez forte pour le faire sortir, alors..."
+[MC] "Vous voulez que je le fasse sortir ? Pas de soucis."
+*Natasha "[voice(05_C_21)]Merci, prenez cette canne à pêche pour cette tache."
+
+hide()
+narrator "Je prend la canne à pêche et la jette dans le lac."
+narrator "Vient par ici, petit locataire..."
+LoadScene(PDL)

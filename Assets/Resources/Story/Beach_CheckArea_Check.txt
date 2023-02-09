@@ -1,0 +1,4 @@
+hide()
+if "MainQuest"="4"
+  Load(Beach_MainQuest4)
+Load(Beach_CheckArea)

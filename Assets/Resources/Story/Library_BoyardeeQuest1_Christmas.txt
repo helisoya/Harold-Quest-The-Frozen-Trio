@@ -1,0 +1,9 @@
+hide()
+hide()
+setBackground(Library)
+narrator "Library_BoyardeeQuest1_Christmas_0"
+narrator "Library_BoyardeeQuest1_Christmas_1"
+narrator "Library_BoyardeeQuest1_Christmas_2"
+narrator "Library_BoyardeeQuest1_Christmas_3"
+variable(BoyardeeQuest,2)
+Load(Library_Arrive)

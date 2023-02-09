@@ -1,0 +1,14 @@
+hide()
+hide()
+setBackground(Lake)
+playMusic(Exploration_1)
+narrator "Lake_Arrive"
+
+
+choice "Choice_Generic"
+{
+  "Choice_CheckArea"
+    Load(Lake_WaldoQuest_Check)
+  "Choice_Map"
+    Map(Lake)
+}

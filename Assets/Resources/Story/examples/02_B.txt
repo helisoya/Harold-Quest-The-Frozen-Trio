@@ -1,0 +1,53 @@
+hide()
+changeCharacter(Boyardee)
+setBackground(Vlatyr_Cuisine)
+
+narrator "J'ai enfin terminé ma liste de plat."
+
+show()
+*Boyardee "[voice(02_B_1)]Bravo ! Vous avez assuré... comme un chef !"
+*Boyardee "[voice(02_B_2)]Maintenant que les clients sont satisfait, il est temps de vous récompenser."
+narrator "Il me tend divers équipements d'escalade. Parfait pour ma mission."
+narrator "J'accepte les équipements sans rechigner. Boyardee a l'air content."
+*Boyardee "[voice(02_B_3)]Eh Eh ! Ce fut un plaisir de travailler avec vous, cher [MC] !"
+*Boyardee "[voice(02_B_4)]Si vous voulez un emploi, ma boutique est ouverte !"
+[MC] "Merci de la proposition, mais j'ai des choses à faire avant cela."
+*Boyardee "[voice(02_B_5)]Bien sur ! Ne vous pressez pas !"
+
+hide()
+setBackground(Vlatyr_Boutique)
+playMusic(Exploration_2)
+narrator "Je fait mes adieux au chef et je sort de la boutique."
+narrator "Il fait toujours nuit et la rue est toujours aussi déserte."
+[MC] "Maintenant que je suis équipé, je peut aller à la forteresse."
+narrator "Je me met alors en route vers la forteresse."
+
+setBackground(Chemin_Campagne_Nuit)
+narrator "Les routes sont calmes et le vent apporte l'air froid du Nord. "
+narrator "Il y a des maisons sur le chemin, mais aucun signe d'une quelconque ville."
+narrator "Vlatyr semble être la seule ville de la province."
+
+show()
+playMusic(null)
+changeCharacter(Chasseur,true)
+setBackground(ChezChasseur_Nuit)
+narrator "Je remarque un homme sur la route. Je devrais faire attention. Qui sait ce dont il est capable. "
+narrator "Il est planté au milieu de la route, à regarder dans le vide."
+narrator "Il doit avoir des problèmes, évitons-le..."
+narrator "Je passe à coté de l'homme en espérant qu'il ne m'adresse pas la parole."
+narrator "Soudain, il agrippe ma veste et me regarde dans le yeux."
+*??? "[voice(02_B_6)].....Galinette cendrée...."
+[MC] "Je vous demande pardon ?"
+*??? "[voice(02_B_6)]........Galinette cendrée...."
+[MC] "Vous cherchez quelque chose ? Vous avez besoin d'aide ?"
+*??? "[voice(02_B_6)].......Galinette cendrée......"
+narrator "L'homme me tend un fusil, je ne comprend pas ce qu'il veux."
+narrator "Je prend l'arme et il me pointe les bois alentour."
+[MC] "Vous voulez que j'aille chasser pour vous ?"
+narrator "L'homme acquiesce du regard. Il a l'air un peux soul."
+[MC] "Très bien, je vais le faire pour vous."
+
+hide()
+narrator "Je m'avance dans les bois, j'espère que je ne vais pas échouer."
+narrator "Je brandit mon fusil en espérant trouver du gibier."
+LoadScene(PCM)

@@ -1,0 +1,55 @@
+hide()
+setBackground(RickeyLand_Chateau)
+
+
+narrator "J'ai réussi à atteindre le palais du PDG sans me faire voir."
+narrator "Le palais n'a pas changé, je dois entrer par la porte principale."
+narrator "Le problème, c'est qu'il y a un garde devant la porte."
+
+changeCharacter(GardeRickey)
+show()
+Garde "[voice(06_E_1)]................................"
+*Garde "[voice(06_E_2)]Si une personne tente de passer par ici, je le tue !"
+*Garde "[voice(06_E_3)]Enfin, il y a personne... Donc je n'ai rien à faire !"
+narrator "Le garde à l'air de s'ennuyer... Essayons d'attendre."
+Garde "[voice(06_E_4)].............................."
+*Garde "[voice(06_E_5)]Je suis en train de m'endormir !"
+Garde "[voice(06_E_6)]zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"
+hide()
+narrator "..... C'était facile...."
+narrator "Je passe à coter du garde et j'entre dans le palais."
+narrator "Une fois à l'intérieur, je me dirige vers la salle du trône."
+narrator "J'arrive assez rapidement devant la salle. J'entre tout de suite."
+
+setBackground(RickeyLand_Trone)
+narrator "Une fois à l'intérieur, je reste bouche bée."
+
+playMusic(Rickey)
+changeCharacter(Rick0,true)
+show()
+narrator "Waldo est enfermé dans une cage accroché au plafond."
+narrator "Rickey.... enfin le cyborg... est en train de le regarder."
+*Rickey "[voice(06_E_7)]Ah Ah ! C'est si amusant ! Allez, danse dans ta cage !"
+Waldo "[voice(06_E_8)]Mais je n'ai pas la place ! Je ne peux même pas me lever !"
+*Rickey "[voice(06_E_9)]Silence ! Je suis le PDG, ici ! Je décide, et je veux que tu danses !"
+[MC] "Rickey ! Vous êtes fini cette fois !"
+narrator "Rickey se retourne et me fait face."
+*Rickey "[voice(06_E_10)]Que... Qui est-tu ? Que fait-tu ici ? Je suis occupé !"
+[MC] "Je suis ici pour libérer le PDG, Waldo !"
+*Rickey "[voice(06_E_11)]Quoi ?! Non ! C'est moi le PDG ! Je suis le Cyber-PDG du parc !"
+*Rickey "[voice(06_E_12)]Parce que RickeyLand, c'est Cyber-Cool !"
+Waldo "............................"
+[MC] "............................."
+*Rickey "[voice(06_E_13)]QUOI ?! Comment osez-vous ne pas rire !"
+[MC] "Je vais vous vaincre pour la deuxième fois, Rickey !"
+*Rickey "[voice(06_E_14)]Ah Ah ! C'est la que tu te trompe ! Je ne suis pas Rickey !"
+*Rick0 "[voice(06_E_15)]Je suis Rick0, une reproduction parfaite du légendaire Rickey !"
+*Rick0 "[voice(06_E_16)]J'ai été crée il y a quelques années et laissé à l'abandon !"
+*Rick0 "[voice(06_E_17)]Mais j'ai réussi à m'enfuir ! Et maintenant je vais devenir plus fort que mon original !"
+*Rick0 "[voice(06_E_18)]C'est pour cela que j'ai repris le contrôle de RickeyLand !"
+*Rick0 "[voice(06_E_19)]Si tu va me barrer la route, je n'ai pas le choix ! Je vais te tuer !"
+*Rick0 "[voice(06_E_20)]Je suis bien plus puissant que mon original ! Tu va mordre la poussière !"
+*Rick0 "[voice(06_E_21)]Mes modifications cybernétiques sont nombreuses ! Je suis invincible !"
+[MC] "C'est ce qu'on va voir ! Allons-y !"
+narrator "Je me prépare pour mon duel."
+LoadScene(DCR0)

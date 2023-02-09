@@ -1,0 +1,52 @@
+setBackground(Braise_Trone)
+show()
+changeCharacter(Braise)
+
+narrator "Le dragon a les yeux fermés, j'ai réussi."
+*Braise "[voice(01_M_1)]Mmmhhh.... oui.... Bien sur...."
+[MC] "Suicidez-vous maintenant ! Vous n'avez plus le temps !"
+narrator "Le dragon se lève et saute dans un trou derrière son trône."
+
+hide()
+narrator "Après une longue chute, j'entends un bruit sourd. Il doit être mort."
+[MC] "J'ai réussi ! J'ai vaincu le dragon !"
+[MC] "Bon... Trouvons le trésor d'Harold maintenant..."
+[MC] "Je n'arrive pas à croire qu'il m'ai roulé comme ça !"
+narrator "Je fouille la pièce à la recherche de clés de voiture."
+narrator "Je les trouve après quelques minutes, posées sur une pile de pièces d'or."
+[MC] "Bien, retournons voir Harold maintenant. Ma quête est enfin fini."
+narrator "Je pars donc de la salle, laissant les montagnes de pièces d'or derrière moi."
+
+setBackground(ChezHarold_Exterieur)
+narrator "Après quelques heures de marche, je suis enfin de retour chez Harold."
+narrator "Il est dehors en train de m'attendre, peut-être est-il inquiet ?"
+narrator "Je m'approche de lui. Il me remarque et me fait un sourire."
+
+changeCharacter(Harold_Cafe)
+show()
+*Harold "[voice(01_M_2)][MC] ! Bienvenue ! Comment c'est passé votre aventure ?"
+[MC] "Bien... J'ai tué le dragon et j'ai retrouvé votre 'trésor'...."
+*Harold "[voice(01_M_3)]Ah Ah Ah ! Merci beaucoup ! Je suis vraiment navré !"
+*Harold "[voice(01_M_4)]Je ne pouvais pas vraiment vous dire la vérité...."
+*Harold "[voice(01_M_5)]Vous n'auriez pas voulu m'aider si j'avais parlé de mes clés."
+[MC] "Mais pourquoi le dragon avait vos clés ? C'est pas très logique..."
+*Harold "[voice(01_M_6)]Ah ! Et bien... C'est une longue histoire..."
+*Harold "[voice(01_M_7)]Mais laissons le passé à une autre fois !"
+*Harold "[voice(01_M_8)]Je vais vous renvoyer dans votre monde ! Vous le méritez bien."
+[MC] "Très bien, je suis prêt."
+[MC] "Ce fut un plaisir de vous aider, Harold."
+*Harold "[voice(01_M_9)]Pour moi aussi ! Tenez, buvez cette potion."
+
+changeCharacter(Harold_Hand)
+narrator "Harold me tend sa tasse, je la prend et la porte à ma bouche."
+*Harold "[voice(01_M_10)]Cette mixture va vous renvoyer chez vous."
+[MC] "Bien. Au revoir, Harold."
+
+hide()
+setBackground(null)
+narrator "Je bois la mixture et tombe immédiatement dans l'inconscience."
+narrator "Je me réveille chez moi. Comme si je me réveillait d'un rêve."
+narrator "Cette fois, c'est fini."
+narrator "FIN"
+FinishChapter(1)
+MainMenu()

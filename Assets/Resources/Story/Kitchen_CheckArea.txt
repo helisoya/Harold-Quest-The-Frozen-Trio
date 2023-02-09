@@ -1,0 +1,7 @@
+hide()
+hide()
+setBackground(Kitchen)
+
+narrator "Kitchen_CheckArea_0"
+narrator "Kitchen_CheckArea_1"
+Load(Kitchen_Arrive)

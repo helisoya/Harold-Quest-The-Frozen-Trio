@@ -1,0 +1,7 @@
+changeCharacter(Harold_Cafe)
+show()
+setBackground(ChezHarold_Salon)
+
+narrator "C'est une mauvaise idée, mais bon..."
+Adrien "Je pense que je n'ai pas le choix... Je vais vous aider."
+Load(02_A3)

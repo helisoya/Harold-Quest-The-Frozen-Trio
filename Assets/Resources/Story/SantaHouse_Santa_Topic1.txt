@@ -1,0 +1,7 @@
+changeCharacter(PereNoel)
+changeCharacter(PereNoel)
+show()
+setBackground(SantaHouse_Interieur)
+*Samara "SantaHouse_Santa_Topic1_0"
+*Samara "SantaHouse_Santa_Topic1_1"
+Load(SantaHouse_Santa)

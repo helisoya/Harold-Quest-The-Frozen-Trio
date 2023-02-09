@@ -1,0 +1,51 @@
+setBackground(Braise_Entrée)
+hide()
+
+[MC] "J'ai mené mon investigation, je devrais faire mon rapport à Harold."
+narrator "Je commence donc à retourner chez Harold."
+
+setBackground(ChezHarold_Exterieur)
+narrator "Après de longues heures de marche, j'arrive enfin chez Harold."
+narrator "Je sonne à sa porte et j’attends. La porte s'ouvre rapidement."
+
+show()
+changeCharacter(Harold_Hand)
+*Harold "[voice(02_O_1)][MC] ? C'est bien vous ?"
+narrator "Oui, j'ai mené l'enquête, personne ne s'attaquera au château."
+*Harold "[voice(02_O_2)]Ouf, c'est très bien. J'ai eu peur que des forces terribles ne complotent contre nous."
+*Harold "[voice(02_O_3)]Mais entrez-donc, [MC] ! Fêtons ensemble cette victoire !"
+
+setBackground(ChezHarold_Salon)
+narrator "Je suis Harold à l'intérieur de sa maison."
+*Harold "[voice(02_O_4)]Mais alors, qui menaçait le château ? Je pensais qu'il avait été acquis par un groupe inconnu."
+narrator "Un archer du marais voulait le pilier, et le PDG du parc voisin voulait en faire un siège social."
+*Harold "[voice(02_O_5)]Rickey et un archer ? J'ai bien fait de vous envoyer, sinon..."
+*Harold "[voice(02_O_6)]...disons que le scénario aurait fait encore moins de sens..."
+*Harold "[voice(02_O_7)]Bien ! Je sais que je dois vous renvoyer chez vous, mais..."
+*Harold "[voice(02_O_8)]Disons que vos talents seraient la bienvenue dans une... association que je préside..."
+*Harold "[voice(02_O_9)]J'aimerais donc vous demandez si vous voulez nous... rejoindre..."
+[MC] "C'est une association de quoi ?"
+*Harold "[voice(02_O_10)]Euh... C'est une association de... de... de golfeurs !"
+[MC] "Du golf ? Vous faites du golf ?"
+
+changeCharacter(Harold_Fight)
+*Harold "[voice(02_O_11)]Oui, bien sur ! Je suis la 'terreur du golf' dans la région !"
+[MC] "Ah... Et bien... Pourquoi pas ?"
+
+changeCharacter(Harold_Hand)
+*Harold "[voice(02_O_12)]Parfait ! En faites, on va commencer une réunion dans quelques instants."
+[MC] "Vous faites une réunion aussi tard ?"
+*Harold "[voice(02_O_13)]Les autres membres sont allé manger il y a quelques heures à Vlatyr."
+[MC] "Je vois... Et bien qu'attendons-nous ?"
+*Harold "[voice(02_O_14)]Rien ! Allons-y ! C'est par ici."
+
+hide()
+setBackground(null)
+narrator "Ce fut ainsi que se termina ma première mission avec Harold."
+narrator "J'aurais aimé savoir la vérité à l'époque..."
+narrator "Mais je ne regrette rien, aucune de mes actions jusqu’à aujourd'hui."
+narrator" Pour l'instant, c'est ici que mes aventures finissent..."
+
+narrator "FIN"
+FinishChapter(2)
+MainMenu()

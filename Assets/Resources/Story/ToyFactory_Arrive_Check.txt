@@ -1,0 +1,4 @@
+hide()
+if "RuncanQuest"="0"
+  Load(ToyFactory_RuncanQuest0)
+Load(ToyFactory_Arrive)

@@ -1,0 +1,27 @@
+hide()
+hide()
+setBackground(ToyFactory)
+playMusic(null)
+
+
+narrator "ToyFactory_RuncanQuest0_1"
+narrator "ToyFactory_RuncanQuest0_2"
+narrator "ToyFactory_RuncanQuest0_3"
+narrator "ToyFactory_RuncanQuest0_4"
+[MC] "ToyFactory_RuncanQuest0_5"
+narrator "ToyFactory_RuncanQuest0_6"
+narrator "ToyFactory_RuncanQuest0_7"
+narrator "ToyFactory_RuncanQuest0_8"
+narrator "ToyFactory_RuncanQuest0_9"
+[MC] "ToyFactory_RuncanQuest0_10"
+[MC] "ToyFactory_RuncanQuest0_11"
+[MC] "ToyFactory_RuncanQuest0_12"
+[MC] "ToyFactory_RuncanQuest0_13"
+[MC] "ToyFactory_RuncanQuest0_14"
+[MC] "ToyFactory_RuncanQuest0_15"
+[MC] "ToyFactory_RuncanQuest0_16"
+[MC] "ToyFactory_RuncanQuest0_17"
+narrator "ToyFactory_RuncanQuest0_18"
+narrator "ToyFactory_RuncanQuest0_19"
+variable(RuncanQuest,1)
+Load(ToyFactory_Arrive)

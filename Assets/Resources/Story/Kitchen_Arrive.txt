@@ -1,0 +1,13 @@
+hide()
+hide()
+setBackground(Kitchen)
+playMusic(Exploration_2)
+narrator "Kitchen_Arrive"
+
+choice "Choice_Generic"
+{
+  "Choice_CheckArea"
+    Load(Kitchen_CheckArea_Check)
+  "Choice_Map"
+    Map(Kitchen)
+}

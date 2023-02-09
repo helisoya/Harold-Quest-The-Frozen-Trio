@@ -1,0 +1,51 @@
+
+show()
+playMusic(RickeyLand)
+changeCharacter(Waldo_Normal)
+setBackground(RickeyLand_Cheval)
+
+*Waldo "[voice(03_G_1)]Bravo ! Vous avez réussit la course ! C'est un exploit !"
+
+hide()
+[MC] "Bien ! J'ai réussi toute les attractions !"
+[MC] "Je vais pouvoir aller au palais du PDG pour obtenir le livre d'Harold."
+narrator "Je me met donc en route vers le palais."
+
+setBackground(RickeyLand_Boutique)
+narrator "En chemin, je me retrouve face à la boutique de souvenir."
+[MC] "Le PDG et son bras droit avaient été clair sur le fait qu'il fallait y aller."
+[MC] "Mais... J'ai un mauvais pressentiment..."
+
+changeCharacter(ChevalierRunan)
+show()
+narrator "D'un coup, un homme me bouscule sans me regarder."
+
+hide()
+narrator "Il s'engouffre dans la boutique sans que je puisse l'interpeller."
+[MC] "Étrange... Qui est cet homme ?"
+[MC] "Mais j'ai plus urgent, je devrais regarder à l'intérieur."
+
+setBackground(RickeyLand_Boutique_Interieur)
+narrator "J'entre dans la boutique et je suis bouche bée."
+narrator "Tout les biens vendus coûtent environ 100 000 pièces !" 
+narrator "Je ne vais pas pouvoir acheter quoi que ce soit !"
+narrator "Je m'avance vers le gérant pour lui poser des questions."
+
+changeCharacter(Waldo_Normal)
+show()
+narrator "Bien sur, c'est Waldo qui gère la boutique...."
+[MC] "Bonjour.... Qu'avez vous à vendre ?"
+*Waldo "[voice(03_G_2)]J'ai beaucoup de choses à vendre ici. Tenez ! J'ai l'article parfait pour vous !"
+narrator "Waldo sort un paquet de poudre blanche assez suspect."
+*Waldo "[voice(03_G_3)]Voila ! Je peux vous vendre cette poudre blanche ! Elle vous ferra voir de nouvelles couleurs !"
+*Walod "[voice(03_G_4)]Alors, qu'en dites vous ? Je peux vous faire un prix d'ami."
+narrator "Il est en train de me vendre de la drogue...."
+
+choice "Acheter ?"
+{
+  "Oui"
+    Load(03_G1)
+  "Non"
+    Load(03_G2)
+}
+

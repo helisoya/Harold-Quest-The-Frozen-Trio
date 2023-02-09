@@ -1,0 +1,26 @@
+hide()
+hide()
+setBackground(ForteresseNoire_Salle)
+
+narrator "Le guerrier s’effondre mort au sol."
+
+changeCharacter(Harold_Arme)
+show()
+*Harold "[voice(03_N_1)]Impossible ! Ce n'est pas ce qui devait arriver !"
+[MC] "Rendez-vous ! C'est votre dernière chance !"
+*Harold "[voice(03_N_2)]He He He ! HE HE HE ! Vous êtes si stupide !"
+*Harold "[voice(03_N_3)]Je vais vous montrer ma puissance ! J'ai été le meilleur durant ma jeunesse !"
+
+hide()
+setBackground(null)
+*Harold "[voice(03_N_4)]Prenez garde ! Car je suis..."
+
+playMusic(Harold)
+changeCharacter(Harold_Kimono)
+show()
+setBackground(ForteresseNoire_Salle)
+*Harold "[voice(03_N_5)]...Le magicien et le danseur le plus puissant du monde !"
+*Harold "[voice(03_N_6)]Je vais vous faire mordre la poussière à la dance !"
+*Harold "[voice(03_N_7)]Préparez-vous pour le combat de votre vie !"
+narrator "Harold commence à danser. Je ne suis pas sur de pouvoir le battre."
+LoadScene(JDHV2)

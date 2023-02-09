@@ -1,0 +1,33 @@
+hide()
+setBackground(Ramos_Intérieur)
+
+narrator "Après quelques minutes de marche, je retrouve le docteur."
+
+changeCharacter(Ramos)
+show()
+*Ramos "[voice(07_E_1)]Ah, vous voila. J'ai une bonne nouvelle pour vous."
+Harold "[voice(07_E_2)]Vous aviez une autre corde sur vous ?"
+*Ramos "[voice(07_E_3)]Oui. Mais ce n'est pas ça. J'ai trouvé la salle de l'artefact."
+Harold "[voice(07_E_4)]Vraiment ? C'est excellent !"
+*Ramos "[voice(07_E_5)]Oui, c'est très bien. Très bien."
+*Ramos "[voice(07_E_6)]Mais avant cela, je dois faire quelque chose."
+Harold "[voice(07_E_7)]Que voulez-vous f-"
+
+changeCharacter(Ramos_Arme)
+narrator "Le docteur me pointe une arme dessus."
+Harold "[voice(07_E_8)]Vous... Vous m’avez trahis ! Sale forban !"
+*Ramos "[voice(07_E_9)]Je cherche les artefact les plus rares pour ma collection."
+*Ramos "[voice(07_E_10)]Vous comprenez que je ne peux pas vous laisser partir avec l'orbe Ramos."
+*Ramos "[voice(07_E_11)]Si vous ne vous rendez pas, je vais devoir tirer."
+Harold "[voice(07_E_12)]Attendez ! J'ai une proposition pour vous !"
+*Ramos "[voice(07_E_13)]Vraiment ? J'écoute. Elle a intérêt à ne pas être mauvaise."
+Harold "[voice(07_E_14)]Faisons un bras de fer ! Le gagnant obtient l'orbe !"
+narrator "C'est une bonne idée ! Il n'a pas assez de force pour me vaincre !"
+
+changeCharacter(Ramos)
+*Ramos "[voice(07_E_15)]Vraiment ? C'est une bonne idée. Je suis ceinture noire de bras de fer."
+*Ramos "[voice(07_E_16)]J'ai vaincu un yeti dans le passé. Ce fut un dur combat."
+narrator "Ou pas.......... Je vais devoir improviser...."
+*Ramos "[voice(07_E_17)]Allons. Combattez en vrai spécialiste."
+narrator "Je me prépare au bras de fer."
+LoadScene(BFR)

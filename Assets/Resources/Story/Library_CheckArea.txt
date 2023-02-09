@@ -1,0 +1,5 @@
+hide()
+hide()
+setBackground(Library)
+narrator "Library_CheckArea_0"
+Load(Library_Arrive)

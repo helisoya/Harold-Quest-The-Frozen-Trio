@@ -1,0 +1,40 @@
+hide()
+hide()
+setBackground(Braise_Salle)
+
+narrator "J'ai réussi à assommer les deux personnages."
+10 "Je devrais me dépêcher de quitter les lieux."
+10 "Qui sait combien de temps ils vont rester inconscient ?"
+narrator "Je commence donc à chercher la sortie."
+
+setBackground(Braise_Entrée)
+narrator "Après avoir marché dans la forteresse pendant plusieurs minutes, j'arrive à la sortie."
+narrator "Personne n'a l'air d'avoir remarqué ce que j'ai fait."
+10 "Tant mieux pour moi. Je devrais retourner à mon avion."
+
+setBackground(Montagnes_Var2)
+narrator "Je commence donc à marcher sur la route de montagne."
+narrator "Une fois assez éloigné de la forteresse, je sort le détonateur de la bombe."
+
+setBackground(Braise_Exterieur)
+10 "Il est temps d'en finir avec cette secte !"
+narrator "J'appuie sur le détonateur......."
+
+setBackground(Braise_Explosion)
+narrator "....................."
+narrator "L'explosion est immense. J'ai sûrement tué tout les membres de la secte."
+
+setBackground(null)
+narrator "Ce fut ainsi que se termina mon unique mission en Vlatyr."
+narrator "J'avais pour sur terrassé une bonne fois pour toute la secte."
+narrator "Cette histoire était enfin fini..."
+narrator ".............................."
+narrator ".............................."
+??? "Monsieur ? Vous allez bien ?"
+??? "[voice(04_E_1)].... Oui.... Cet homme, ou..."
+??? "Il a réussi à fuir, monsieur."
+??? "Que devons-nous faire maintenant ?"
+??? "[voice(04_E_2)].... Allons chez moi.... J'ai un plan...."
+narrator "FIN"
+FinishChapter(4)
+MainMenu()

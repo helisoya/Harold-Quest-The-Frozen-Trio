@@ -1,0 +1,82 @@
+hide()
+setBackground(RickeyLand_Rempart)
+
+narrator "Après avoir couru pendant plusieurs minutes, je ne suis pas encore sorti du parc."
+narrator "Les gardes sont toujours derrière moi. Pire encore, ils gagnent du terrain."
+narrator "Ma course m'a emmené vers les remparts du parc, je suis bientôt sorti."
+narrator "Je n'ai qu'a sauter et je serait sorti de cet enfer."
+narrator "Mais une fois sur les remparts, je fais face à une mauvaise surprise."
+
+playMusic(Rickey)
+changeCharacter(Rickey_2_Normal,true)
+show()
+*Rickey "[voice(02_G_1)]Et bien bonjour, sale espion ! On tente de fuir ?"
+narrator "Le PDG du parc ainsi qu'une dizaine de gardes m'attendaient aux remparts."
+*Rickey "[voice(02_G_2)]Quel est ton nom, vaurien ?"
+[MC] ".... Harold...."
+*Rickey "[voice(02_G_3)]Harold ? Un nom parfait pour un espion comme toi !"
+*Rickey "[voice(02_G_4)]S'introduire dans le parc est illégal, tu devrais avoir honte !"
+*Rickey "[voice(02_G_5)]Qu'espérais-tu trouver ici ?"
+[MC] "Je me rend dans les montagnes..."
+*Rickey "[voice(02_G_6)]La forteresse Braise ? Ah Ah ! Moi aussi !"
+*Rickey "[voice(02_G_7)]Avec un peu de rénovation, j'en ferai mon nouveau siège social !"
+*Rickey "[voice(02_G_8)]Je vois que tu es mon concurrent pour mon affaire... J'ai une idée !"
+*Rickey "[voice(02_G_9)]Je vais te tuer ! Et tu vas te laisser faire ! Ah Ah !"
+[MC] "Euh... non..."
+*Rickey "[voice(02_G_10)]Vraiment ? Bien ! Je n'ai pas le choix, alors !"
+narrator "Rickey sort une batte de baseball et s'approche de moi."
+narrator "Il se met en position comme si il voulait faire du golf."
+*Rickey "[voice(02_G_11)]Allons ! Ne bouge pas, ça ne va pas faire mal ! Ah Ah !"
+narrator "Rickey va me faire tomber des remparts en me frappant avec sa batte."
+
+playSound(Frappe)
+narrator "Comme il prend son temps, je lui arrache sa batte des mains et le frappe avec."
+
+playMusic(Rickey_Angry)
+changeCharacter(Rickey_2_Angry,true)
+*Rickey "[voice(02_G_12)]AHHHHHHH ! C'est illégal de voler mon arme ! Vil truand !"
+*Rickey "[voice(02_G_13)]Grr ! Je vais devoir prendre des mesures extrêmes !"
+*Rickey "[voice(02_G_14)]NATASHA !!!!!!!! ICI, TOUT DE SUITE !!!!!!!!!"
+
+changeCharacter(Natasha,true)
+narrator "Une dame qui me semble être la secrétaire du PDG arrive à coté de lui."
+*Natasha "[voice(02_G_15)]Oui monsieur ?"
+
+changeCharacter(Rickey_2_Angry,true)
+*Rickey "[voice(02_G_16)]Dit moi tout sur ce vaurien !!!!"
+
+changeCharacter(Natasha,true)
+*Natasha "[voice(02_G_17)]Mmmmhhhhh........."
+narrator "Natasha me regarde avec concentration."
+*Natasha "[voice(02_G_18)]Je.... Je ne reconnaît pas cet individu.... Par-"
+
+changeCharacter(Rickey_2_Angry,true)
+*Rickey "[voice(02_G_19)]RHHHHAAAAA !!!! TU NE SERT DONC A RIEN, IDIOTE !!!!!"
+*Rickey "[voice(02_G_20)]JE VAIS TE TUER POUR TON INSOLENCE, SALE FAN DE RONALD BIEVER !"
+
+changeCharacter(Natasha,true)
+*Natasha "[voice(02_G_21)]Quoi ?! Non ! Par pitié !"
+
+changeCharacter(Rickey_2_Angry,true)
+*Rickey "[voice(02_G_22)]SILENCE ! MEURT ! MES REQUINS ONT FAIM !"
+
+playSound(Frappe)
+narrator "Rickey pousse Natasha et la fait tomber dans l'étang du parc."
+narrator "Il semblerait cependant qu'il soit remplit de requins..."
+narrator "Laissant la dame à son destin, je fait de nouveau face à Rickey."
+*Rickey "[voice(02_G_23)]Grrr ! Heureusement que cette idiote avait engagé l'autre nabot avant de mourir !"
+*Rickey "[voice(02_G_24)]Bon ! Maintenant, c'est à ton tour ! Meurt !"
+narrator "Rickey essaie de me pousser dans l'étang moi aussi."
+
+playSound(Frappe)
+narrator "Mais je m'attendait à cela. Je frappe le PDG et le fait tomber dans l'étang."
+
+hide()
+playMusic(null)
+Rickey "[voice(02_G_25)]Nooooonnn !!!!!"
+narrator "Il tombe à l'eau, et se fait attaquer par ses propres requins. "
+narrator "Les gardes s'enfuient, j'en profite pour sauter des remparts en dehors du parc."
+
+setBackground(Chemin_Montagnes)
+narrator "Une fois en bas, je me dirige vers les montagnes."
+Load(02_H2)

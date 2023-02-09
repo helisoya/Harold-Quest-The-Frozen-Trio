@@ -1,0 +1,8 @@
+hide()
+if "Cave1"="0"
+  Load(Cave2_RudolphQuest_NotDone)
+if "Cave2"="0"
+  Load(Cave2_RudolphQuest_NotDone)
+if "Cave3"="0"
+  Load(Cave2_RudolphQuest_NotDone)
+Load(Cave2_RudolphQuest_Done)

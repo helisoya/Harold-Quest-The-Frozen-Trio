@@ -1,0 +1,24 @@
+setBackground(Chemin_Campagne_Nuit)
+hide()
+
+[MC] "Je pense avoir bien chassé. Retournons voir l'homme étrange."
+narrator "Cependant, l'homme n'est pas la quand je suis de retour."
+[MC] "J'ai fait tout cela pour rien ? Vraiment ?"
+narrator "Je laisse donc mon gibier fraîchement tué vers une maison."
+narrator "Je garde cependant le fusil, il pourrait m'être utile."
+narrator "Une fois cela fait, je continue mon chemin vers les montagnes."
+
+setBackground(Intersection_Aube)
+narrator "Après quelques minutes de marche, j'arrive vers une intersection."
+narrator "A gauche, un château grotesque surplombe les champs."
+narrator "A droite, le chemin mène au loin vers un forêt."
+narrator "Par ou vais-je aller ?"
+
+choice "Par ou passer ?" 
+{
+  "Droite"
+	Load(02_D)
+
+  "Gauche" 
+	Load(02_F)
+}

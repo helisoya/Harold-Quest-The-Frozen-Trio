@@ -1,0 +1,26 @@
+hide()
+hide()
+setBackground(Kitchen)
+playMusic(null)
+
+narrator "Kitchen_BoyardeeQuest2_0"
+narrator "Kitchen_BoyardeeQuest2_1"
+
+changeCharacter(Boyardee)
+show()
+*Boyardee "Kitchen_BoyardeeQuest2_2"
+[MC] "Kitchen_BoyardeeQuest2_3"
+*Boyardee "Kitchen_BoyardeeQuest2_4"
+*Boyardee "Kitchen_BoyardeeQuest2_5"
+*Boyardee "Kitchen_BoyardeeQuest2_6"
+*Boyardee "Kitchen_BoyardeeQuest2_7"
+*Boyardee "Kitchen_BoyardeeQuest2_8"
+*Boyardee "Kitchen_BoyardeeQuest2_9"
+*Boyardee "Kitchen_BoyardeeQuest2_10"
+*Boyardee "Kitchen_BoyardeeQuest2_11"
+hide()
+narrator "Kitchen_BoyardeeQuest2_12"
+narrator "Kitchen_BoyardeeQuest2_13"
+narrator "Kitchen_BoyardeeQuest2_14"
+variable(BoyardeeQuest,100)
+Load(Kitchen_MainQuest_Check)

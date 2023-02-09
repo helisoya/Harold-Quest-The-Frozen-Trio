@@ -1,0 +1,59 @@
+
+show()
+setBackground(RickeyLand_Trone)
+changeCharacter(Rickey_3_Angry,true)
+
+*Rickey "[voice(03_K_1)]AHHH ! Impossible ! Mon rap était parfait ! C'est impossible !"
+
+hide()
+narrator "Rickey recule et tombe de son balcon. Il est sûrement mort."
+[MC] "J'ai gagné je crois... Ce duel était étrange."
+[MC] "Je devrais trouver le livre d'Harold, après quoi j'en aurait fini avec cette quête folle."
+narrator "Je trouve sans trouve sans trop de mal le livre d'Harold. C'est un vieux grimoire étrange."
+narrator "Il y a des dessins... intéressants à l'intérieur. Il manque cependant la première page, il semblerait qu'elle a été déchirée."
+narrator "Waldo entre d'un coup en uniforme dans la salle."
+
+changeCharacter(Waldo_Uniforme_Normal)
+show()
+*Waldo "[voice(03_K_2)]Bravo ! Tu as terrassé Rickey, le PDG fou ! C'est un jour de gloire !"
+*Waldo "[voice(03_K_3)]Je vais enfin pouvoir reprendre ma place de PDG ! Merci beaucoup !"
+*Waldo "[voice(03_K_4)]Laissez-moi vous accompagner à la sortie. Je pense que vous avez eu un dur combat avec Rickey."
+
+setBackground(RickeyLand_Entree)
+narrator "Je suis Waldo à l'extérieur du palais. Il m'amène à l'entrée du parc."
+*Waldo "[voice(03_K_5)]Voila ! Vous pouvez rentrer chez vous maintenant. Je m’excuse des problèmes que le parc vous a causé."
+*Waldo "[voice(03_K_6)]De mon coté, je vais fermer le parc pendant quelques temps afin de remettre de l'ordre. Vous ne pourrez donc plus y accéder."
+*Waldo "[voice(03_K_7)]Bonne chance à vous, j'ai beaucoup de choses à régler maintenant que je suis PDG.",
+
+hide()
+narrator "Waldo s'en va, me laissant seul à l'entrée du parc."
+[MC] "Je devrais retourner voir Harold."
+narrator "Je me met donc en route vers son chalet."
+
+setBackground(ChezHarold_Exterieur)
+narrator "J'arrive assez rapidement à l'entrée de sa maison."
+narrator "J'entre alors avec son livre en main."
+
+setBackground(ChezHarold_Salon)
+narrator "Une fois entré, Harold vient vers moi immédiatement."
+
+changeCharacter(Harold_Cafe)
+show()
+*Harold "[voice(03_K_8)][MC] ! Avez-vous réussit ? J'ai entendu dire que le parc était fermé."
+[MC] "J'ai réussit à vaincre Rickey et à reprendre votre 'livre'."
+*Harold "[voice(03_K_9)]Oh mais c'est normal ! C'est de la cuisine nordique ! Mes petits-enfants ont un humour fou !"
+*Harold "[voice(03_K_10)]Ceci-dis, je vous est reconnaissant. Vous m'avez aidé une fois de plus et je suis sur que vous avez aidé d'autres personnes."
+[MC] "Je peux rentrer chez moi maintenant ? J'ai accomplis ma mission et plus rien ne me retient ici."
+*Harold "[voice(03_K_11)]Bien sur, bien sur... Mais avant cela, j'aimerais vous... proposer quelque chose."
+*Harold "[voice(03_K_12)]Voyez-vous, vos actes ne sont pas passé inaperçu, et... j'aimerais vous offrir un travail."
+*Harold "[voice(03_K_13)]Le monde est dangereux et remplit de brigands. Mais avec vous, nous allons pouvoir le purifier."
+*Harold "[voice(03_K_14)]Vous avez tué un dragon, ainsi qu'un psychopathe armé. Vous êtes parfait pour cet emploi que je vous propose."
+*Harold "[voice(03_K_15)]Alors, qu'en dites-vous ? Voulez-vous devenir le pilier d'un monde nouveau, d'une utopie ? Vous n'avez qu'une seul chance."
+
+choice "Que faire ?"
+{
+  "Accepter"
+    Load(03_BEND)
+  "Refuser"
+    Load(03_L)
+}

@@ -1,0 +1,33 @@
+changeCharacter(Rickey_2_Angry)
+changeCharacter(Rickey_2_Angry)
+show()
+setBackground(SantaHouse_Interieur)
+
+narrator "SantaHouse_RickeyQuest0_18"
+*Rickey "SantaHouse_RickeyQuest0_19"
+changeCharacter(Rickey_2_Normal)
+*Rickey "SantaHouse_RickeyQuest0_20"
+[MC] "SantaHouse_RickeyQuest0_21"
+*Rickey "SantaHouse_RickeyQuest0_22"
+*Rickey "SantaHouse_RickeyQuest0_23"
+
+hide()
+narrator "SantaHouse_RickeyQuest0_24"
+narrator "SantaHouse_RickeyQuest0_25"
+narrator "SantaHouse_RickeyQuest0_26"
+*Samara "SantaHouse_RickeyQuest0_27"
+
+changeCharacter(Samara)
+show()
+narrator "SantaHouse_RickeyQuest0_28"
+[MC] "SantaHouse_RickeyQuest0_29"
+*Samara "SantaHouse_RickeyQuest0_30"
+*Samara "SantaHouse_RickeyQuest0_31"
+*Samara "SantaHouse_RickeyQuest0_32"
+[MC] "SantaHouse_RickeyQuest0_33"
+*Samara "SantaHouse_RickeyQuest0_34"
+*Samara "SantaHouse_RickeyQuest0_35"
+[MC] "SantaHouse_RickeyQuest0_36"
+
+variable(RickeyQuest,1)
+Load(SantaHouse_Samara)

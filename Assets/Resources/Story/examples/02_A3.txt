@@ -1,0 +1,102 @@
+changeCharacter(Harold_Cafe)
+show()
+setBackground(ChezHarold_Salon)
+
+*Harold "[voice(02_A_19)]Parfait ! Laissez-moi vous expliquer votre trajet à l'aide de cette carte."
+
+hide()
+setBackground(Map_Vlatyr)
+Harold "[voice(02_A_20)]Voici la carte de la région, nous sommes la maison à coté du lac."
+Harold "[voice(02_A_21)]Vous pouvez voir le château dans les montagnes au Nord-Est. C'est la-bas que vous devez aller."
+Harold "[voice(02_A_22)]Son accès est cependant très dangereux, malgré le fait qu'il y ait 2 routes qui y vont."
+Harold "[voice(02_A_23)]Le chemin au nord passe par un lieu sinistre, un 'Parc'. Si vous passez par ici, méfiez-vous et ouvrez l’œil."
+Harold "[voice(02_A_24)]Le chemin au Sud passe par les marais maudits, peu arrivent à en sortir vivant. Prenez garde si vous passez par ici."
+Harold "[voice(02_A_25)]J'ai le pressentiment que vous trouverez de nombreux dangers sur votre route..."
+Harold "[voice(02_A_26)]Mais je suis sur que vous les surmonter ! Vous n'êtes pas un héro pour rien !"
+
+show()
+setBackground(ChezHarold_Salon)
+*Harold "[voice(02_A_27)]Allez ! Vous avez une région à sauvez, vous ne devriez pas traîner, [MC] !"
+Adrien "Ne vous trompez pas de nom ! Mon nom est Ad-"
+*Harold "[voice(02_A_28)]Et bien votre nom de code sera [MC] ! Vous avez un problème avec cela ?"
+[MC] ".... Je ne pense pas.... Mais j'ai une question à vous poser."
+[MC] "Il n'y a pas d'autres chemins ? Votre mission m'a l'air très dangereuse..."
+*Harold "[voice(02_A_29)]Non, ce sont les seuls chemins. Mais ne vous en faites pas, ce sera plus facile que vous ne l'imaginiez !"
+[MC] "Je vois... Une mission extrêmement dangereuse..."
+*Harold "[voice(02_A_30)]Mais non ! Sortons de ma maison. Je vais vous montrez le chemin à suivre pour aller vers le château."
+narrator "Harold me guide vers la sortie de sa maison, on dirait qu'il y a de nombreuses pièces condamnées à l'intérieur. Je me demande bien pourquoi..."
+
+setBackground(ChezHarold_Exterieur_Nuit)
+narrator "Nous arrivons à l’extérieur et il fait plutôt froid, c'est peut être naturel dans cette région."
+*Harold "[voice(02_A_31)][MC] ! Pour atteindre le château, vous allez devoir faire un détour par la ville de Vlatyr."
+*Harold "[voice(02_A_32)]Vous devez trouver des équipements d'escalade afin d'entrer dans la forteresse."
+*Harold "[voice(02_A_33)]Le vendeur de la boutique de Vlatyr vous en donnera si vous lui dites que vous venez de moi."
+*Harold "[voice(02_A_34)]Ensuite, vous n'aurez qu'à suivre la route vers les montagnes."
+[MC] "Très bien. Je vais me mettre en route vers Vlatyr."
+*Harold "[voice(02_A_35)]Bien sur ! J'attendrais votre retour avec impatience [MC] ! Bonne chance !"
+
+playMusic(Exploration_2)
+hide()
+narrator "Harold rentre chez lui et ferme la porte, je suis seul désormais."
+narrator "Je dois avancer, la route va être longue." 
+narrator "Je m'éloigne de la maison d'Harold, et je commence à marcher sur la route de Vlatyr."
+
+setBackground(Vlatyr_Rue)
+narrator "Après quelques heures de marche, j'arrive enfin à Vlatyr."
+narrator "Les rues sont remplit malgré le fait qu'il fasse nuit."
+[MC] "Bon... Je dois trouver la boutique dont Harold m'a parlé."
+narrator "Je cherche dans les rues de la ville, mais je ne trouve rien."
+narrator "J'espère que le vieux ne m'a pas menti..."
+
+setBackground(Vlatyr_Boutique)
+narrator "Heureusement, au détour d'une ruelle sombre, je trouve la boutique."
+narrator "L'écriteau marque 'Boutique d'alpinisme Boyardee'. C'est la bonne."
+narrator "Étrangement, il n'y a personne vers la boutique. C'est sûrement à cause de l'heure."
+narrator "Je m'avance, pousse la porte et entre dans la boutique."
+
+playMusic(null)
+setBackground(Vlatyr_Boyardee)
+narrator "une fois à l'intérieur, j'ai des doutes sur la boutique."
+narrator "Devant moi se dresse une sorte de mixe entre une boutique et un restaurant."
+narrator "Sur les murs, il y a des équipements d'escalade divers et variés."
+narrator "Je cherche du regard une personne à qui m'adresser quand soudainement..."
+??? "[voice(02_A_36)]SI ! Un client ! Bonjour, monsieur le client !"
+
+changeCharacter(Boyardee)
+show()
+narrator "Un chef cuisinier s'approche de moi en agitant ses bras."
+*Boyardee "[voice(02_A_37)]Je suis Boyardee, le gérant de la boutique d'alpinisme !"
+*Boyardee "[voice(02_A_38)]Comment puis-je vous aider ? J'ai beaucoup d'articles à vendre !"
+[MC] "Et bien... Je suis envoyé par Haro-"
+*Boyardee "[voice(02_A_39)]Harold ! Magnifique ! Vous postulez pour le poste de cuisinier ?"
+[MC] "Euh non... Je suis ici po-"
+*Boyardee "[voice(02_A_40)]Ce n'est pas grave ! Il me faut un cuisinier de toute urgence !"
+*Boyardee "[voice(02_A_41)]Si vous m'aider, je vais.... vous offrir des équipements d'alpinisme !"
+*Boyardee "[voice(02_A_42)]Si Harold vous envoie, je ne peut pas douter de vos capacités !"
+narrator "Mmmhhh.... C'est un marché qui en vaut la peine."
+[MC] "Très bien, j'accepte de devenir cuisinier pour vous aider."
+*Boyardee "[voice(02_A_43)]Sublime ! Ne vous inquiétez pas, j'ai juste besoin de vous pour m'assister."
+*Boyardee "[voice(02_A_44)]J'ai des clients qui vont arriver, une table de 10."
+*Boyardee "[voice(02_A_45)]Je ne peut pas tout faire tout seul, vous voyez."
+*Boyardee "[voice(02_A_46)]Vous allez donc m'aider à cuisiner leurs commandes."
+[MC] "Je vois, ça m'a l'air d'être une bonne idée."
+*Boyardee "[voice(02_A_47)]Bien sur ! Ah ! Les clients sont arrivés !"
+
+changeCharacter(Invocateur,true)
+narrator "Je me retourne pour voir une dizaine d'Hommes étranges."
+narrator "Ils ont l'air d'appartenir à une secte, mais Boyardee n'a pas l'air dérangé."
+*??? "[voice(02_A_48)]Chef ! Nous voila, comme promis !"
+
+changeCharacter(Boyardee)
+*Boyardee "[voice(02_A_49)]Eh Eh ! Je vois bien ! Venez, prenez cette table !"
+hide()
+narrator "Les clients prennent leur place autour de la table."
+
+setBackground(Vlatyr_Cuisine)
+narrator "Je me dirige vers la cuisine pour me préparer."
+narrator "Boyardee arrive peu de temps après, il pose une note devant moi."
+show()
+
+*Boyardee "[voice(02_A_50)]Tenez ! Voici ce que vous devez cuisiner !"
+narrator "Je me met au travail."
+LoadScene(CBFF)

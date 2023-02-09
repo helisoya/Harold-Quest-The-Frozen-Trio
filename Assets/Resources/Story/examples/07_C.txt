@@ -1,0 +1,60 @@
+show()
+show()
+changeCharacter(Katsumoto)
+setBackground(Ramos_PorteOuverte)
+
+playMusic(Katsumoto)
+*Katsumoto "[voice(07_C_1)]Impossible ! Vous êtes si fort tout les deux !"
+Harold "[voice(07_C_2)]J'ai suivi un long et difficile entraînement dans ma jeunesse !"
+
+changeCharacter(Ramos)
+*Ramos "[voice(07_C_3)]Vous ne m'avez pas tiré dessus, mon cher sir samurai."
+narrator "Le Docteur est en train de siroter une tasse de thé à coté de moi."
+
+changeCharacter(Katsumoto)
+*Katsumoto "[voice(07_C_4)]Grrr ! Je vais utiliser ma technique ultime !"
+narrator "Le samurai me fonce dessus ! Je sais quoi faire !"
+
+playSound(Frappe)
+hide()
+playMusic(null)
+narrator "Je l'attrape et le lance sur un pilier. Il tombe inconscient."
+
+changeCharacter(Ramos)
+show()
+*Ramos "[voice(07_C_5)]Bravo, vous êtes très fort. Une grande prouesse."
+Harold "[voice(07_C_6)]Oui... Dépêchons-nous d'étudier le temple, avant qu'il ne soit trop tard."
+narrator "Nous entrons alors dans le temple Ramos."
+
+setBackground(Ramos_Intérieur)
+narrator "Le temple est extrêmement sombre, je n'arrive pas à voir devant moi."
+narrator "J'allume deux torches et en donne une au docteur von Ramos."
+*Ramos "[voice(07_C_7)]Merci. Maintenant que nous sommes à l'intérieur, trouvons l'artefact."
+Harold "[voice(07_C_8)]Oui... Voyons, essayons ce couloir."
+narrator "Je commence à marcher dans un couloir au hasard."
+*Ramos "[voice(07_C_9)]Connaissez-vous la nature de l'artefact Ramos ?"
+Harold "[voice(07_C_10)]Pas vraiment... Je sais qu'il est puissant."
+*Ramos "[voice(07_C_11)]En effet, c'est une orbe conférant de la puissance à son porteur."
+*Ramos "[voice(07_C_12)]Elle avait été utilisé par le légendaire guerrier Ramos il y a longtemps."
+*Ramos "[voice(07_C_13)]Cet homme se battait à mains nues avec des dragons grâce à elle."
+Harold "[voice(07_C_14)]Vraiment ? Et seul lui a utilisé l'orbe ?"
+*Ramos "[voice(07_C_15)]Aucun idiot n'avait été assez idiot pour vouloir autant de pouvoir."
+Harold "[voice(07_C_16)]Ah.... Je vois......"
+*Ramos "[voice(07_C_17)]L'artefact a aussi été enfermé ici très tôt après la mort de son possesseur."
+Harold "[voice(07_C_18)]Nous sommes probablement les premiers à venir ici depuis longtemps."
+*Ramos "[voice(07_C_19)]Oui. C'est un très grand honneur d'être d'ici."
+Harold "[voice(07_C_20)]Oui... C'est vraim-"
+narrator "Je trébuche sur un fil et tombe par terre."
+narrator "Le sol commence à trembler, c'est comme si..."
+*Ramos "[voice(07_C_21)]Oh. Vous avez activé un mécanisme de défense. Relevez-vous."
+narrator "Je me relève, un rocher de la taille du couloir commence à s'approcher de nous."
+*Ramos "[voice(07_C_22)]Vous devez courir pour éviter ce rocher géant."
+Harold "[voice(07_C_23)]Et vous ? Il va vous écraser si vous ne bougez pas !"
+*Ramos "[voice(07_C_24)]J'ai une corde pour me sortir de cette situation."
+
+hide()
+narrator "Le docteur lance une corde en l'air, et il se met à monter magiquement au plafond."
+Harold "[voice(07_C_25)]Pourquoi je n'ai pas un objet aussi pratique ?"
+narrator "Le rocher se rapproche de moi."
+narrator "Je commence à courir."
+LoadScene(EB)

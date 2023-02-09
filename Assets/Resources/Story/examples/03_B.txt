@@ -1,0 +1,194 @@
+hide()
+setBackground(Foret_Nuit)
+
+playMusic(Night)
+[MC] "......................"
+[MC] "J'ai réussi à semer le chasseur. Je suis en sécurité maintenant."
+[MC] "Vite, je doit trouver un refuge avant qu'il ne me retrouve."
+narrator "Je continue donc d'avancer dans la forêt en espérant trouver un abri."
+
+setBackground(ChezHarold_Exterieur_Nuit)
+narrator "Après quelques minutes de marche, j'arrive vers un chalet familier."
+[MC] "C'est la maison de celui qui m'a invoqué la dernière fois."
+[MC] "Vais-je vraiment y aller ? Qui sait ce qu'il va me faire cette fois ci..."
+[MC] "Mais je n'ai pas vraiment le choix, je dois trouver un refuge pour cette nuit."
+narrator "Je m'approche de la porte d'entrée et je frappe à la porte."
+narrator "Après quelques instants, la porte s'ouvre et je suis accueilli par..."
+
+changeCharacter(Harold_Cafe)
+show()
+*Harold "[voice(03_B_1)][MC] ! C'est bien vous ? Je me faisait du soucis !"
+*Harold "[voice(03_B_2)]Entrez-donc ! Je vais tout vous expliquer en détail. J'ai besoin de vous une fois de plus."
+*Harold "[voice(03_B_3)]Vous m'avez bien aidé la dernière fois, j'espère que cela ne vous dérange pas de le faire de nouveau."
+[MC] "Nous verrons cela à l’intérieur..."
+narrator "J'entre donc dans le chalet d'Harold, j'ai un refuge pour la nuit."
+
+playMusic(null)
+setBackground(ChezHarold_Salon)
+narrator "Le chalet est le même, il n'a pas changé depuis la dernière fois."
+*Harold "[voice(03_B_4)]Je pense que je vous dois des explications, [MC]."
+[MC] "Soyez franc cette fois, je ne pense pas vouloir trouver un autre 'trésor'."
+*Harold "[voice(03_B_5)]Bien sur. Voyons, par ou commencer ? Cela fait un an et pourtant la paix n'est pas revenu."
+*Harold "[voice(03_B_6)]Il y a quelques semaines, la forteresse ou vous aviez vaincu le dragon a été détruite."
+*Harold "[voice(03_B_7)]Depuis, le chaos règne dans la région. Personne ne sait qui a effectué l'acte, ni pourquoi."
+*Harold "[voice(03_B_8)]Mais ce problème est le cadet de nos soucis car nous avons un adversaire encore plus redoutable !"
+*Harold "[voice(03_B_9)]Vous souvenez-vous de Rickey, le PDG de RickeyLand ? Vous aviez traversé son parc lors de votre voyage vers les montagnes."
+[MC] "Pas vraiment, je me souvient de quelqu'un, mais il ressemblait plus à M-"
+*Harold "[voice(03_B_10)]Ridicule ! Laissez-moi vous montrer en quoi ce parc est maudit !"
+narrator "Harold m’amène vers son poste de télévision et il commence à l'allumer."
+*Harold "[voice(03_B_11)]Regardez, ceci est la publicité officielle du parc. Osez me dire qu'il n'est pas maudit !"
+narrator "Je regarde l'écran, pour remarquer quelque chose...d'original..."
+
+hide()
+playMusic(Rickey)
+setBackground(RickeyLand_Chateau)
+Rickey "[voice(03_B_12)]Avez-vous toujours rêvé de venir dans un parc somptueux ?"
+
+changeCharacter(Rickey_3_Normal,true)
+show()
+*Rickey "[voice(03_B_13)]Alors mon parc est fait pour vous ! Il y a tout pour la famille ici !"
+*Rickey "[voice(03_B_14)]Je suis Rickey, le PDG de RickeyLand ! J'ai hâte de vous voir venir, Ah Ah !"
+*Rickey "[voice(03_B_15)]Au parc, il y a de nombreuses attractions surprenantes ! Allons les voir !"
+
+setBackground(RickeyLand_Quiz)
+changeCharacter(Waldo_Normal)
+Rickey "[voice(03_B_16)]Le Quiz de Waldo ! Saurez-vous répondre aux questions de mon employé ?"
+*Waldo "[voice(03_B_17)]Tuez-moi..."
+
+setBackground(RickeyLand_Marchand)
+changeCharacter(Marchand_Chaine,true)
+Rickey "[voice(03_B_18)]Le Tir sur Marchand ! Défoulez-vous sur cette enflure qui a tenté de me vendre un aspirateur !"
+*Marchand "[voice(03_B_19)]Au secours ! Aidez-moi ! Laissez-moi partir ! Je n'ai rien fait de mal !"
+
+hide()
+setBackground(RickeyLand_Cheval)
+Rickey "[voice(03_B_20)]La course de Chevaux ! Pourrez-vous vaincre mes gardes à la course ?"
+Rickey "[voice(03_B_21)]L'utilisation d'armes à feux est autorisé sur cette attraction !"
+
+setBackground(RickeyLand_MaisonHante)
+Rickey "[voice(03_B_22)]La Maison Hantée ! Survivrez-vous aux horreurs à l'intérieur ?"
+Rickey "[voice(03_B_23)]Je ne suis pas responsable de vos morts éventuelles ! Ah Ah !"
+
+setBackground(RickeyLand_Chateau)
+changeCharacter(Rickey_3_Normal,true)
+show()
+*Rickey "[voice(03_B_24)]Mais le meilleur est encore à venir ! Il y a un prix à gagner !"
+*Rickey "[voice(03_B_25)]Soyez le premier à finir toute les attractions et gagnez un livre dédicacé !"
+*Rickey "[voice(03_B_26)]Il n'y en a qu'un ! Alors faites vite, venez au parc !"
+*Rickey "[voice(03_B_27)]Ah et j’oubliais, n'oubliez pas d'aller à la boutique de souvenir !"
+
+playMusic(Rickey_Angry)
+changeCharacter(Rickey_3_Angry,true)
+*Rickey "[voice(03_B_28)]Si je ne vous y vois pas, je vais vous-"
+
+playSound(Tir)
+changeCharacter(Harold_Cafe)
+setBackground(ChezHarold_Salon)
+[MC] ".................."
+*Harold "[voice(03_B_29)][MC] ! Vous comprenez maintenant pourquoi je vous dit que ce parc est maudit !"
+*Harold "[voice(03_B_30)]Pire encore ! Ce livre dédicacé, c'est le mien ! Il me l'a volé !"
+*Harold "[voice(03_B_31)]Vous devez m'aider à le récupérer ! Je suis trop vieux pour cette histoire !"
+[MC] "Très bien, je vais vous aider..."
+*Harold "[voice(03_B_32)]Mille fois merci, [MC] ! Je vous en est reconnaissant !"
+*Harold "[voice(03_B_33)]Maintenant allez vous coucher, [MC]. Vous avez avoir une dure journée demain."
+narrator "Je part donc dormir afin de me préparer aux défis à venir."
+
+hide()
+setBackground(ChezHarold_Chambre)
+narrator "La nuit passe et je me réveil dans la mâtiné, plein d'énergie."
+[MC] "Je suis prêt à partir maintenant."
+[MC] "Je me demande ou est Harold, il ne m'a pas réveillé aujourd'hui."
+[MC] "Ce n'est pas grave, je devrais aller au parc le plus rapidement possible."
+[MC] "Si je veux obtenir le livre d'Harold, je doit être le premier à terminer les 4 attractions de RickeyLand."
+narrator "Je commence donc à partir de chez Harold."
+
+setBackground(ChezHarold_Exterieur)
+narrator "Arrivé à l’extérieur, je me demande quoi faire."
+[MC] "Je dois aller à RickeyLand, mais j'ai un mauvais pressentiment."
+narrator "Je me dirige donc vers RickeyLand."
+
+setBackground(RickeyLand_Entree)
+narrator "J'arrive assez rapidement à l'entrée du parc"
+[MC] "Le parc n'a pas l'air d'avoir changé..."
+[MC] "Je devrais entrer, je ne dois pas perdre trop de temps."
+narrator "Je commence à entrer dans le parc."
+narrator "Un garde me barre la route et commence à me menacer avec son arme"
+
+changeCharacter(GardeRickey)
+show()
+*Garde "[voice(03_B_34)]Halte ! Vous n'avez pas le droit d'entrer ! Il vous faut une carte de visite pour entrer !"
+[MC] ".... Je savais que cela allait être compliqué...."
+
+hide()
+narrator "Je m'éloigne du garde et commence à chercher un guichet."
+narrator "J'en trouve un assez mal placé, j'interpelle le guichetier."
+
+changeCharacter(Waldo_Normal)
+show()
+[MC] "Bonjour, j'ai- .... Vous ne vous occupez pas du Quiz ?"
+*Waldo "[voice(03_B_35)]Moi ? Mais je m'occupe de tout ici ! Je suis le seul employé du parc."
+*Waldo "[voice(03_B_36)]Le PDG préfère payer plus de gardes, mais bon... au moins j'ai une chambre dans un placard du palais."
+[MC] "Je... je vois......"
+[MC] "Je me demandait comment faire pour entrer dans ce parc."
+*Waldo "[voice(03_B_37)]Pour entrer, il vous faut obligatoirement une invitation du parc."
+[MC] "Pourquoi donc ? L'ancien système ne marchait pas ?"
+*Waldo "[voice(03_B_38)]Nous avons eu des problèmes avec un...visiteur il y a environ 1 an."
+[MC] "Ohh...... Je vois...."
+[MC] "Je reviendrais avec une invitation, au revoir."
+
+hide()
+narrator "Je m’éloigne de Waldo, je ne vais pas pouvoir entrer dans le parc aussi facilement..."
+[MC] "Sûrement Harold possède une invitation, il me la donnera sûrement."
+narrator "Je remarque sur un mur une affiche représentant le PDG en train d'écraser Harold."
+narrator "On peut lire 'RickeyLand : Ouvert à tous sauf à ce fumier d'HAROLD'."
+[MC] "..... Je vais sûrement devoir demander à quelqu'un d'autre..."
+[MC] "Je me demande ce qu'Harold à fait à Rickey."
+narrator "Je m'éloigne du parc et commence à chercher quelqu'un pour me donner une invitation."
+
+setBackground(ChezChasseur)
+narrator "Après quelques minutes de marche, j'arrive à coté d'une maison."
+narrator "Je remarque un homme accroupi dans l'herbe, je pourrais lui demander à propos des invitations."
+narrator "Je m'approche de l'homme et commence à lui parler."
+
+changeCharacter(Chasseur,true)
+show()
+[MC] "Bon-"
+*Chasseur "[voice(03_B_39)]Eh, chut ! Je suis en train de repérer des galinettes cendrées ! Si tu pouvait te taire, ce serait mieux."
+narrator "Mais.... C'est l'homme qui m'a pourchassé la nuit dernière !"
+[MC] "Vous m'avez poursuivi la nuit dernière, non ?"
+*Chasseur "[voice(03_B_40)]Comment ? Je vous aurais tiré dessus ? Je vous avait prévenu qu'il y avait une galinette cendrée devant vous !"
+*Chasseur "[voice(03_B_41)]Hier, je chassais la galinette cendrée dans les bois. Il n'y a pas de doutes à cela ! Mais... c'était avant ou après ma cinquième bière ?"
+*Chasseur "[voice(03_B_42)]Par contre on parle d'hier ou d'aujourd'hui ? Hier je vous ai tiré dessus, aujourd'hui aussi. Mais hier elle courait drôlement vite..."
+narrator "..... Il est complètement saoul..."
+[MC] "Hum... Connaissez-vous RickeyLand ?"
+*Chasseur "[voice(03_B_43)]Le RickoLand ? Non, je ne vois pas de quoi vous parlez. Je ne connais pas cet oiseau !  Ça doit être un oiseau des îles mais ça me parais bizarre."
+[MC] "C'est un parc d'attractions au Nord, vous n'avez jamais entendu parlez de lui ?"
+*Chasseur "[voice(03_B_44)]Vous parlez d'un endroit et pas d'un oiseau... Attendez, je regarde dans ma sacoche, on ne sait jamais....."
+*Chasseur "[voice(03_B_45)]Ah bah si, voila, j'ai retrouvé une carte de visite. Mais franchement je pense que c'était après la cinquième bière."
+[MC] "Vous n'y êtes pas allé ?"
+*Chasseur "[voice(03_B_46)]Qu'est ce que vous me baragouinez ? Moi j'ai pas le temps comparé aux petits jeunes comme vous ! Moi j'ai des galinettes cendrées à chercher !"
+*Chasseur "[voice(03_B_47)]Alors prenez la carte et partez ! Vous m'avez énervé... je vais devoir me défouler sur des galinettes cendrées ou des femmes maintenant."
+narrator "Le chasseur me tend la carte, que je prend avant de m'en aller."
+
+hide()
+[MC] "C'était plus simple que prévu."
+[MC] "Je peux atteindre RickeyLand maintenant, allons-y."
+narrator "Je commence à reprendre la route vers le parc."
+
+setBackground(Chemin_Campagne)
+narrator "Après quelques minutes de marche, j'arrive bientôt au parc."
+narrator "Mais une flèche vient se planter sur un arbre à coté de moi."
+
+show()
+changeCharacter(Archer_Normal)
+*Archer "[voice(03_B_48)]Toi ! Je vais te tuer ! Je ne te le pardonnerais jamais !"
+*Archer "[voice(03_B_49)]A cause de toi, j'ai été relégué au rang d'antagoniste de seconde zone ! C'est inacceptable !"
+*Archer "[voice(03_B_50)]Je dois me venger pour cette injustice ! Je suis l'archer le plus cool et le plus fort de la région !"
+[MC] "Mais je n'ai rien..."
+*Archer "[voice(03_B_51)]Silence ! Je vais je faire manger par mes vautours ! BRAHHH !"
+narrator "J'entends des bruits d'oiseaux au loin, ils ont l'air de se rapprocher."
+narrator "Un horde de vautours commence à me poursuivre."
+
+hide()
+narrator "Je commence à courir"
+LoadScene(EV)

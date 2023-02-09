@@ -1,0 +1,6 @@
+hide()
+hide()
+setBackground(Entree)
+narrator "Entree_CheckArea_1"
+narrator "Entree_CheckArea_2"
+Load(Entree_Arrive_Normal)

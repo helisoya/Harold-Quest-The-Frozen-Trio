@@ -1,0 +1,56 @@
+hide()
+setBackground(FVR_Cuisine)
+
+narrator "J'arrive tant bien que mal à faire des chocostalines."
+narrator "J'espère que le chef n'y verra que du feu..."
+
+changeCharacter(Boyardee)
+show()
+*Boyardee "[voice(08_G_1)]Qu'est ce que ?! Impossible !"
+*Boyardee "[voice(08_G_2)]Je.... Ces chocostalines sont meilleurs que les miens !"
+*Boyardee "[voice(08_G_3)]C'est inadmissible ! C'est........."
+
+hide()
+narrator "Le chef tombe au sol, il n'a pas tenu le choc..."
+[MC] "Hmmmmm....... Je viens d'avoir une idée."
+[MC] "Si ces biscuits sont une spécialité de la secte...."
+[MC] "Je vais pouvoir prendre Harold par surprise avec !"
+narrator "Je prend donc les biscuits et me dirige vers la salle de contrôle."
+
+setBackground(FVR_Control)
+narrator "Après quelques minutes de marche, j'arrive enfin à trouver la bonne salle."
+narrator "J'y trouve Harold, en train de regarder par la fenêtre de la salle."
+
+changeCharacter(Harold_Cafe)
+show()
+*Harold "[voice(08_G_4)]Ah.... enfin.... mon rêve est enfin réalisé...."
+*Harold "[voice(08_G_5)]Le monde sera enfin à mes pieds, et mon maître sera ravi !"
+[MC] "Monsieur ? Vos Chocostalines sont prêts."
+
+changeCharacter(Harold_Hand)
+*Harold "[voice(08_G_6)]Ah ! Merci beaucoup ! Il est vrai que c'est l'heure de la pause !"
+narrator "Harold commence à manger ses biscuits. Il n'a rien comprit."
+narrator "Après quelques instants, il me regarde d'un air surpris."
+
+changeCharacter(Harold_Fight)
+*Harold "[voice(08_G_7)]Vous... [MC] ? Mais c'est impossible !"
+[MC] "Mais si ! C'est possible ! Avec le GOC !"
+*Harold "[voice(08_G_8)]Le bidule bidon du Chevalier de Runan ?! Grr !"
+*Harold "[voice(08_G_9)]Vous pensez pouvoir me vaincre ? C'est futile !"
+*Harold "[voice(08_G_10)]J'ai déjà gagné ! Pas vrai, mon maître ?"
+??? "[voice(08_G_11)]Oui... Nous avons déjà gagné..."
+narrator "Je me tourne, pour voir...."
+
+changeCharacter(Cerf)
+*Cerf "[voice(08_G_12)]Mortel ! Je suis le terrible Seigneur Cerf !"
+*Cerf "[voice(08_G_13)]Je suis le Dieu du Chaos et de la destruction !"
+*Cerf "[voice(08_G_14)]Et aujourd'hui, nous allons détruire le monde ! AH AH AH !"
+[MC] "Je vais vous en empêcher ! Bande de criminels !"
+*Cerf "[voice(08_G_15)]Vraiment ? Harold, débarrassez-vous de ce minable."
+
+changeCharacter(Harold_Fight)
+*Harold "[voice(08_G_16)]Bien sur ! Je vais ne faire qu'une bouchée de vous !"
+*Harold "[voice(08_G_17)]Alors préparez-vous ! Nous allons faire un duel...[playMusic(Harold)] [changeCharacter(Harold_Kimono)]de Danse !"
+narrator "Pas encore........."
+narrator "Je me prépare à danser."
+LoadScene(JDHV3)

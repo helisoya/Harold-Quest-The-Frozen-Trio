@@ -1,0 +1,42 @@
+show()
+changeCharacter(Harold_Cafe)
+setBackground(ChezHarold_Chambre)
+
+
+*Harold "[voice(01_C_1)]Ah Ah Ah ! Vous avez compris le principe !"
+*Harold "[voice(01_C_2)]Bon ! Cette fois, je m'en vais !"
+hide()
+
+narrator "Harold sort une fois de plus, cette fois pour de bon."
+[MC] "Dans quelle aventure je me suis embarqué ?"
+[MC] "Bon, je devrais sortir de la maison..."
+narrator "Je sort de la pièce et je commence à partir."
+
+setBackground(ChezHarold_Salon)
+narrator "En chemin, j'arrive dans le salon d'Harold."
+narrator "Je me dirige ensuite vers la porte d'entrée."
+setBackground(ChezHarold_Exterieur)
+narrator "Je l'ouvre et je me retrouve à l'extérieur."
+[MC] "Enfin de l'air frais..."
+[MC] "Bien, je devrais trouver le dragon maintenant."
+narrator "Je commence à partir tout en cherchant une carte."
+narrator "Une dague vient tout à coup se planter à coté de moi."
+
+playMusic(Katsumoto)
+changeCharacter(Katsumoto)
+show()
+narrator "Je me tourne et je fais face à un guerrier puissant."
+[MC] "Qui êtes-vous ? Que voulez-vous ?"
+*??? "[voice(01_C_3)]その老人は裏切り者だ"
+[MC] "....Quoi ?"
+narrator "Le guerrier sort un dispositif de sa poche et recommence à parler."
+*Katsumoto, "[voice(01_C_4)]Je suis Katsumoto, le samurai le plus cool de Kosky !"
+*Katsumoto "[voice(01_C_5)]J'ai ouïe dire que vous voulez terrasser le terrible seigneur Braise."
+*Katsumoto "[voice(01_C_6)]Mais prenez garde ! Moi, Katsumoto, samurai le plus cool de Kosky, déclare ceci :"
+*Katsumoto "[voice(01_C_7)]Le Seigneur Braise sera tué par moi-même et le trésor sera mien !"
+[MC] "Pas si je le fais avant !"
+*Katsumoto "[voice(01_C_8)]Vous voulez faire la course ? Ah Ah Ah ! C'est hilarant !"
+*Katsumoto "[voice(01_C_9)]Moi, Katsumoto, vais vous faire mordre la poussière !"
+*Katsumoto "[voice(01_C_10)]Et je vais commencer tout de suite !"
+narrator "Katsumoto se prépare à me tuer avec d'autres dagues."
+LoadScene(CCKV1)

@@ -1,0 +1,56 @@
+hide()
+setBackground(null)
+
+narrator "........................"
+playMusic(Harold)
+Harold "[voice(07_A_1)]Ah ! Enfin ! Cela fait des lustres que j'attends ce moment !"
+Harold "[voice(07_A_2)]J'ai enfin ma propre histoire ! Et c'est mon jeu en plus !"
+Harold "[voice(07_A_3)]Ah ! Mais que vais-je faire alors ?"
+Harold "[voice(07_A_4)]Je sais ! Je vais faire un flashback !"
+Harold "[voice(07_A_5)]Comme ça, pas besoin de trouver une nouvelle idée d'aventure !"
+Harold "[voice(07_A_6)]Ah Ah ! Je suis un génie ! Voyons....."
+Harold "[voice(07_A_7)]Ah..... Oui..... Je vais me remémorer de cette aventure fatidique..."
+playMusic(null)
+Harold "[voice(07_A_8)]Elle commença quand mon maître m'envoya dans les dangereuses ruines Ramos."
+Harold "[voice(07_A_9)]Je devais récupérer un artefact ô si puissant !"
+Harold "[voice(07_A_10)]Mais mon chemin allait être l'un des plus étranges au monde..."
+narrator ".........................."
+
+setBackground(Ramos_Route)
+Harold "[voice(07_A_11)]Pfff... Pfff........."
+Harold "[voice(07_A_12)]Cela fait plusieurs heures que je marche pour trouver ce temple !"
+Harold "[voice(07_A_13)]Pourquoi cet artefact doit être aussi loin de Vlatyr ?"
+Harold "[voice(07_A_14)]Et pourquoi moi ? La préféré du maître ne fait jamais rien !"
+Harold "[voice(07_A_15)]Enfin bon..... Essayons de trouver l'entrée du temple."
+
+setBackground(Ramos_PorteFerme)
+narrator "Je me dirige vers l'entrée du temple. Elle est gigantesque."
+narrator "Le temple est construit dans la roche des montagnes blanches du continent."
+narrator "Il fait donc très froid ici.... Je dois trouver un moyen d'entrer."
+narrator "J'arrive au niveau de l'entrée du temple, mais quelque chose cloche."
+Harold "[voice(07_A_16)]Il n'y a pas de porte d'entrée dans ce temple ?"
+Harold "[voice(07_A_17)]C'est absurde ! Il doit bien y avoir un moyen d'entrer !"
+??? "[voice(07_A_18)]Et oui.... Il y a un moyen d'entrée..."
+
+changeCharacter(Ramos)
+show()
+narrator "Je me retourne et trouve un esp- un homme avec un accoutrement bizarre."
+Harold "[voice(07_A_19)]Qui êtes-vous ? Que me voulez-vous ?"
+*Ramos "[voice(07_A_20)]Je suis le Docteur Archibald von Ramos, je suis venu explorer ce temple."
+Harold "[voice(07_A_21)]Vraiment ? Moi aussi ! Mais je ne peux pas entrer..."
+*Ramos "[voice(07_A_22)]C'est normal. Pour entrer, il faut résoudre une ancienne énigme."
+*Ramos "[voice(07_A_23)]Celle-ci est extrêmement difficile. Personne ne l'a résolu en 5 millénaires."
+Harold "[voice(07_A_24)]5 millénaires ?! Mais.... ce temple a été construit il y a environ 500 ans non ?"
+*Ramos "[voice(07_A_25)]J'ai raison. Donc vous avez forcément tord. C'est aussi simple que ça."
+Harold "[voice(07_A_26)]Je vois.... Mais quelle est cette énigme alors ?"
+*Ramos "[voice(07_A_27)]Avant cela, j'aimerais vous proposer quelque chose."
+*Ramos "[voice(07_A_28)]Vous cherchez l'artefact du guerrier Ramos ? Je souhaite vous aider."
+*Ramos "[voice(07_A_29)]Tout ce que je demande, c'est de pouvoir le voir, juste un instant."
+narrator "Hhhmmmm..... C'est une offre qui m’arrange plus que lui...."
+Harold "[voice(07_A_30)]Très bien ! J'accepte votre offre !"
+*Ramos "[voice(07_A_31)]Ah, parfait. Tenez, voici l'énigme du temple."
+Harold "[voice(07_A_32)]C'est moi qui doit résoudre l'énigme ?"
+*Ramos "[voice(07_A_33)]J'ai oublié mes lunettes chez moi."
+Harold "[voice(07_A_34)].......... Très bien. Voyons-voir...."
+narrator "Je commence à lire l'énigme."
+LoadScene(TSE)

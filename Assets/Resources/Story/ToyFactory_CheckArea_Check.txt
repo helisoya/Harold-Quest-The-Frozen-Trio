@@ -1,0 +1,4 @@
+hide()
+if "WaldoQuest"="0"
+  Load(ToyFactory_CheckArea_Quest)
+Load(ToyFactory_CheckArea)

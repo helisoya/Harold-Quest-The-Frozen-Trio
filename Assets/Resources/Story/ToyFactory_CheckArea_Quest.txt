@@ -1,0 +1,7 @@
+hide()
+setBackground(ToyFactory)
+
+narrator "ToyFactory_CheckArea_0"
+variable(WaldoQuest,1)
+narrator "ToyFactory_CheckArea_Quest"
+Load(ToyFactory_Arrive)

@@ -1,0 +1,6 @@
+hide()
+hide()
+setBackground(Cave2)
+narrator "Cave_RudolpheQuest_NotDone"
+
+Load(Cave2_Arrive)

@@ -1,0 +1,38 @@
+hide()
+setBackground(Runan_Route)
+
+narrator "J'arrive sans mal à vaincre les bandits."
+[MC] "Je dois me remettre en route. Je n'ai plus beaucoup de temps."
+narrator "Je me remet en route vers le manoir du Chevalier."
+
+setBackground(Manoir_Exterieur)
+narrator "Après quelques heures de marche, j'arrive enfin au manoir."
+narrator "C'est un grand manoir, digne du rang de Chevalier."
+narrator "Enfin... je ne sais pas si c'est vraiment un Chevalier..."
+
+setBackground(Manoir_Interieur)
+narrator "J'entre dans le manoir, il n'y a pas de système de sécurité."
+narrator "Une fois à l'intérieur, je me met à la recherche du propriétaire."
+
+setBackground(Manoir_Trone)
+narrator "Je le trouve dans une salle de trône beaucoup trop grande pour le manoir."
+
+changeCharacter(ChevalierRunan)
+show()
+narrator "Le Chevalier est au centre de la pièce, il s'approche dès qu'il me remarque."
+*Chevalier "[voice(08_D_1)]Qui êtes-vous ? Comment êtes-vous entré dans mon manoir ?"
+[MC] "Je suis [MC], personne ne gardait l'entrée du manoir."
+*Chevalier "[voice(08_D_2)]Je... Quoi ? ....... Bah ! Peut importe !"
+*Chevalier "[voice(08_D_3)]Que voulez-vous ? Je suis à la retraite, moi !"
+[MC] "Je vient vous demander conseil, je dois vaincre Harold mais je manque de force."
+*Chevalier "[voice(08_D_4)]Harold ?! Mais je croyait.... Grr ! C'est beaucoup trop !"
+[MC] "C'est à dire ? Vous refusez de m'aider ?"
+*Chevalier "[voice(08_D_5)]Non... C'est juste que ce vieillard me pend au nez depuis trop longtemps !"
+*Chevalier "[voice(08_D_6)]Il a tenté de me tuer il y a quelques mois, à l'aide de l'un de ses sbires."
+*Chevalier "[voice(08_D_7)]Je vais vous aider, avec plaisir. Il doit être vaincu pour de bon."
+*Chevalier "[voice(08_D_8)]Mais avant cela, je dois m'assurer de vos compétences."
+*Chevalier "[voice(08_D_9)]Je veux voir si vous êtes l'élu qui va vaincre Harold."
+[MC] "Très bien. Je suis prêt."
+*Chevalier "[voice(08_D_10)]Je ne vais pas y aller de mains mortes. Soyez prêt !"
+narrator "Je me prépare au duel."
+LoadScene(TCR)

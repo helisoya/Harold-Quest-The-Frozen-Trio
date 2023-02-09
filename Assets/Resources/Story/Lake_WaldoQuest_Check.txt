@@ -1,0 +1,6 @@
+hide()
+if "WaldoQuest"="-1"
+  Load(Lake_WaldoQuestReceive)
+if "WaldoQuest"="1"
+  Load(Lake_WaldoQuest1)
+Load(Lake_WaldoQuest0)

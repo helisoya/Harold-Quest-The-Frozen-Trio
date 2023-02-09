@@ -1,0 +1,12 @@
+changeCharacter(Waldo_Normal)
+changeCharacter(Waldo_Normal)
+show()
+setBackground(Lake)
+*Waldo "Lake_Waldo_Topic2_0"
+*Waldo "Lake_Waldo_Topic2_1"
+*Waldo "Lake_Waldo_Topic2_2"
+*Waldo "Lake_Waldo_Topic2_3"
+*Waldo "Lake_Waldo_Topic2_4"
+*Waldo "Lake_Waldo_Topic2_5"
+*Waldo "Lake_Waldo_Topic2_6"
+Load(Lake_Waldo_Talk)

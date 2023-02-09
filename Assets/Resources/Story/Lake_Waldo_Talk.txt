@@ -1,0 +1,15 @@
+changeCharacter(Waldo_Normal)
+changeCharacter(Waldo_Normal)
+show()
+setBackground(Lake)
+*Waldo "Lake_Waldo"
+
+choice "Choice_Chat"
+{
+  "Choice_Chat_Waldo_Topic1"
+    Load(Lake_Waldo_Topic1)
+  "Choice_Chat_Waldo_Topic2"
+    Load(Lake_Waldo_Topic2)
+  "Choice_Chat_Nothing"
+    Load(Lake_Arrive_Waldo)
+}

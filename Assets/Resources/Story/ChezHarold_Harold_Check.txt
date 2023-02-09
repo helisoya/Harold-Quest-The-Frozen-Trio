@@ -1,0 +1,4 @@
+hide()
+if "MainQuest"="1"
+  Load(ChezHarold_Harold_Choix1)
+Load(ChezHarold_Harold_Choix0)

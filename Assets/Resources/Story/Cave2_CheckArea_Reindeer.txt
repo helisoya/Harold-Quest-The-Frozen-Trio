@@ -1,0 +1,15 @@
+hide()
+hide()
+setBackground(Cave2)
+
+narrator "Cave_CheckArea_Normal_0"
+
+changeCharacter(Renne)
+show()
+*Renne "Cave_CheckArea_Normal_1"
+
+hide()
+narrator "Cave_CheckArea_Normal_2"
+
+variable(Cave2,1)
+Load(Cave2_RudolphQuest_Check)

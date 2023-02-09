@@ -1,0 +1,14 @@
+hide()
+hide()
+setBackground(ToyFactory)
+playMusic(Exploration_)
+narrator "ToyFactory_Arrive"
+
+
+choice "Choice_Generic"
+{
+  "Choice_CheckArea"
+    Load(ToyFactory_CheckArea_Check)
+  "Choice_Map"
+    Map(ToyFactory)
+}

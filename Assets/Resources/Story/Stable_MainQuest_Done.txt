@@ -1,0 +1,4 @@
+hide()
+variable(MainQuest,2)
+narrator "MainQuestsDone_0"
+Load(Stable_Arrive)

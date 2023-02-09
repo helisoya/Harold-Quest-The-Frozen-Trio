@@ -1,0 +1,30 @@
+
+show()
+playMusic(RickeyLand)
+changeCharacter(Marchand_Chaine,true)
+setBackground(RickeyLand_Marchand)
+
+*Marchand "[voice(03_F_1)]Bravo ! Vous avez réussit à ne pas me tuez !"
+[MC] "Bien ! J'ai encore une attraction à réussir."
+
+hide()
+narrator "Je m'éloigne de ce stand étrange et me dirige vers la dernière attraction."
+
+setBackground(RickeyLand_Cheval)
+narrator "J'arrive assez rapidement à l'hippodrome du parc."
+narrator "C'est ici que la course de chevaux aura lieu."
+narrator "Je remarque cependant beaucoup de tanks sur la piste..."
+[MC] "Pourquoi mes concurrents sont des gardes avec des tanks ?"
+[MC] "C'est comme si Rickey ne voulait pas que quelqu'un gagne."
+narrator "Je me dirige malgré tout vers le gérant de l'attraction."
+
+changeCharacter(Waldo_Normal)
+show()
+[MC] "Bonjour, quelles sont les règles ?"
+*Waldo "[voice(03_F_2)]Dans cette attraction, vous devez finir le premier dans la course de chevaux."
+*Waldo "[voice(03_F_3)]Vous devrez faire attention aux différents obstacles sur le parcours."
+*Waldo "[voice(03_F_4)]Faites attention ! Les gardes ont le droit d'ouvrir le feu s'il le veulent."
+narrator "Je vais mourir...."
+[MC] "Très bien...... Je voudrais essayer l'attraction !"
+*Waldo "[voice(03_F_5)]Parfait ! Commençons l'attraction ! Je vais prévenir les gardes !"
+LoadScene(CC)

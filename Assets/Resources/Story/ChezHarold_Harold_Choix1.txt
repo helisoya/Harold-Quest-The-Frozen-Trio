@@ -1,0 +1,17 @@
+hide()
+changeCharacter(Harold_Cafe)
+show()
+setBackground(ChezHarold_Salon)
+*Harold "ChezHarold_Harold"
+
+choice "Choice_Chat"
+{
+  "Choice_Chat_Harold_Quest1_Rickey"
+    Load(ChezHarold_Harold_Quest1_Rickey)
+  "Choice_Chat_Harold_Quest1_Runcan"
+    Load(ChezHarold_Harold_Quest1_Runcan)
+  "Choice_Chat_Harold_Quest1_Boyardee"
+    Load(ChezHarold_Harold_Quest1_Boyardee)
+  "Choice_Chat_Nothing"
+    Load(ChezHarold_Exterieur)
+}

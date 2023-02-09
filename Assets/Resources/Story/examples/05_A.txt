@@ -1,0 +1,62 @@
+hide()
+setBackground(null)
+
+[MC] "Mon nom de code est [MC], mon vrai nom n'a plus d'importance."
+[MC] "Il y a quelques mois, j'ai été engagé par mon chef."
+[MC] "Il m'a menti au départ sur l'emploi, mais cela en valait la peine."
+[MC] "Maintenant, je peux me dédier au combat contre les infidèles."
+[MC] "J'ai été récemment assigné dans le QG de notre ordre, dans la province de Runan."
+[MC] "C'est ici que je vais pouvoir éradiquer enfin le mal."
+
+setBackground(ForteresseNoire_Salle)
+[MC] "......................."
+[MC] "Enfin, si j'avais une mission à réaliser..."
+[MC] "Cela fait 3 jours que j'attends ici à ne rien faire..."
+
+changeCharacter(Harold_Cafe)
+show()
+*Harold "[voice(05_A_1)]Ah, [MC] ! Ne vous plaignez pas autant."
+[MC] "Chef ! Laissez-moi aller au front ! J'ai besoin de combattre !"
+*Harold "[voice(05_A_2)]Je le sais bien. Mais il n'y aucune mission de disponible."
+*Harold "[voice(05_A_3)]Vous avez vaincu tout les ennemis de notre ordre, il n'y a plus rien à faire."
+[MC] "Il n'y a pas assez d'ennemis ! Nous devons agrandir notre liste !"
+[MC] "Je ne vais quand même pas devoir m’entraîner sur nos propre membres en attendant..."
+*Harold "[voice(05_A_4)]Non, Non... Laissez-moi réfléchir un instant...."
+*Harold "[voice(05_A_5)]Voyons.... Et si ? ...... Mais oui !"
+*Harold "[voice(05_A_6)]J'ai une nouvelle mission pour vous ! Un terrible adversaire doit être vaincu !"
+[MC] "Ah ! Dites-moi tout ! Qui est ce monstre sanguinaire ?"
+*Harold "[voice(05_A_7)]Il se fait appeler le Chevalier de Runan, c'est un vrai monstre."
+*Harold "[voice(05_A_8)]Il kidnappe des femmes pour les enfermer dans son harem !"
+*Harold "[voice(05_A_9)]Vous devez vous rendre à Runan afin de trouver ce tyran et le tuer !"
+[MC] "Vraiment ? Un monstre aussi tyrannique ? Je vais lui faire la peau !"
+*Harold "[voice(05_A_10)]Excellent ! Bonne chance, [MC] !"
+
+hide()
+narrator "Harold retourne a ses occupations, il doit administrer le groupe après tout."
+narrator "Je sort donc de son bureau et commence à descendre."
+narrator "Je dois me rendre à Runan afin de trouver ce forban de Chevalier."
+narrator "C'est tout de même atroce ce qu'il fait ! Personne ne ferait cela !"
+
+setBackground(ForteresseNoire_Couloir)
+narrator "Je descend les escaliers de la forteresse qui nous sert de QG."
+narrator "Certain la nomme la "Forteresse noire", je ne sais pas pourquoi."
+
+setBackground(ForteresseNoire_Entrée)
+narrator "J'arrive en quelques minutes à l'entrée de la forteresse."
+narrator "Je remarque qu'il y a une dizaine de personnes à l'entrée."
+narrator "Je me demande bien pourquoi ils sont ici."
+narrator "L'un d'eux s'avance vers moi en me faisait signe."
+
+changeCharacter(Invocateur,true)
+show()
+*Invocateur "[voice(05_A_11)]Hé ! Monsieur [MC] ! J'ai quelque chose à vous demander !"
+[MC] "Quel est le problème ? J'ai une mission à accomplir, soyez bref."
+*Invocateur "[voice(05_A_12)]Et bien... Nous étions en train de nous entraîner à l'épée."
+*Invocateur "[voice(05_A_13)]Mais le problème, c'est que personne ne sait manier une épée..."
+*Invocateur "[voice(05_A_14)]Alors, Monsieur... Pouvez-vous...."
+[MC] "..... Très bien, je vais vous entraîner à l'épée..."
+[MC] "Préparez-vous ! Car je ne vais pas y aller de main morte !"
+
+hide()
+narrator "Je me prépare à l’entraînement."
+LoadScene(EE)

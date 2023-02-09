@@ -1,0 +1,21 @@
+hide()
+hide()
+setBackground(Cave3)
+
+narrator "Cave_CheckArea_Rudolphe_0"
+
+changeCharacter(Rudolphe)
+show()
+*Rudolphe "Cave_CheckArea_Rudolphe_1"
+[MC] "Cave_CheckArea_Rudolphe_2"
+*Rudolphe "Cave_CheckArea_Rudolphe_3"
+[MC] "Cave_CheckArea_Rudolphe_4"
+*Rudolphe "Cave_CheckArea_Rudolphe_5"
+*Rudolphe "Cave_CheckArea_Rudolphe_6"
+
+hide()
+narrator "Cave_CheckArea_Rudolphe_7"
+
+variable(Cave3,1)
+variable(RickeyQuest,3)
+Load(Cave3_RudolphQuest_Check)

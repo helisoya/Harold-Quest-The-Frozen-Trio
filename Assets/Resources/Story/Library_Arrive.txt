@@ -1,0 +1,14 @@
+hide()
+hide()
+setBackground(Library)
+playMusic(Exploration_2)
+narrator "Library_Arrive"
+
+
+choice "Choice_Generic"
+{
+  "Choice_CheckArea"
+    Load(Library_CheckArea_Check)
+  "Choice_Map"
+    Map(Library)
+}

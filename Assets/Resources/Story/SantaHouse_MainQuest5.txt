@@ -1,0 +1,69 @@
+hide()
+hide()
+setBackground(SantaHouse_Interieur)
+playMusic(null)
+
+narrator "SantaHouse_MainQuest5_0"
+narrator "SantaHouse_MainQuest5_1"
+
+changeCharacter(PereNoel)
+show()
+*Santa "SantaHouse_MainQuest5_2"
+[MC] "SantaHouse_MainQuest5_3"
+*Santa "SantaHouse_MainQuest5_4"
+*Santa "SantaHouse_MainQuest5_5"
+narrator "SantaHouse_MainQuest5_6"
+narrator "SantaHouse_MainQuest5_7"
+
+changeCharacter(Harold_Hand)
+*Harold "SantaHouse_MainQuest5_8"
+[MC] "SantaHouse_MainQuest5_9"
+
+changeCharacter(PereNoel)
+*Santa "SantaHouse_MainQuest5_10"
+*Santa "SantaHouse_MainQuest5_11"
+
+changeCharacter(Harold_Hand)
+*Harold "SantaHouse_MainQuest5_12"
+
+changeCharacter(PereNoel)
+*Santa "SantaHouse_MainQuest5_13"
+
+changeCharacter(Harold_Hand)
+*Harold "SantaHouse_MainQuest5_14"
+
+changeCharacter(PereNoel)
+*Santa "SantaHouse_MainQuest5_15"
+
+changeCharacter(ChevalierRunan)
+*Runcan "SantaHouse_MainQuest5_16"
+
+changeCharacter(PereNoel)
+*Santa "SantaHouse_MainQuest5_17"
+
+changeCharacter(ChevalierRunan)
+*Runcan "SantaHouse_MainQuest5_18"
+*Runcan "SantaHouse_MainQuest5_19"
+
+changeCharacter(Harold_Hand)
+*Harold "SantaHouse_MainQuest5_20"
+
+changeCharacter(PereNoel)
+*Santa "SantaHouse_MainQuest5_21"
+
+changeCharacter(Harold_Hand)
+*Harold "SantaHouse_MainQuest5_22"
+narrator "SantaHouse_MainQuest5_23"
+
+changeCharacter(Rickey_1)
+*Rickey "SantaHouse_MainQuest5_24"
+
+changeCharacter(Harold_Hand)
+*Harold "SantaHouse_MainQuest5_25"
+narrator "SantaHouse_MainQuest5_26"
+*Harold "SantaHouse_MainQuest5_27"
+
+changeCharacter(PereNoel)
+*Santa "SantaHouse_MainQuest5_28"
+
+LoadScene(Credits)

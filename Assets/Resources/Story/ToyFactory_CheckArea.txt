@@ -1,0 +1,7 @@
+hide()
+hide()
+setBackground(ToyFactory)
+
+narrator "ToyFactory_CheckArea_0"
+narrator "ToyFactory_CheckArea_1"
+Load(ToyFactory_Arrive)

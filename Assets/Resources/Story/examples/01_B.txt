@@ -1,0 +1,58 @@
+hide()
+changeCharacter(Harold_Cafe)
+
+
+narrator "....."
+narrator "....."
+setBackground(ChezHarold_Chambre)
+narrator "J'ouvre les yeux, je suis dans une maison."
+[MC] "C'était un rêve ? Je ne suis pas mort ?"
+[MC] "Ça explique tant de choses..."
+[MC] "Je doit cependant trouver ou je me trouve."
+[MC] "Cette maison n'est pas la mienne..."
+[MC] "Ais-je été kidnappé pendant la nuit ?"
+narrator "Je me lève et me dirige vers la sortie de la pièce."
+narrator "D'un coup, la porte s'ouvre et un vieillard entre dans la pièce. "
+
+
+show()
+*??? "[voice(01_B_1)]AHHH !"
+[MC] "AHHH !"
+*??? "[voice(01_B_2)]Que faites-vous dans ma salle de repos ? Et qui êtes-vous ?"
+*??? "[voice(01_B_3)]Je vais appeler la police fédérale si vous tentez de me voler mes biens !"
+[MC] "Comment ? Mais vous m'avez kidnappé si cette maison est à vous !"
+*??? "[voice(01_B_4)]Moi, un kidnappeur ? Jamais ! Je ne ferais jamais une telle chose !"
+[MC] "Alors comment expliquez-vous ma présence ? Je n'ai pas pu marcher en dormant jusqu'ici !"
+??? "[voice(01_B_5)]Mmmhhh......."
+*??? "[voice(01_B_6)]AHHHH ! Mais bien sur ! C'est donc cela !"
+*Harold "[voice(01_B_7)]Je vais tout vous expliquer ! Ah, et appelez-moi Harold !"
+*Harold "[voice(01_B_8)]Il se trouve que je vous ai invoqué, Héro !"
+[MC] "Quoi ? C'est absurde ! Je ne suis pas un Héro !"
+*Harold "[voice(01_B_9)]Bien sur que si ! Vous êtes le Héro [MC] !"
+[MC] "Comment ? Vous connaissez mon nom ?"
+*Harold "[voice(01_B_10)]Bien sur ! Je n'allait pas invoquer un noob quand même !"
+[MC] "Mais alors... Pourquoi me faire venir ici ?"
+*Harold "[voice(01_B_11)]Et bien c'est très simple ! Je vais tout vous expliquer !"
+*Harold "[voice(01_B_12)]Voyez-vous, il y a un terrible dragon qui vit dans la région."
+*Harold "[voice(01_B_13)]Il vit dans la forteresse Braise, de son nom : Le seigneur Braise !"
+*Harold "[voice(01_B_14)]Il est vraiment terrible ! Le genre à brûler des voitures pour s'amuser !"
+*Harold "[voice(01_B_15)]Il est dit aussi qu'il possède un trésor fou !"
+*Harold "[voice(01_B_16)]C'est la que vous intervenez, [MC] !"
+*Harold "[voice(01_B_17)]Vous devez aller terrasser ce tyran sanguinaire !"
+*Harold "[voice(01_B_18)]Et me rapporter le trésor en plus..."
+*Harold "[voice(01_B_19)]Je l'aurais bien fait, mais j'ai pris une flèche dans le genou il y a quelques temps..."
+*Harold "[voice(01_B_20)]C'est pour cela que j'ai besoin de vous, [MC]."
+[MC] "Vous me demandez de tuer un dragon et de prendre son trésor, rien que ça ?"
+*Harold "[voice(01_B_21)]C'est pas grand chose ! J'ai vu bien pire que ça !"
+*Harold "[voice(01_B_22)]Si vous le tuez, vous aurez une récompense et je vous renvoie chez vous !"
+[MC] "Quelle genre de récompense ?"
+*Harold "[voice(01_B_23)]Vous verrez ! Alors ? C'est un bon marché, non ?"
+[MC] "Mmmhhh..."
+
+choice "Que faire ?"
+{
+  "Accepter"
+    Load(01_B1)
+  "Refuser"
+	Load(01_B2)
+}

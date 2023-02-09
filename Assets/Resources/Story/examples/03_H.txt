@@ -1,0 +1,37 @@
+hide()
+setBackground(RickeyLand_Chateau)
+
+playMusic(null)
+narrator "Après quelques minutes de marche, j'arrive enfin au palais."
+narrator "Il est vraiment imposant, j'espère que je vais réussir à obtenir le livre."
+narrator "J'entre à l'intérieur et me dirige vers la salle du PDG."
+narrator "Après avoir marché dans quelques couloirs, j'arrive dans une salle de trône gigantesque."
+
+setBackground(RickeyLand_Trone)
+narrator "Il y a un homme sur le trône. Quand j'entre dans la pièce, il saute et vient vers moi."
+
+changeCharacter(Rickey_3_Normal,true)
+show()
+*Rickey "[voice(03_H_1)]Qui êtes-vous ? Vous êtes... celui qui a réussit toute les attractions ?!"
+[MC] "En effet, j'ai réussit à finir toute vos attractions. Je suis le premier on dirait..."
+*Rickey "[voice(03_H_2)]Ah Ah ! C'est vrai ! Mais dites-moi, nous sommes-nous déjà vu auparavant ?"
+[MC] "Hmm... non, je ne vous ai pas vu auparavant..."
+narrator "Je n'ai pas envie de me souvenir de cet épisode."
+*Rickey "[voice(03_H_3)]Enfin ! Vous êtes ici pour le prix, pas vrai ? Et bien vous allez l'avoir, Ah Ah !"
+*Rickey "[voice(03_H_4)]Alors ? Pour qui vais-je dédier ce livre ? C'est un bien jolie livre que je vous offre."
+[MC] "Je suppose que vous pouvez le dédier à 'Harold'."
+
+changeCharacter(Rickey_3_Angry,true)
+*Rickey "[voice(03_H_5)]Comment ?! Vous êtes Harold ? Vous êtes LE Harold ?"
+[MC] "Non, mais c'est lui qui m'a envoyé pour gagner ce livre."
+*Rickey "[voice(03_H_6)]Grr ! Je hait Harold ! Il m'a humilié ! Je doit me venger !"
+[MC] "Attendez, on peut trouver un arrangement ? Vous n'avez pas besoin de..."
+
+changeCharacter(Rickey_3_Normal,true)
+*Rickey "[voice(03_H_7)]Ne vous inquiétez pas ! J'ai une solution pour vous ! Ah Ah !"
+*Rickey "[voice(03_H_8)]Je vais vous égorger, puis je vais donner vos entrailles à mes requins ! Ah Ah !"
+[MC] "Jamais ! Vous ne m'aurez pas !"
+
+hide()
+narrator "Je commence à courir, Rickey me poursuis."
+LoadScene(CPPR)

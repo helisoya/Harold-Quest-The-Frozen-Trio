@@ -1,0 +1,74 @@
+show()
+show()
+changeCharacter(ChevalierRunan)
+setBackground(Manoir_Trone)
+
+
+*Chevalier "[voice(08_E_1)]Hmmm.... Vous êtes puissant, mon ami..."
+*Chevalier "[voice(08_E_2)]Très bien, je vais vous enseigner le secret de mes coups spéciaux."
+narrator "Le Chevalier sort une sorte d’interrupteur de sa poche et me le tend."
+*Chevalier "[voice(08_E_3)]Tenez, ceci est mon arme secrète ! Le Générateur d'Ondres Cool, ou GOC !"
+narrator "J'accepte le GOC et le tient dans ma main."
+[MC] "Euh.... Comment marche cette appareil ?"
+*Chevalier "[voice(08_E_4)]Appuyez sur le bouton et un truc cool arrivera !"
+*Chevalier "[voice(08_E_5)]Je sais pas ce qui va arriver, mais ça va être cool !"
+*Chevalier "[voice(08_E_6)]C'est le secret de mon art, être cool en permanence !"
+*Chevalier "[voice(08_E_7)]Harold est calculateur, mais il ne réagit pas bien à l'imprévu."
+*Chevalier "[voice(08_E_8)]Avec cette arme, vous pourrez le vaincre sans problèmes."
+*Chevalier "[voice(08_E_9)]A condition de savoir utiliser l'imprévu vous même. Ah Ah !"
+[MC] "Je... merci, monsieur le Chevalier."
+narrator "Je ne sais pas si cette 'arme' va être utile, mais je dois essayer."
+narrator "D'un coup, le sol se met à trembler et je perd l'équilibre."
+*Chevalier "[voice(08_E_10)]...... C'est lui.....  Il va jouer sa dernière carte."
+*Chevalier "[voice(08_E_11)]Je compte sur vous... Tuez-le et détruisez son ordre fanatique !"
+[MC] "Vous pouvez compter sur moi !"
+
+hide()
+narrator "Je me dépêche de sortir du manoir, ce qui m'attend à l'extérieur est..."
+
+setBackground(Manoir_FVR)
+narrator "Incroyable.............."
+[MC] "Harold possède une forteresse volante ?!"
+[MC] "Je dois me dépêcher d'aller dans les montagnes ! Avant qu'il ne s'envole !"
+narrator "Je commence à courir en direction des montagnes."
+
+setBackground(Monastere_Exterieur)
+narrator "Après plusieurs heures de courses, j'arrive au sommet des montagnes."
+narrator "Je suis près des ruines d'une sorte de monastère."
+[MC] "Je n'ai pas le temps pour cela ! Je dois me dépêcher de..."
+
+setBackground(Monastere_Montagnes)
+narrator "Je regarde la forteresse volante, elle est hors d'atteinte."
+narrator "Je ne vais pas pouvoir sauter dessus, je suis fichu..."
+[MC] "Comment faire.... Je ne peux pas voler...."
+[MC] "A moins que..... J'ai une idée...."
+narrator "Je sort le GOC du Chevalier, il est temps de le tester."
+narrator "J'appuie sur le bouton et espère ne pas mourir."
+
+setBackground(null)
+narrator "L'espace autour de moi se met à tourner, et je tombe."
+narrator "Je tombe, encore et encore, a l'infini..."
+narrator "Je me demande si je suis mort..."
+narrator "D'un coup j'atterris dans une salle sombre."
+
+setBackground(FVR_Salle)
+[MC] "Ou suis-je ? J'ai cru que j'allais mourir..."
+[MC] "Suis-je dans la forteresse volante ? Ce serait trop beau..."
+narrator "D'un coup, une voix familière retenti dans des interphones."
+Harold "[voice(08_E_12)]Eh Eh Eh ! Bonne nouvelle les amis, nous avons décollé !"
+Harold "[voice(08_E_13)]Bientôt, nous allons semer le chaos dans la région !"
+Harold "[voice(08_E_14)]Alors, préparez-vous bien ! Car nous allons avoir une rude journée !"
+[MC] "Je suis dans la forteresse.... C'est un bon début."
+[MC] "Je dois maintenant trouver Harold et le vaincre !"
+[MC] "Si je ne fais rien, il va t-"
+??? "[voice(08_E_15)]Ah Ah ! C'est moi, R-"
+
+changeCharacter(Mock0,true)
+show()
+narrator "Je me retourne pour voir un robot étrangement familier."
+narrator "Ah oui... Il m'avait attaqué il y a quelques temps..."
+*Mock0 "[voice(08_E_16)]Ah Ah ! Je vais te t- ... Ah Ah !"
+narrator "Le robot s'approche de moi avec ses bras tendus."
+narrator "Je vais devoir le détruire avant de continuer."
+narrator "Je me prépare au combat."
+LoadScene(DM0V2)

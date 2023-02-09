@@ -1,0 +1,12 @@
+show()
+changeCharacter(Rickey_2_Normal)
+show()
+setBackground(Flashback_Rickey)
+Harold "ChezHarold_Harold_Quest1_Rickey_1"
+Harold "ChezHarold_Harold_Quest1_Rickey_2"
+Harold "ChezHarold_Harold_Quest1_Rickey_3"
+setBackground(ChezHarold_Salon)
+changeCharacter(Harold_Cafe)
+show()
+*Harold "ChezHarold_Harold_Quest1_Rickey_4"
+Load(ChezHarold_Harold_Choix1)

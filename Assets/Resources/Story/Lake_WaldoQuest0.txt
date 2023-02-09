@@ -1,0 +1,7 @@
+hide()
+hide()
+setBackground(Lake)
+narrator "Lake_CheckArea_WaldoQuest0_0"
+narrator "Lake_CheckArea_WaldoQuest0_1"
+narrator "Lake_CheckArea_WaldoQuest0_2"
+Load(Lake_Arrive)

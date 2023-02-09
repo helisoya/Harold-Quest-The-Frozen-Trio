@@ -1,0 +1,75 @@
+hide()
+setBackground(null)
+
+narrator "Je m’appelle [MC], j'ai vu beaucoup de choses en 1 an."
+narrator "J'ai été tout d'abord chargé de vaincre un dragon."
+narrator "Ensuite, j'ai dû récupérer un livre dans RickeyLand."
+narrator "J'ai par la suite tué mon ancien ami, Harold."
+narrator "Mais, depuis mon aventure au parc, des choses ont changés."
+narrator "L'ancien PDG étant mort, un nouveau à pris le contrôle."
+narrator "Cet homme, c'est Waldo, il m'avait aidé auparavant."
+narrator "Il a redoré le blason de son parc depuis, c'est admirable."
+narrator "Aujourd'hui, il a décidé de me remercier pour mon aide."
+narrator "C'est pour cela qu'il m'emmène dans la province de Runan."
+narrator "Nous allons voir sa famille, des vacances bien méritées."
+
+setBackground(Runan_Route)
+[MC] "Brrrr.... Il fait froid...."
+narrator "L'air est bien plus froid dans cette région....."
+
+playMusic(Exploration_1)
+changeCharacter(Waldo_Uniforme_Normal)
+show()
+*Waldo "[voice(06_A_1)]Ah Ah ! C'est vrai, nous sommes plus au nord maintenant."
+*Waldo "[voice(06_A_2)]Mais ne vous plaignez pas, ce n'est pas encore atroce."
+[MC] "Il y a pire ? Oh........"
+narrator "Nous avançons sur la route de Runan depuis quelques heures."
+narrator "Nous utilisons les chevaux du parc, il est fermée pendant 1 semaine."
+narrator "Cela nous permet de nous déplacer bien plus rapidement qu'à pied."
+[MC] "Sinon... A quoi ressemble Runan ? Je n'ai jamais été là-bas."
+*Waldo "[voice(06_A_3)]C'est la seule ville de la province de Runan."
+*Waldo "[voice(06_A_4)]En fait, c'est le seul endroit ou il y a des maisons."
+*Waldo "[voice(06_A_5)]Enfin.... Il y a bien le manoir.... mais bon...."
+*Waldo "[voice(06_A_6)]Mais, Runan déborde d'activités à cause de cela."
+*Waldo "[voice(06_A_7)]Vous pouvez voir des combats traditionnels et faire pari."
+*Waldo "[voice(06_A_8)]Vous pouvez même jouer aux jeu traditionnel de la région : le Criket."
+narrator ".... J'ai l'impression d'en avoir déjà entendu parler..."
+[MC] "Je vois. Runan a l'air d'être une ville intéressante."
+*Waldo "[voice(06_A_9)]Et oui ! Nous sommes fier de notre ville !"
+[MC] "Vous avez des choses connus à Runan ? Des héros célèbres ? Des plats ?"
+*Waldo "[voice(06_A_10)]Voyons voir... Nous avons les célèbres Chocostalines du maître Moustache."
+*Waldo "[voice(06_A_11)]Et en personnages célèbres.... Le maître Sanders...."
+*Waldo "[voice(06_A_12)]Nous avons aussi un personnage tristement célèbre : Le Chevalier de Runan."
+*Waldo "[voice(06_A_13)]Mais il a pris sa retraite après des... événements qui ont pris place il y a 1 an..."
+[MC] "Je vois. Il y a de nombreuses personnalités dans la région."
+[MC] "Mais... je me posais une question. Vous savez d'où vient l'ancien PDG ?"
+*Waldo "[voice(06_A_14)]Rickey ? Aucune idée.... Personne ne le sait."
+*Waldo "[voice(06_A_15)]Il est juste... apparu, d'un coup à Vlatyr il y a quelques années."
+[MC] "Hmmm.... Étrange.... Je me demande ce qu'il faisait avant."
+narrator "D'un coup, mon cheval s'arrête. Je manque de tomber."
+
+playMusic(null)
+changeCharacter(Mock0,true)
+narrator "Je regarde la route, il y a une sorte de robot au milieu."
+
+changeCharacter(Waldo_Uniforme_Normal)
+*Waldo "[voice(06_A_16)]Qu'est-ce ? On dirait un automate très vieux..."
+narrator "Je descend du cheval et m'approche du robot."
+
+changeCharacter(Mock0,true)
+narrator "Il a l'air désactivé... Je me demande ce qu'il fait ici."
+narrator "J'approche mon doigt du robot, mais j'ai peur....."
+*Robot "[voice(06_A_17)]RRRRRRRRRRRRRRRRR-"
+narrator "Le robot lève sa tête et me regarde."
+*Robot "[voice(06_A_18)]Je suis Ric-......... Ah A-........"
+[MC] "Euh.... Pardon ? Vous pouvez répéter ?"
+*Robot "[voice(06_A_19)]AH AH AH AH AH Ah AH AH AH AH AH-"
+*Robot "[voice(06_A_20)]Je suis Rick-... Le PDG de Rick-....."
+*Robot "[voice(06_A_21)]Ah Ah Ah Ah A-.... Allez à la bouti-....."
+narrator "Ce robot est très étrange.... Il ressemble à Rickey..."
+*Robot "[voice(06_A_22)]Vo- Vous... n'êtes pas allez à la bouti-......"
+[MC] "Je ne comprend pas ce que vous dites...."
+*Robot "[voice(06_A_23)]Je vais vous pu-...... Ah Ah !"
+narrator "Le robot lève ses bras et s'approche de moi."
+narrator "Je.... me prépare."
+LoadScene(DM0)

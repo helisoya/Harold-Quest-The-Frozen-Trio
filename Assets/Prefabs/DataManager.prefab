@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4344616344716291876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4344616344716291881}
+  - component: {fileID: 4344616344716291882}
+  - component: {fileID: 4344616344716291883}
+  - component: {fileID: 409934261082451359}
+  - component: {fileID: 5369234638568114759}
+  m_Layer: 0
+  m_Name: DataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4344616344716291881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4344616344716291876}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 483.1456, y: 234.80534, z: -388.00638}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4344616344716291882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4344616344716291876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d6f8355bcab6714893875be7c8e76f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  save:
+    items:
+    - name: playerName
+      value: Harold
+      defaultValue: 
+    - name: MainQuest
+      value: 0
+      defaultValue: 
+    - name: RickeyQuest
+      value: -1
+      defaultValue: 
+    - name: BoyardeeQuest
+      value: -1
+      defaultValue: 
+    - name: RuncanQuest
+      value: -1
+      defaultValue: 
+    - name: RudolphQuest
+      value: -1
+      defaultValue: 
+    - name: WaldoQuest
+      value: -1
+      defaultValue: 
+    - name: Cave1
+      value: 0
+      defaultValue: 
+    - name: Cave2
+      value: 0
+      defaultValue: 
+    - name: Cave3
+      value: 0
+      defaultValue: 
+--- !u!114 &4344616344716291883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4344616344716291876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d12824fef41f1143abfc65e67468d99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  save:
+    valBGM: 0.2
+    valSFX: 0.2
+    valVOICE: 0.3
+    resolutionWidth: 0
+    resolutionHeight: 0
+    refreshRate: 0
+    fullscreen: 1
+  pausePrefab: {fileID: 8602548986100227442, guid: 335dfd411fa942d489476c85a89aa954, type: 3}
+  mixer: {fileID: 24100000, guid: 3551b16b330043746990206565e1fa27, type: 2}
+--- !u!114 &409934261082451359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4344616344716291876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6013678185d3449962d9d4f7239b2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5369234638568114759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4344616344716291876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a49ff8f19cce244cb2a864f508befe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChapterToLoad: 
+  currentChapter: 0
+  loadSave: 0

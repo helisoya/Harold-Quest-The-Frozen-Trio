@@ -1,0 +1,75 @@
+hide()
+setBackground(Intersection)
+
+narrator "Je prend le chemin de droite et je me dirige vers la forêt."
+narrator "J'espère que c'est le bon chemin..."
+narrator "J'avance sur le chemin...."
+narrator "Le chemin est très long, j'espère que c'est le bon."
+
+setBackground(Marais_Lisiere)
+narrator "Après environ une heure de marche, j'arrive vers une forêt dense."
+narrator "Elle s'étend sur plusieurs kilomètres, on ne peux pas voir à travers."
+[MC] "J'espère que c'est le bon chemin... Je n'ai pas envie de mourir ici."
+narrator "Au delà du marais du marais, il y a une grande chaîne de montagnes."
+[MC] "Le dragon se cache peut-être dans les montagnes."
+[MC] "Le chemin me mènera peut-être là-bas..."
+narrator "Je m'avance donc dans la forêt."
+
+playMusic(null)
+setBackground(Marais_Var1)
+narrator "L'intérieur de la forêt est bien différent de l'extérieur. "
+narrator "Il ressemble à un gigantesque marais et à un labyrinthe infini."
+narrator "Pire encore, le chemin n'est quasiment plus présent."
+narrator "J'essaie de trouver la sortie, mais cet endroit est un vrai labyrinthe."
+[MC] "Je suis perdu dans un marais... C'est triste."
+[MC] "Je devrais trouver la sortie avant qu'un quelconque monstre essaie de me manger."
+??? "[voice(01_G_1)]BWAHH AH AH !"
+narrator "Un cri terrifiant survient derrière moi. Je me tourne et-"
+
+changeCharacter(Ogre)
+show()
+*??? "[voice(01_G_2)]Ah Ah Ah ! Je vais te manger tout cru, passant !"
+*Ogre "[voice(01_G_3)]Je suis l'ogre du marais ! Et je vais te manger tout cru !"
+[MC] "Euh... non..."
+*Ogre "[voice(01_G_4)]Ah Ah Ah ! Je ne te demande pas ton avis !"
+*Ogre "[voice(01_G_5)]Vient par là, mon petit !"
+narrator "L'ogre s'approche de moi, je commence à courir."
+
+hide()
+Ogre "[voice(01_G_6)]Oh non ! Revient vers moi ! Ça ne va pas faire mal !"
+narrator "L'ogre me poursuit, j'essaie de le semer."
+narrator "On dirait qu'il est moins rapide que moi, j'en profite pour le distancer."
+
+setBackground(Marais_Var2)
+narrator "Une fois hors de sa vue, je me cache derrière un arbre."
+Ogre "[voice(01_G_7)]Grr ! Ou te caches-tu ? J'ai faim !"
+narrator "L'ogre passe à coté de moi sans me voir."
+narrator "J'ai réussi à le semer, mais je vais devoir faire attention maintenant."
+narrator "Le moindre bruit pourrait vendre ma position."
+narrator "Je dois donc faire très attention..."
+narrator "Je dois être aussi silencieux qu'une souris..."
+narrator "... ?!"
+narrator "J'ai trébuché sur une sorte de bûche de bois."
+narrator "La bûche se redresse et se met debout. "
+
+changeCharacter(Vieux)
+show()
+*??? "[voice(01_G_8)]Ah ! Enfin ! Les secours sont enfin arrivés !"
+*??? "[voice(01_G_9)]Cela fait si longtemps que j’attends ! J'ai faillit mourir de vieillesse !"
+*??? "[voice(01_G_10)]Alors ? Quand partons-nous ? Je dois aller voir mes parents !"
+*??? "[voice(01_G_11)]Enfin, si ils sont encore en vie..."
+[MC] "Taisez-vous... Vous al-"
+*??? "[voice(01_G_12)]COMMENT ?! ME TAIRE, MOI ?! VOUS ETES BIEN UN HORRIBLE PERSONNAGE !!!"
+Ogre "[voice(01_G_13)]Oh Oh Oh ! Je sais ou vous êtes !"
+narrator "Mince, je dois agir vite ! Je dois fuir."
+narrator "Je commence à courir pour éviter l'ogre."
+
+hide()
+??? "[voice(01_G_14)]Mais ou allez-vous ? Revenez !"
+??? "[voice(01_G_15)]Rho ! Personne ne veut venir me voir..."
+??? "[voice(01_G_16)]Tient ? Une personne ! Bonjou- ARRGGHHHHH !"
+Ogre "[voice(01_G_17)]Mmmmmhhhhhh..... Délicieux !"
+Ogre "[voice(01_G_18)]J'ai encore de la place pour le dessert !  Vient par ici !"
+narrator "L'ogre est juste derrière moi. Il me course."
+narrator "J'accélère la cadence."
+LoadScene(CPO)

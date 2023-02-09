@@ -1,0 +1,37 @@
+hide()
+setBackground(FVR_Salle)
+
+narrator "J'arrive à désactiver le robot sans trop de mal."
+[MC] "Je devrais trouver Harold maintenant."
+[MC] "Il va détruire le monde si je ne me dépêche pas."
+
+setBackground(FVR_Couloir)
+narrator "Je sort donc de la salle et arrive dans un couloir."
+narrator "Il y a des personnes bizarres qui marchent dans le couloir."
+narrator "Heureusement, personne ne remarque que je suis un intrus."
+narrator "Je marche dans le couloir en espérant trouver la salle de contrôle."
+narrator "Après quelques minutes de marche, j'entre dans une salle au hasard."
+
+setBackground(FVR_Cuisine)
+narrator "Je n'ai pas eu de chance, je suis arrivé dans une cuisine."
+narrator "Je m’apprête à sortir quand une main m'attrape."
+
+changeCharacter(Boyardee)
+show()
+*Boyardee "[voice(08_F_1)]Eh ! Pas si vite ! Ou est votre ISS ?"
+[MC] "Mon quoi ? Je ne comprend pas..."
+*Boyardee "[voice(08_F_2)]Votre Identifiant Sectaire de Sbire, voyons !"
+[MC] "Ah.... euh.... Il est dans.... ma voiture...."
+Boyardee "................................................"
+*Boyardee "[voice(08_F_3)]Je pense que vous êtes un intrus..."
+[MC] "Non.... Je ne suis pas un intrus...."
+*Boyardee "[voice(08_F_4)]Si vous n'êtes pas un intrus... alors je vous défie !"
+*Boyardee "[voice(08_F_5)]Seul un membre de la secte peut cuisiner des chocostalines !"
+*Boyardee "[voice(08_F_6)]Faites des chocostalines et je vous laisse tranquille !"
+[MC] "Je.... très bien... C'est assez... simple....."
+narrator "Je ne sait pas ce qu'est un chocostaline..."
+*Boyardee "[voice(08_F_7)]Parfait ! Commencez à cuisiner !"
+
+hide()
+narrator "Je commence à cuisiner mes biscuits."
+LoadScene(CB)

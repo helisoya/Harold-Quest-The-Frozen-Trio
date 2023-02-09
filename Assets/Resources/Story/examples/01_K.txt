@@ -1,0 +1,66 @@
+hide()
+setBackground(Montagnes_Var2)
+
+[MC] "Allons ! Je ne dois pas fléchir ! Ce n'est qu'un très gros lézard !"
+narrator "Je commence à m'approcher de la forteresse."
+
+setBackground(Braise_Entrée)
+narrator "J'arrive après avoir traversé le pont-levis à l'entrée."
+narrator "Elle est imposante et la porte est fermée."
+narrator "Je me demande comment je vais bien pouvoir entrer..."
+??? "[voice(01_K_1)]Hé, vous ! Oui, vous là bas !"
+narrator "Une voix survient du balcon en haut de la porte."
+
+changeCharacter(GARDE,true)
+show()
+narrator "Un homme s'y tient et me fait signe de ses mains."
+*GARDE "[voice(01_K_2)]je suis GARDE, le garde de la forteresse !"
+*GARDE "[voice(01_K_3)]Que faites-vous ici ? C'est une propriété privée, vous savez !"
+[MC] "Euh... Je viens rendre visite au seigneur Dragon qui vit en ces lieu."
+*GARDE "[voice(01_K_4)]Vraiment ? Vous ne viendrez pas par hasard pour tenter de le tuer ?"
+narrator "Je devrais mentir pour le moment, qui sait ce dont il est capable."
+[MC] "Bien sur que non ! Pourquoi tenter de tuer un dragon aussi sympa ?"
+*GARDE "[voice(01_K_5)]C'est vrai ! Le seigneur Braise est si doux et gentil quand il me donne ma paye !"
+*GARDE "[voice(01_K_6)]Enfin, même si cela n'arrive que quand il est ivre mort..."
+*GARDE "[voice(01_K_7)]Enfin bon... je pense que vous pouvez entrer."
+*GARDE "[voice(01_K_8)]Vous n'avez pas l'air bien méchant..."
+[MC] "Merci, monsieur le garde. Je ne vais pas fa-"
+narrator "D'un coup, quelqu'un me pousse et me fait tomber au sol."
+
+playMusic(Katsumoto)
+changeCharacter(Katsumoto)
+narrator "Celui qui a fait cela n'est autre que Katsumoto, le samurai !"
+*Katsumoto "[voice(01_K_9)]Ah Ah Ah ! Je vais tuer le seigneur Braise et prendre son trésor !"
+GARDE "[voice(01_K_10)]Comment ? Non ! Vous n'avez pas le droit d'entrer !"
+GARDE "[voice(01_K_11)]Partez, vil bandit ! Ou je vais venir vous faire la peau !"
+*Katsumoto "[voice(01_K_12)]Rien à faire ! Je rentre quand même ! La gloire est enfin à moi !"
+narrator "Katsumoto ouvre la porte de la forteresse et entre à l'intérieur."
+
+hide()
+playMusic(null)
+narrator "GARDE le poursuis depuis le balcon, je les entends se combattre à l'intérieur."
+narrator "Je devrais me dépêcher, qui sait ce qui arrivera si Katsumoto arrive au dragon avant moi."
+narrator "Je me relève et j'entre à mon tour dans la forteresse Braise."
+
+setBackground(Braise_Couloir)
+narrator "Une fois entré, je trouve GARDE au sol. Il à l'air blessé."
+
+changeCharacter(GARDE,true)
+show()
+[MC] "Vous allez bien ? Il vous a blessé ?"
+*GARDE "[voice(01_K_13)]Ah ! J'ai glissé dans les escaliers ! Il m'a échappé !"
+[MC] "Ah.... Je vois...."
+*GARDE "[voice(01_K_14)]C'est la neuvième fois... Je pense que je ne suis pas apte à être garde..."
+[MC] "Je... Je vais arrêter ce samurai pour vous."
+*GARDE "[voice(01_K_15)]Vraiment ? Merci beaucoup ! Mais faîtes très attention !"
+*GARDE "[voice(01_K_16)]Le samurai est puissant, et la forteresse est un labyrinthe."
+*GARDE "[voice(01_K_17)]Prenez garde, ou vous ne trouverez jamais le seigneur Braise."
+[MC] "Je ferais attention. Prenez soin de vous."
+
+hide()
+narrator "Je m'éloigne de GARDE et me dirige vers la salle du trône."
+narrator "Le problème, c'est que je n'ai aucune idée d’où se trouve la salle."
+narrator "La forteresse est un labyrinthe gigantesque, GARDE n'a pas menti."
+narrator "Mais je dois trouver la bonne salle ! Je n'ai pas le choix !"
+narrator "Je commence donc à chercher."
+LoadScene(LFB)

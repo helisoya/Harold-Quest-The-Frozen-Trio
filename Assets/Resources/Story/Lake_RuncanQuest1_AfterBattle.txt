@@ -1,0 +1,27 @@
+changeCharacter(ChevalierRunan)
+changeCharacter(ChevalierRunan)
+show()
+setBackground(Lake)
+
+*Runcan "Lake_RuncanQuest1_23"
+[MC] "Lake_RuncanQuest1_24"
+*Runcan "Lake_RuncanQuest1_25"
+[MC] "Lake_RuncanQuest1_26"
+*Runcan "Lake_RuncanQuest1_27"
+[MC] "Lake_RuncanQuest1_28"
+*Runcan "Lake_RuncanQuest1_29"
+*Runcan "Lake_RuncanQuest1_30"
+
+hide()
+narrator "Lake_RuncanQuest1_31"
+narrator "Lake_RuncanQuest1_32"
+narrator "Lake_RuncanQuest1_33"
+Elf "Lake_RuncanQuest1_34"
+[MC] "Lake_RuncanQuest1_35"
+Elf "Lake_RuncanQuest1_36"
+[MC] "Lake_RuncanQuest1_37"
+Elf "Lake_RuncanQuest1_38"
+Elf "Lake_RuncanQuest1_39"
+Elf "Lake_RuncanQuest1_40"
+variable(RuncanQuest,100)
+Load(Lake_MainQuest_Check)

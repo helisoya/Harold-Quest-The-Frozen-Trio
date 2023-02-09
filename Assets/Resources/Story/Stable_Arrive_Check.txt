@@ -1,0 +1,6 @@
+hide()
+if "RickeyQuest"="1"
+  Load(Stable_RickeyQuest1)
+if "MainQuest"="3"
+  Load(Stable_MainQuest3)
+Load(Stable_Arrive)

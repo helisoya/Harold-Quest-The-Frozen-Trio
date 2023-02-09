@@ -1,0 +1,12 @@
+show()
+changeCharacter(ChevalierRunan)
+show()
+setBackground(Flashback_Runcan)
+Harold "ChezHarold_Harold_Quest1_Runcan_1"
+Harold "ChezHarold_Harold_Quest1_Runcan_2"
+Harold "ChezHarold_Harold_Quest1_Runcan_3"
+setBackground(ChezHarold_Salon)
+changeCharacter(Harold_Cafe)
+show()
+*Harold "ChezHarold_Harold_Quest1_Runcan_4"
+Load(ChezHarold_Harold_Choix1)

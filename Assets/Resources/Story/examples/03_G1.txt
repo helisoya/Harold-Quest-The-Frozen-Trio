@@ -1,0 +1,19 @@
+show()
+changeCharacter(Waldo_Normal)
+setBackground(RickeyLand_Boutique_Interieur)
+
+[MC] "Très bien, je vous prend la poudre blanche."
+narrator "Je paye Waldo quelque dizaines de pièces."
+narrator "Une fois la poudre dans ma poche, Waldo s'exclame." 
+*Waldo "[voice(03_G_5)]Hé ! Vous voila ! Venez, allons dans l'arrière boutique, j'ai de nouvelles choses pour vous."
+
+changeCharacter(ChevalierRunan)
+narrator "Je me retourne pour voir l'homme de tout à l'heure."
+
+hide()
+narrator "Sans dire un mot, il suis Waldo dans l'arrière boutique."
+[MC] "Ce n'est pas mon problème, je devrais y aller maintenant."
+
+setBackground(RickeyLand_Boutique)
+narrator "Je sort de la boutique et continue mon chemin."
+Load(03_H)

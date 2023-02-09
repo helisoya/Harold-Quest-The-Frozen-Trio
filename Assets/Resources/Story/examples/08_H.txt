@@ -1,0 +1,19 @@
+show()
+show()
+changeCharacter(Harold_Kimono)
+setBackground(FVR_Control)
+
+*Harold "[voice(08_H_1)]Impossible ! Je ne peux pas perdre à mon mini jeu !"
+hide()
+
+narrator "Harold tombe au sol, inconscient."
+
+changeCharacter(Cerf)
+show()
+*Cerf "[voice(08_H_2)]....... Je ne m'attendait pas à grand chose....."
+*Cerf "[voice(08_H_3)]Je vais devoir tout faire moi même...."
+*Cerf "[voice(08_H_4)]Alors, tremble, mortel ! Subit ma puissance !"
+*Cerf "[voice(08_H_5)]Je vais corrompre ton âme afin de te réduire à l'esclavage !"
+[MC] "C'est ce qu'on va voir !"
+narrator "Je me prépare au pire."
+LoadScene(CCC)

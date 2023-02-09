@@ -1,0 +1,47 @@
+show()
+show()
+changeCharacter(ChevalierRunan)
+setBackground(Manoir_Trone)
+
+*Chevalier "[voice(05_F_1)]AHHH ! C'est impossible ! Impossible !"
+[MC] "C'est terminé ! Je suis le plus puissant des guerriers !"
+*Chevalier "[voice(05_F_2)]Je.... Qui.... Qui est ton chef ? Qui !"
+[MC] "Mon chef.... se prénomme Harold....."
+*Chevalier "[voice(05_F_3)]Grrr ! C'est pour cela que tu es si fort !"
+*Chevalier "[voice(05_F_4)]Il t'as enseigné toute ses techniques secrètes !"
+[MC] "Que voulez-vous dire ?"
+*Chevalier "[voice(05_F_5)]J'ai déjà combattu Harold à de nombreuses reprises."
+*Chevalier "[voice(05_F_6)]C'est mon ennemi juré ! Un traître et un forban !"
+*Chevalier "[voice(05_F_7)]Il a déjoué plusieurs de mes plans dans le passé."
+*Chevalier "[voice(05_F_8)].....Laisse moi vivre, petit...."
+[MC] "Quoi ? Je suis venu vous tuer !"
+*Chevalier "[voice(05_F_9)]Non..... Il n'a aucune raison de s'en prendre à moi maintenant."
+*Chevalier "[voice(05_F_10)]J'ai pris ma retraite depuis longtemps.... Trop dur..."
+*Chevalier "[voice(05_F_11)]Alors, laisse moi profiter de ma retraite en paix."
+*Chevalier "[voice(05_F_12)]Harold ne va rien t’amener de bon. Tu devrais partir loin de lui."
+[MC] "................................"
+
+hide()
+narrator "Je me retourne et laisse le Chevalier."
+narrator "Ensuite, je retourne à la forteresse noire."
+
+setBackground(ForteresseNoire_Salle)
+narrator "Après être revenu de ma péripétie, je monte dans le bureau d'Harold."
+
+changeCharacter(Harold_Cafe)
+show()
+*Harold "[voice(05_F_13)][MC] ! Vous êtes de retour ! Alors ?"
+[MC] "Je.... Le Chevalier m'a échappé...."
+*Harold "[voice(05_F_14)]Vraiment ? ..... Nous l'aurons plus tard."
+*Harold "[voice(05_F_15)]Mais vous allez être content ! J'ai une autre mission pour vous !"
+*Harold "[voice(05_F_16)]Un terroriste s’apprête à nous attaquer !"
+*Harold "[voice(05_F_17)]Vous devez l'arrêter ! Vous êtes notre seul espoir !"
+[MC] "........................"
+[MC] "Parfait..... Enfin une mission digne de ce nom.............."
+
+setBackground(null)
+hide()
+
+narrator "FIN"
+FinishChapter(5)
+MainMenu()

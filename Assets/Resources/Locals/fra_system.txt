@@ -1,0 +1,89 @@
+# ------------------------------------------------------------------------
+# -------------------- Title Screen & Settings ---------------------------
+# ------------------------------------------------------------------------
+
+
+title_preMenu = Cliquez pour jouer
+title_newGame = Nouvelle partie
+title_continue = Continuer
+title_quit = Quitter
+title_settings = Paramètres
+settings_audio = Audio
+settings_bgm = BGM
+settings_sfx = SFX
+settings_voice = Voix
+settings_screen = Ecran
+settings_fullscreen = Plein Ecran
+title_enterText = Entrez votre nom...
+title_finishText = Continuer
+title_descName = Entrez votre nom
+end_thanks = Merci d'avoir joué !
+
+# ------------------------------------------------------------------------
+# ----------------------- Minigames --------------------------------------
+# ------------------------------------------------------------------------
+
+rules_name = Règles :
+rules_continue = Cliquez pour continuer
+rules_BAT = Survivre 30 secondes. Cliquez sur les projectiles de Todd avant qu'ils ne sortent de l'écran. 
+rules_BAR_1 = Survivre 60 secondes. Utilisez les flèches gauche & droite pour esquiver les tirs de Rickey.
+rules_BAC = Survivre 30 secondes. Appuyez sur espace pour remplir la bar verte. Ne la laissez pas se vider.
+
+game_life = HP : 
+
+
+# ------------------------------------------------------------------------
+# ----------------------------- Map --------------------------------------
+# ------------------------------------------------------------------------
+
+ChezHarold = Maison d'Harold
+Entree = Entrée
+Lake = Lac
+ToyFactory = Fabrique de jouets
+Kitchen = Cuisine
+Library = Librairie
+SantaHouse = Chalet du père noel
+Stable = Ecurie
+Beach = Plage gelée
+Cave = Caverne
+
+
+# ------------------------------------------------------------------------
+# -------------------------- Quests --------------------------------------
+# ------------------------------------------------------------------------
+
+MainQuest = Sauver noel
+MainQuest_0 = Aller à l'entrée de l'atelier du père noel
+MainQuest_1 = Arrêter Rickey, Runcan et Boyardee
+MainQuest_2 = Aller voir le père noel
+MainQuest_3 = Parler à M.PasContent
+MainQuest_4 = Confronter M.PasContent à la plage gelée
+MainQuest_5 = Retourner voir le père noel
+
+
+RickeyQuest = Un panzer pour noel
+RickeyQuest_0 = Aller au chalet du père noel
+RickeyQuest_1 = Trouver Rudolphe a l'écurie
+RickeyQuest_2 = Trouver Rudolphe dans les cavernes
+RickeyQuest_3 = Aller voir Rudolphe a l'écurie
+
+
+BoyardeeQuest = Chef de noel
+BoyardeeQuest_0 = Aller à la cuisine de l'atelier
+BoyardeeQuest_1 = Trouver des recettes dans la librairie
+BoyardeeQuest_2 = Retourner vori Boyardee
+
+
+RuncanQuest = Le chevalier de noel
+RuncanQuest_0 = Aller à la fabrique de jouets
+RuncanQuest_1 = Confronter Runcan au lac
+
+
+WaldoQuest = L'homme gelé
+WaldoQuest_0 = Trouver des outils dans la fabrique de jouet
+WaldoQuest_1 = Sortir Waldo de la glace au lac
+
+
+RudolphQuest = Protection animale
+RudolphQuest_0 = Sauver tout les rennes des cavernes
+RudolphQuest_1 = Aller voir Rudolphe a l'écurie

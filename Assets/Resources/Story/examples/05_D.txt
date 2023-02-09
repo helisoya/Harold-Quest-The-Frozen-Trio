@@ -1,0 +1,36 @@
+hide()
+setBackground(Runan_Lac)
+
+narrator "Un dragon sort du lac et commence à rugir de manière ridicule."
+
+changeCharacter(Dragon)
+show()
+*Dragon "[voice(05_D_1)]Grr !!!! Non ! J'allais enfin ne pas payer mon loyer !"
+[MC] "Payez votre loyer ! Je n'a pas que ça à faire de ma journée !"
+*Dragon "[voice(05_D_2)]Grr !!! D'accord...."
+
+hide()
+narrator "Le dragon jette sur la rive un sac de pièce et retourne dans le lac."
+
+changeCharacter(Natasha,true)
+show()
+*Natasha "[voice(05_D_3)]Merci beaucoup ! Vous m'avez sauvé !"
+[MC] "Ce n'était rien.... Bon, je dois y aller maintenant..."
+
+hide()
+narrator "Après avoir dis au revoir à Natasha, je part vers le manoir."
+
+setBackground(Manoir_Exterieur)
+narrator "Après quelques minutes de marche, je suis enfin arrivé au manoir."
+narrator "Le manoir est somptueux, une vraie demeure de monstre kidnappeur de femmes."
+narrator "Le Chevalier dois se trouver à l'intérieur. Je dois entrer."
+narrator "Je m'approche de la porte d'entrée."
+
+changeCharacter(Robot)
+show()
+narrator "Mais des robots tombent du toit et atterrissent à coté de moi."
+*Robot "[voice(05_D_4)]ALT ! VOUS DEVEZ REPONDRE AU QUESTIONS AVANT D?ENTRER DANS LE MANOIR !"
+*Robot "[voice(05_D_5)]TOUTE TENTATIVE DE FUITE SERA SANCTIONNEE DE : MORT !"
+[MC] "Très bien, posez vos questions."
+narrator "Je prépare mes plus belle réponses..."
+LoadScene(QR)

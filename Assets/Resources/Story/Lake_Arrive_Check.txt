@@ -1,0 +1,6 @@
+hide()
+if "RuncanQuest"="1"
+  Load(Lake_RuncanQuest1)
+if "WaldoQuest"="100"
+  Load(Lake_Arrive_Waldo)
+Load(Lake_Arrive)

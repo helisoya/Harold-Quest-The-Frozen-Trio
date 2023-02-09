@@ -1,0 +1,22 @@
+show()
+changeCharacter(Harold_Cafe)
+setBackground(ChezHarold_Chambre)
+
+*Harold "[voice(01_B_24)]Merci de m'aider, [MC] ! Je savais que je pouvais vous faire confiance !"
+[MC] "J'ai la vague impression que mon choix n'était pas important..."
+*Harold "[voice(01_B_25)]Mais non ! Vous avez eu un choix, non ?"
+*Harold "[voice(01_B_26)]Bon ! Je dois retourner à mes occupations."
+*Harold "[voice(01_B_27)]Si vous me cherchez, je suis dans la cave."
+*Harold "[voice(01_B_28)]Je suis en train... de réparer une porte !"
+*Harold "[voice(01_B_29)]Allez ! Bonne chance !"
+
+hide()
+narrator "Harold sort de la pièce, me laissant seul."
+[MC] "Bien... Qu-"
+
+show()
+*Harold "[voice(01_B_30)][MC] ! J'ai oublié quelque chose d'important !"
+*Harold "[voice(01_B_31)]Je dois vous apprendre les bases du combat en ce monde !"
+*Harold "[voice(01_B_32)]Allez ! Préparez-vous ! Dansons !"
+narrator "Harold commence à danser..."
+LoadScene(JDHV1)

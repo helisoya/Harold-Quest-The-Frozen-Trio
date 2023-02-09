@@ -1,0 +1,14 @@
+hide()
+hide()
+setBackground(Cave2)
+playMusic(Exploration_1)
+narrator "Cave_Arrive"
+
+
+choice "Choice_Generic"
+{
+  "Choice_CheckArea"
+    Load(Cave2_CheckArea)
+  "Choice_Map"
+    Map(Cave2)
+}

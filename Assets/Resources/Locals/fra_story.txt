@@ -1,0 +1,673 @@
+# -----------------------------------------------------------
+# --------------- Characters --------------------------------
+# -----------------------------------------------------------
+
+
+Char_Harold = Harold
+Char_Rickey = Rickey
+Char_Boyardee = Boyardee
+Char_Runcan = Runcan
+Char_Elf = Lutin
+Char_Waldo = Waldo
+Char_Samara = Samara
+Char_Santa = Père Noel
+Char_PasContent = M.PasContent
+Char_Todd = Todd Howard
+Char_Renne = Renne
+Char_Rudolphe = Rudolphe
+
+
+# -----------------------------------------------------------
+# --------------- Choices -----------------------------------
+# -----------------------------------------------------------
+
+Choice_Generic = Que faire ?
+Choice_Chat = De quoi parler ?
+Choice_Map = Carte
+Choice_Harold = Parler à Harold
+Choice_Waldo = Parler à Waldo
+Choice_CheckArea = Vérifier les alentours
+Choice_Chat_Nothing = Rien (Partir)
+Choice_Chat_Harold_Quest0 = Ou se trouve l'atelier ?
+Choice_Chat_Harold_Quest1_Rickey = Parlez-moi de Rickey
+Choice_Chat_Harold_Quest1_Runcan = Parlez-moi de Runcan
+Choice_Chat_Harold_Quest1_Boyardee = Parlez-moi de Boyardee
+Choice_Chat_Waldo_Topic1 = Parlez-moi de vous
+Choice_Chat_Waldo_Topic2 = Que faites-vous ici ?
+Choice_BoyardeeQuest_Italy = Recettes italiennes
+Choice_BoyardeeQuest_Christmas = Recettes de noel
+Choice_BoyardeeQuest_Secret = Recettes secrètes
+Choice_EnterSantaHouse = Entrer à l'intérieur
+Choice_Chat_Samara_Topic1 = Parlez-moi de vous
+Choice_Chat_Samara_Topic2 = Parlez-moi de Rudolphe
+Choice_Chat_Santa_Topic1 = Parlez-moi de vous
+Choice_Chat_Santa_Topic2 = Parlez-moi de l'attaque
+
+# -----------------------------------------------------------
+# --------------- General -----------------------------------
+# -----------------------------------------------------------
+
+MainQuestsDone_0 = J'ai arrêté tout les criminels. Je devrais retourner voir le père noel.
+MainQuestsNotDone_0 = J'ai encore des criminels a arrêter. Je devrais me dépecher.
+
+
+
+
+# ---------------------------------------------------------
+# ------------------- Intro -------------------------------
+# ---------------------------------------------------------
+
+
+Intro_A_1 = ...................
+Intro_A_2 = Ou... Ou suis-je ?
+Intro_A_3 = J'ai mal a la tête. Ce n'est pas plaisant.
+Intro_A_4 = En plus de cela, je ne sais pas ou je suis.
+Intro_A_5 = Je me souviens avoir fait une sieste a mon bureau. Mais maintenant je suis dans un chalet. 
+Intro_A_6 = Quelqu'un m'a kidnappé ?
+Intro_A_7 = Ca ne fait pas de sens. Pourquoi moi ?
+Intro_A_8 = Je ne suis rien de spécial, il n'y a aucune raison de commettre un tel acte.
+Intro_A_9 = Il doit y avoir une autre raison bien plus logique que celle là.
+Intro_A_10 = Héro ? Etes-vous ici ?
+Intro_A_11 = La porte s'ouvre et un homme entre dans la pièce.
+Intro_A_12 = Ah, vous voila ! Je commençais à penser que j'avais raté mon rituel.
+Intro_A_13 = Quoi ? Attendez... Qui êtes-vous ?
+Intro_A_14 = Ah oui, j'ai oublié de me présenter. Je suis Harold, un humble retraité.
+Intro_A_15 = Je suis aussi magicien dans mon temps libre.
+Intro_A_16 = Serieux ? C'est à peine croyable.
+Intro_A_17 = Je suis responsable de votre invocation dans ce monde.
+Intro_A_18 = Mon invocation ?
+Intro_A_19 = Oui ! Je me spécialise dans l'incantation de héros en tout genre.
+Intro_A_20 = Je vous ai invoqué aujourd'hui car j'ai besoin de votre aide, Héro !
+Intro_A_21 = Un héro, moi ? C'est une blague !
+Intro_A_22 = Je ne suis pas un héro, je suis une personne normale !
+Intro_A_23 = Tout les héros ont un jour été une personne normale, non ?
+Intro_A_24 = Je suis sur que vous allez gérer mon problème avec brio, [MC] !
+Intro_A_25 = Comment connait-il mon nom ? Il dit la vérité ?
+Intro_A_26 = Très bien. Quel est ce... problème, dont vous parlez ? 
+Intro_A_27 = Rien de bien dangereux, j'ai juste besoin de vous pour une petite tache de rien du tout.
+Intro_A_28 = Je vit juste a coté de l'atelier du père noel. Il a besoin d'aide.
+Intro_A_29 = Je soupsonne qu'une bande de criminels vont venir s'en prendre a lui.
+Intro_A_30 = Quoi ? 
+Intro_A_31 = Donc si je comprend bien, je dois aller protéger le père noel ?
+Intro_A_32 = Oui ! C'est bien ça !
+Intro_A_33 = Je l'aurais bien fait, mais j'ai mal au dos aujourd'hui.
+Intro_A_34 = Alors ? Vous allez m'aider, non ?
+Intro_A_35 = Pourquoi j'ai l'impression qu'il va ignorer ma réponse ?
+Intro_A_36 = Je pe-
+Intro_A_37 = Merci, [MC] ! Je savais que je pouvais compter sur vous !
+Intro_A_38 = Evidemment...
+Intro_A_39 = L'atelier du père noel est juste au Nord, vous ne pouvez pas le manquer !
+Intro_A_40 = Bonne chance ! N'hésitez pas à venir me voir pour obtenir des renseignements.
+Intro_A_41 = Très bien, je vais y aller de ce pas.
+Intro_A_42 = Je sort de chez Harold et arrive à l'exterieur.
+
+
+# --------------------------------------------------------------
+# ------------------ Chez Harold -------------------------------
+# --------------------------------------------------------------
+
+ChezHarold_Exterieur = Je suis devant la maison d'Harold.
+ChezHarold_Harold = Avez-vous besoin de quelque chose, [MC] ?
+
+ChezHarold_Harold_Quest0_1 = L'atelier du père noel est juste au Nord de mon chalet.
+ChezHarold_Harold_Quest0_2 = Vous ne pouvez pas le rater !
+
+ChezHarold_Harold_Quest1_Rickey_1 = Rickey est le PDG de Rickeyland, un parc d'attraction de la province de Vlatyr.
+ChezHarold_Harold_Quest1_Rickey_2 = Il y mène une politique d'amassage d'argent monstre.
+ChezHarold_Harold_Quest1_Rickey_3 = Il est aussi fou de tanks. Cela fait de lui un adversaire redoutable.
+ChezHarold_Harold_Quest1_Rickey_4 = Si Rickey va s'en prend au père noel, nous devons l'arrêter !
+
+ChezHarold_Harold_Quest1_Runcan_1 = Le Chevalier de Runan, de son vrai nom Runcan de Runan est un chevalier autoproclamé de la province de Runan.
+ChezHarold_Harold_Quest1_Runcan_2 = Il est en vérité un vil forban qui kidnappe des femmes pour créer le plus grand harem.
+ChezHarold_Harold_Quest1_Runcan_3 = Je lui ai déjà fait face dans le passé, il est assez fort.
+ChezHarold_Harold_Quest1_Runcan_4 = Si il s'attaque aux lutins, dieu sait ce qu'il leur fera...
+
+
+ChezHarold_Harold_Quest1_Boyardee_1 = Boyardee est le propriétaire d'un restaurant à Vlatyr. 
+ChezHarold_Harold_Quest1_Boyardee_2 = Je ne comprend pas cependant pourquoi il est ici.
+ChezHarold_Harold_Quest1_Boyardee_3 = Il n'est pas vraiment un criminel. Pourquoi fait-il équipe avec Rickey et le Chevalier de Runan ?
+ChezHarold_Harold_Quest1_Boyardee_4 = J'ai un mauvais préssentiment. Faites attention avec lui.
+
+# --------------------------------------------------------------
+# ----------------------- Entrée -------------------------------
+# --------------------------------------------------------------
+
+
+Entree_Normal = Je suis a l'entrée de l'atelier du père noel.
+
+Entree_CheckArea_1 = Je vois des batiments au loin. Mais je n'arrive pas à determiner leur utilité.
+Entree_CheckArea_2 = Je devrai me rapprocher pour mieux voir.
+
+Entree_MainQuest0_1 = J'arrive vers l'atelier du père noel.
+Entree_MainQuest0_2 = Je peux déjà voir des batiments au loin.
+Entree_MainQuest0_3 = Tout de même, tout cela me parait impossible.
+Entree_MainQuest0_4 = Qui serait assez fou pour s'en prendre au père noel ?
+Entree_MainQuest0_5 = Soudain, j'entend du bruit. Je ne suis pas seul.
+Entree_MainQuest0_6 = Je me cache derrière un buisson pour épier ce qu'il va se passer.
+Entree_MainQuest0_7 = C'est peut être les fameux criminels dont parlait Harold.
+Entree_MainQuest0_8 = Etrangement, j'entend le bruit d'un... char ?
+Entree_MainQuest0_9 = Un char passe près de moi, il y a 3 personnes dedans.
+Entree_MainQuest0_10 = Ah Ah ! L'atelier du père noel, enfin !
+Entree_MainQuest0_11 = Ah ! Je vais enfin pouvoir me venger de ce vil gredin !
+Entree_MainQuest0_12 = Oui ! Il saura bientôt qu'il ne faut pas croiser notre chemin !
+Entree_MainQuest0_13 = Ah Ah ! Vous connaissez le plan, je présume ?
+Entree_MainQuest0_14 = ... quel plan ?
+Entree_MainQuest0_15 = Bon sang ! Vous aviez UNE chose a faire et vous réussissez à ne pas la faire ?
+Entree_MainQuest0_16 = C'est pas de ma faute, je dormais.
+Entree_MainQuest0_17 = ... Très bien, je vais répeter le plan.
+Entree_MainQuest0_18 = Boyardee va s'occuper des cuisines, je sais pourquoi mais bon c'est pas grave.
+Entree_MainQuest0_19 = Ils ont de la sauce tomate de qualité !
+Entree_MainQuest0_20 = Oui oui... Vous, Runcan de Runan, vous allez vous occuper des lutins du bardu dans la fabrique de jouets.
+Entree_MainQuest0_21 = C'est le Chevalier de Runan pour vous !
+Entree_MainQuest0_22 = Peu importe ! Quand à moi, Rickey, PDG de Rickeyland, je vais m'occuper du père noel.  
+Entree_MainQuest0_23 = Pourquoi c'est vous qui avez les taches les plus amusantes ?
+Entree_MainQuest0_24 = Parce que c'est moi le PDG !
+Entree_MainQuest0_25 = Faites moins de bruit ! On arrive.
+Entree_MainQuest0_26 = ... Oui, calmons-nous. C'est une journée spéciale après tout !
+Entree_MainQuest0_27 = Très bien... En avant !
+Entree_MainQuest0_28 = ....
+Entree_MainQuest0_29 = Tout va mal, Harold avait raison.
+Entree_MainQuest0_30 = Je sort de mon buisson et regarde les criminels se diriger vers l'atelier.
+Entree_MainQuest0_31 = Le temps que j'arrive, ils auront déja attaqué le père noel !
+Entree_MainQuest0_32 = Je n'ai pas de temps à perdre, je dois déjouer tout leurs plans !
+Entree_MainQuest0_33 = Mais je dois d'abord déterminer qui attaquer en premier...
+Entree_MainQuest0_34 = Harold pourra peut être m'aider.
+
+
+
+
+# --------------------------------------------------------------
+# ---------------------- Atelier -------------------------------
+# --------------------------------------------------------------
+
+ToyFactory_Arrive = Je suis a la fabrique de jouets.
+
+ToyFactory_CheckArea_0 = J'inspecte la fabrique de jouets.
+ToyFactory_CheckArea_1 = Il n'y a rien d'interessant ici.
+ToyFactory_CheckArea_Quest = Il y a des outils ici, je peux maintenant sauver Waldo au lac.
+
+
+ToyFactory_RuncanQuest0_1 = J'entre dans la fabrique de jouets.
+ToyFactory_RuncanQuest0_2 = L'endroit est assez grand, normal pour une fabrique de jouets.
+ToyFactory_RuncanQuest0_3 = Selon Rickey, le Chevalier de Runan devait attaquer les lutins ici.
+ToyFactory_RuncanQuest0_4 = Mais... quelque chose ne va pas.
+ToyFactory_RuncanQuest0_5 = Ou sont les lutins ? L'endroit est désert...
+ToyFactory_RuncanQuest0_6 = Le chevalier n'est pas la non plus... J'arrive trop tard ?
+ToyFactory_RuncanQuest0_7 = En examinant plus en détails l'endroit, je remarque une lettre.
+ToyFactory_RuncanQuest0_8 = Elle a été probablement laissée par le Chevalier de Runan.
+ToyFactory_RuncanQuest0_9 = Je la prend et commence à la lire.
+ToyFactory_RuncanQuest0_10 = "Cher père noel"
+ToyFactory_RuncanQuest0_11 = "J'ai kidnappé vos lutins car nous avons un léger différent."
+ToyFactory_RuncanQuest0_12 = "Vous m'avez mis sur la liste des enfants polissons depuis quelques années et j'attend toujours mon cadeau de noel."
+ToyFactory_RuncanQuest0_13 = "Si vous voulez retrouver vos lutins, je vous recommande de me mettre sur la bonne liste et de me donner mon cadeau."
+ToyFactory_RuncanQuest0_14 = "Je vous attend au lac givré avec vos lutins."
+ToyFactory_RuncanQuest0_15 = "Signé, Chevalier de Runan"
+ToyFactory_RuncanQuest0_16 = ...
+ToyFactory_RuncanQuest0_17 = Le Chevalier a kidnappé les lutins ! Je dois intervenir !
+ToyFactory_RuncanQuest0_18 = Il a dit qu'il attendait au lac, il me semble qu'il y en a un proche de l'atelier.
+ToyFactory_RuncanQuest0_19 = Je dois me dépecher, qui sait ce qu'il va faire aux lutins si je ne dépèche pas.
+
+
+
+# --------------------------------------------------------------
+# -------------------------- Lac -------------------------------
+# --------------------------------------------------------------
+
+
+Lake_Arrive = Je suis au lac givré.
+
+Lake_CheckArea_WaldoQuestReceive_0 = Je regarde le lac, il est... givré.
+Lake_CheckArea_WaldoQuestReceive_1 = ... Il y a quelqu'un sur la glace. Il n'a pas l'air de bouger.
+Lake_CheckArea_WaldoQuestReceive_2 = Je m'approche de lui. Il est coincé dans un bloc de glace.
+Lake_CheckArea_WaldoQuestReceive_3 = Hé ! Vous la bas ! Venez m'aider !
+Lake_CheckArea_WaldoQuestReceive_4 = Je suis coincé dans la glace, vous devez me sortir de la.
+Lake_CheckArea_WaldoQuestReceive_5 = Comment avez-vous fait pour finir ici ?
+Lake_CheckArea_WaldoQuestReceive_6 = C'est une longue histoire... Sortez-moi de là et je vous dit tout.
+Lake_CheckArea_WaldoQuestReceive_7 = Très bien. Je vais chercher des outils pour vous aider.
+Lake_CheckArea_WaldoQuestReceive_8 = L'atelier du père noel est proche d'ici, non ? Vous devriez y trouver des outils.
+Lake_CheckArea_WaldoQuestReceive_9 = Alors ne perdez pas de temps ! Je commence à avoir très froid.
+Lake_CheckArea_WaldoQuestReceive_10 = Je reviens bientôt. Quel est votre nom d'ailleurs ?
+Lake_CheckArea_WaldoQuestReceive_11 = Waldo, mon nom est Waldo.
+Lake_CheckArea_WaldoQuestReceive_12 = D'accord. Tenez bon, Waldo.
+Lake_CheckArea_WaldoQuestReceive_13 = Je m'éloigne de Waldo.
+
+
+Lake_CheckArea_WaldoQuest0_0 = Waldo est toujours coincé dans la glace.
+Lake_CheckArea_WaldoQuest0_1 = Je n'ai pas encore d'outils pour le sortir de là.
+Lake_CheckArea_WaldoQuest0_2 = Je devrais en chercher à l'atelier du père noel.
+
+
+Lake_CheckArea_WaldoQuest1_0 = Waldo n'a pas bougé depuis ma dernière visite.
+Lake_CheckArea_WaldoQuest1_1 = J'ai des outils maintenant, je peux le sortir de là.
+Lake_CheckArea_WaldoQuest1_2 = Je m'approche de lui et me met au travail.
+Lake_CheckArea_WaldoQuest1_3 = ....
+Lake_CheckArea_WaldoQuest1_4 = J'arrive à le sortir de la glace.
+Lake_CheckArea_WaldoQuest1_5 = Merci ! Je suis libre maintenant !
+Lake_CheckArea_WaldoQuest1_6 = Je vous remercie infiniment. Comme promis, vous pouvez me demander tout ce que vous voulez.
+
+
+Lake_Waldo = Que voulez-vous savoir, mon ami ?
+
+Lake_Waldo_Topic1_0 = Je suis Waldo, l'unique employé du parc d'attraction Rickeyland.
+Lake_Waldo_Topic1_1 = Pour cette raison, je suis l'une des personnes les plus importantes du parc.
+Lake_Waldo_Topic1_2 = Pourquoi il n'y a qu'un employé ? Cela me semble... étrange.
+Lake_Waldo_Topic1_3 = Le PDG préfère payer des gardes pour assurer la sécurité. On en a 1 500 en tout.
+Lake_Waldo_Topic1_4 = C'est pour cela que Rickeyland est le parc le plus sur du continent !
+
+Lake_Waldo_Topic2_0 = Moi ? Eh bien c'est une histoire assez ridicule.
+Lake_Waldo_Topic2_1 = Ce matin, le PDG m'a dit qu'il avait besoin de moi en urgence.
+Lake_Waldo_Topic2_2 = Il m'a dit qu'il avait besoin que je m'infiltre dans complexe terroriste.
+Lake_Waldo_Topic2_3 = J'ai accepté parce que je n'avais rien de mieux à faire mais j'ai vite compris ce qu'il se passait.
+Lake_Waldo_Topic2_4 = J'ai été parachuté au dessus de l'atelier du père noel et j'ai fini ici.
+Lake_Waldo_Topic2_5 = La glace s'est brisée avec l'impact et j'ai fini congelé.
+Lake_Waldo_Topic2_6 = Merci encore de m'avoir sauvé.
+
+Lake_RuncanQuest1_0 = J'arrive au lac givré.
+Lake_RuncanQuest1_1 = Selon la lettre du Chevalier, les lutins devraient être ici.
+Lake_RuncanQuest1_2 = Je remarque un homme au loin, sur la glace.
+Lake_RuncanQuest1_3 = Il m'a vu aussi, il se dirige vers moi en courant.
+Lake_RuncanQuest1_4 = .... Pas sans tomber à cause de la glace.
+Lake_RuncanQuest1_5 = Il arrive cependant près de moi, couvert de sueur.
+Lake_RuncanQuest1_6 = Père noel ! Je vous attendais !
+Lake_RuncanQuest1_7 = Ou est mon... attendez un instant...
+Lake_RuncanQuest1_8 = Pas de barbe, pas d'habit rouge...
+Lake_RuncanQuest1_9 = Vous n'êtes pas le père noel !
+Lake_RuncanQuest1_10 = Non, vous savez que votre ami au tank l'a attaqué ?
+Lake_RuncanQuest1_11 = Quoi ? Grr... Je savais que j'aurais du écouter le plan...
+Lake_RuncanQuest1_12 = Mais alors, vous n'avez pas mon cadeau de noel, si ?
+Lake_RuncanQuest1_13 = Si c'est le cas, alors je vais devoir tuer les lutins !
+Lake_RuncanQuest1_14 = Attendez ! On peux négocier. Quel est votre cadeau de noel ? Je peux arranger cela.
+Lake_RuncanQuest1_15 = Je veux un harem de noel déjà rempli ! Cela fait des années que je l'attend !
+Lake_RuncanQuest1_16 = ....Au final je pense que le combat est la seule option.
+Lake_RuncanQuest1_17 = Je... non. Vous ne pouvez pas demander ça pour noel.
+Lake_RuncanQuest1_18 = Ce n'est même pas un objet que vous demandez !
+Lake_RuncanQuest1_19 = Si ! Je veux le batiment qui contient le harem en plus ! Avec les thermes inclus !
+Lake_RuncanQuest1_20 = Si vous ne voulez pas me le donner, je vais devoir vous tuer !
+Lake_RuncanQuest1_21 = En garde ! Vous allez voir pourquoi je suis le meilleur Chevalier de Runan !
+Lake_RuncanQuest1_22 = Le Chevalier m'attaque, je me prépare au combat.
+
+Lake_RuncanQuest1_23 = Impossible ! Je ne peux pas perdre !
+Lake_RuncanQuest1_24 = C'est tout ce que vous méritez pour vos actes.
+Lake_RuncanQuest1_25 = Non ! Je refuse d'y croire !
+Lake_RuncanQuest1_26 = Vous pensiez serieusement que kidnapper les lutins allait résoudre le problème ?
+Lake_RuncanQuest1_27 = Et bien... oui.
+Lake_RuncanQuest1_28 = Mais ce sont les lutins qui font les jouets ! Vous vous mettez des battons dans les roues.
+Lake_RuncanQuest1_29 = Je... mince ! Je savais que j'avais une faille dans mon plan.
+Lake_RuncanQuest1_30 = Ce n'est pas la dernière fois que vous entenderez parler de moi !
+Lake_RuncanQuest1_31 = Le Chevalier s'enfuis par le lac.
+Lake_RuncanQuest1_32 = ....Il tombe bien sur avant de pouvoir aller bien loin.
+Lake_RuncanQuest1_33 = Les lutins s'approchent de moi, ils n'avaient pas été attachés par le Chevalier.
+Lake_RuncanQuest1_34 = Merci ! Vous nous avez sauvé !
+Lake_RuncanQuest1_35 = J'espère qu'il ne vous a pas fait du mal.
+Lake_RuncanQuest1_36 = Non, mais il nous avait dit qu'on allait finir dans un harem.
+Lake_RuncanQuest1_37 = ... Je vois. Et bien maintenant c'est fini, il ne vous fera plus de mal.
+Lake_RuncanQuest1_38 = Oui ! Mais je pense que vous avez encore des choses a faire. L'atelier de noel a besoin de vous.
+Lake_RuncanQuest1_39 = Nous allons rentrer à l'atelier de nous même, ne vous inquiétez pas.
+Lake_RuncanQuest1_40 = Bonne chance !
+Lake_RuncanQuest1_41 = Les lutins s'en vont et me laissent seul sur le lac.
+
+
+
+
+
+# --------------------------------------------------------------
+# ---------------------- Cuisine -------------------------------
+# --------------------------------------------------------------
+
+Kitchen_Arrive = Je suis dans les cuisines de l'atelier.
+
+Kitchen_CheckArea_0 = Il y a des restes de nourriture dans la cuisine.
+Kitchen_CheckArea_1 = Je ne sais pas si Boyardee est responsable de cela cependant.
+
+Kitchen_BoyardeeQuest0_0 = J'entre dans la cuisine de l'atelier.
+Kitchen_BoyardeeQuest0_1 = Ici sont crée différents plats pour nourrir les lutins et le père noel.
+Kitchen_BoyardeeQuest0_2 = Selon le plan des criminels, Boyardee devrait être ici.
+Kitchen_BoyardeeQuest0_3 = Que faites-vous ici ? Cet endroit est hors limite !
+Kitchen_BoyardeeQuest0_4 = Je me fait interpellé par un homme. C'est Boyardee !
+Kitchen_BoyardeeQuest0_5 = Je... je suis ici pour vous empecher de...
+Kitchen_BoyardeeQuest0_6 = Euh... Que faites-vous au juste ?
+Kitchen_BoyardeeQuest0_7 = Boyardee n'a pas l'air de faire grand chose, c'est étrange.
+Kitchen_BoyardeeQuest0_8 = Moi ? Je regarde, j'apprend. J'absorbe le savoir de cet endroit.
+Kitchen_BoyardeeQuest0_9 = ... Vous n'êtes pas là pour détruire l'endroit ?
+Kitchen_BoyardeeQuest0_10 = Non ! Je ne vais détruire un endroit qui peux m'apprendre tant.
+Kitchen_BoyardeeQuest0_11 = Je suis ici uniquement pour voler le savoir du père noel.
+Kitchen_BoyardeeQuest0_12 = Vous voyez, il ne m'a pas offert mon cadeau de noel l'année dernière.
+Kitchen_BoyardeeQuest0_13 = J'avais demandé un livre de cuisine pour devenir le meilleur chef du monde mais il a refusé.
+Kitchen_BoyardeeQuest0_14 = Donc vous avez décidé de venir vous venger en volant ses recettes ?
+Kitchen_BoyardeeQuest0_15 = Oui. Dites-moi... vous voulez m'aider ?
+Kitchen_BoyardeeQuest0_16 = Quoi ? Pourquoi je vous aiderais ?
+Kitchen_BoyardeeQuest0_17 = Je n'ai rien fait de mal. Je cherche juste des recettes, des idées.
+Kitchen_BoyardeeQuest0_18 = Mais je ne trouve rien d'interessant ici.
+Kitchen_BoyardeeQuest0_19 = Alors j'ai un marché pour vous : vous m'aider à trouver des idées de recettes et je quitte cet endroit.
+Kitchen_BoyardeeQuest0_20 = .... C'est plus simple que prévu.
+Kitchen_BoyardeeQuest0_21 = Très bien. Je vais chercher des recettes pour vous aider.
+Kitchen_BoyardeeQuest0_22 = Merci ! Revenez me voir quand vous aurez des recettes.
+Kitchen_BoyardeeQuest0_23 = Boyardee retourne fouiller dans les étagères de la cuisine.
+Kitchen_BoyardeeQuest0_24 = Je dois trouver des recettes, ou sinon il ne partira jamais de cet endroit.
+
+Kitchen_BoyardeeQuest1_0 = Je n'ai pas encore trouvé de recette. Je devrais en trouver avant de parler à Boyardee.
+
+
+Kitchen_BoyardeeQuest2_0 = Boyardee est toujours en train de chercher dans la cuisine.
+Kitchen_BoyardeeQuest2_1 = J'ai trouvé des recettes pour lui, il devrait enfin être content.
+Kitchen_BoyardeeQuest2_2 = Vous êtes de retour ? Vous avez eu plus de chance que moi ?
+Kitchen_BoyardeeQuest2_3 = Oui. J'ai trouvé des recettes pour vous.
+Kitchen_BoyardeeQuest2_4 = Laissez-moi regarder...
+Kitchen_BoyardeeQuest2_5 = Mmhhh.... Vraiment ? .........
+Kitchen_BoyardeeQuest2_6 = Incroyable ! C'est exactement ce qu'il me faut !
+Kitchen_BoyardeeQuest2_7 = Ces recettes sont incroyable ! Je dois les essayer tout de suite.
+Kitchen_BoyardeeQuest2_8 = Mais je vais d'abbord faire ma partie de notre accord.
+Kitchen_BoyardeeQuest2_9 = Je vais rentrer chez moi, vous ne me verez plus ici.
+Kitchen_BoyardeeQuest2_10 = Avec ces recettes, j'ai tout ce qu'il me faut. Je n'ai plus aucune raison de rester ici.
+Kitchen_BoyardeeQuest2_11 = Alors, au revoir !
+Kitchen_BoyardeeQuest2_12 = Boyardee s'en va en courant. Il a l'air pressé de tester ses recettes.
+Kitchen_BoyardeeQuest2_13 = .... Au moins il n'a pas causé de problèmes.
+Kitchen_BoyardeeQuest2_14 = Au rythme ou je vais, l'atelier se portera mieux bientôt.
+
+
+
+# --------------------------------------------------------------
+# -------------------- Librairie -------------------------------
+# --------------------------------------------------------------
+
+Library_Arrive = Je suis dans la librairie du père noel.
+
+Library_CheckArea_0 = Il y a beacoup de livres ici, la plupart sont des livres sur la confection de jouets.
+
+Library_BoyardeeQuest1_0 = Je dois trouver des recettes pour Boyardee. Il devrait y avoir des livres de recettes dans cette librairie.
+Library_BoyardeeQuest1_1 = Il y a cependant plusieurs types de livres de recettes ici.
+Library_BoyardeeQuest1_2 = Lequel vais-je regarder ?
+Library_BoyardeeQuest1_Italy_0 = Je regarde un livre de cuisine italienne.
+Library_BoyardeeQuest1_Italy_1 = Il n'y a que des pâtes dans ce livre. Ce n'est peux être pas une bonne idée.
+Library_BoyardeeQuest1_Secret_0 = Je regarde un livre intitulé "Recettes secretes du père noel".
+Library_BoyardeeQuest1_Secret_1 = ... Il est rempli de recettes pour faire des pain au chocolat. Ce n'est pas une bonne idée.
+Library_BoyardeeQuest1_Christmas_0 = Je prend un livre de recettes de noel.
+Library_BoyardeeQuest1_Christmas_1 = .... Il y a plusieurs recettes qui me semblent convenir à Boyardee.
+Library_BoyardeeQuest1_Christmas_2 = J'espère que ce livre sera suffisant.
+Library_BoyardeeQuest1_Christmas_3 = Je devrais aller le lui donner dans les cuisines.
+
+
+
+# --------------------------------------------------------------
+# ------------------ Chalet du Père Noel -----------------------
+# --------------------------------------------------------------
+
+
+SantaHouse_Arrive = Je suis devant le chalet du père noel.
+
+SantaHouse_RickeyQuest0_0 = J'arrive au chalet du père noel. L'endroit à l'air calme.
+SantaHouse_RickeyQuest0_1 = Selon le plan des criminels, Rickey devrai attaquer le père noel.
+SantaHouse_RickeyQuest0_2 = Mais... Il n'y a pas de tank dans les alentours.
+SantaHouse_RickeyQuest0_3 = Je l'ai peux être devancé ? Je ne dois pas perdre une seconde, le père noel doit être averti.
+SantaHouse_RickeyQuest0_4 = Soudain, j'entend du bruit venant du chalet.
+SantaHouse_RickeyQuest0_5 = Il est déjà là ?! Vite, avant qu'il ne soit trop tard !
+SantaHouse_RickeyQuest0_6 = J'entre dans le chalet du père noel. La scène que se déroule devant moi est...
+SantaHouse_RickeyQuest0_7 = Tu vas venir avec moi, vieux crouton !
+SantaHouse_RickeyQuest0_8 = Au secours ! Je me fait kidnapper !
+SantaHouse_RickeyQuest0_9 = Ah Ah ! Je vais avoir ma vengeance pour mon cadeau de noel d'il y a 4 ans !
+SantaHouse_RickeyQuest0_10 = Mais je ne peux pas vous offrir le monde sur un plateau d'argent, c'est beaucoup trop !
+SantaHouse_RickeyQuest0_11 = Rien à faire ! Je vais vous torturer jusqu'a ce que mon cadeau soit mien !
+SantaHouse_RickeyQuest0_12 = Je dois intervenir, mais affronter un fou dans un tank a l'air d'être une mauvaise idée.
+SantaHouse_RickeyQuest0_13 = Plus un geste ! Rendez-vous ou.......... Euh........
+SantaHouse_RickeyQuest0_14 = Quoi ?! Un lutin taille XXL ? Mais je croyait que le Chevalier s'était occupé d'eux !
+SantaHouse_RickeyQuest0_15 = Bah, peux importe ! Je vais ne faire qu'une bouché de vous !
+SantaHouse_RickeyQuest0_16 = En avant !
+SantaHouse_RickeyQuest0_17 = Rickey me fonce dessus avec son tank. Je me prépare au combat.
+
+SantaHouse_RickeyQuest0_18 = J'ai réussit à repousser l'attaque de Rickey.
+SantaHouse_RickeyQuest0_19 = Quoi ?! J'ai échoué à te détruire ? Impossible !
+SantaHouse_RickeyQuest0_20 = Mais ce n'est pas grave au final. Ma défaire ne change rien.
+SantaHouse_RickeyQuest0_21 = Que voulez-vous dire ?
+SantaHouse_RickeyQuest0_22 = J'ai le père noel et un tank, je peux fuir en un rien de temps !
+SantaHouse_RickeyQuest0_23 = Regarde cette vitesse !
+SantaHouse_RickeyQuest0_24 = Rickey fait marche arrière et commence à s'enfuir.
+SantaHouse_RickeyQuest0_25 = Il est plutôt rapide, je ne vais pas pouvoir le rattraper.
+SantaHouse_RickeyQuest0_26 = Mais je dois faire quelque chose, le père noel est en danger.
+SantaHouse_RickeyQuest0_27 = ..... Est-il parti ?
+SantaHouse_RickeyQuest0_28 = J'entend une voix derrière moi, c'est un lutin.
+SantaHouse_RickeyQuest0_29 = Oui, il est parti. Mais il a kidnappé le père noel.
+SantaHouse_RickeyQuest0_30 = Oh non ! Vous devez faire quelque chose !
+SantaHouse_RickeyQuest0_31 = Je suis Samara, le lutin favori du père noel.
+SantaHouse_RickeyQuest0_32 = Je peux vous donner n'importe quelle informations concernant l'atelier.
+SantaHouse_RickeyQuest0_33 = Très bien, il va me falloir un moyen de transport rapide pour rattrapper ce tank.
+SantaHouse_RickeyQuest0_34 = .... Je sais ! Allez voir rudolphe à l'écurie de l'atelier. Il saura vous aider.
+SantaHouse_RickeyQuest0_35 = C'est notre renne le plus rapide, il sera capable de rattrapper le tank.
+SantaHouse_RickeyQuest0_36 = Je vois, merci beaucoup.
+
+
+SantaHouse_Samara = Avez-vous besoin de quelque chose ?
+SantaHouse_Samara_Topic1_0 = Je suis Samara, le lutin favori du père noel.
+SantaHouse_Samara_Topic1_1 = Je m'occupe de mettre à jour la liste des enfants sages et polissons selon les voeux du père noel.
+SantaHouse_Samara_Topic2_0 = Rudolphe est le renne le plus rapide de l'atelier.
+SantaHouse_Samara_Topic2_1 = Le père noel l'emmène avec lui pour toute ses tournées.
+
+
+SantaHouse_Santa = Besoin de quelque chose, [MC] ?
+SantaHouse_Santa_Topic1_0 = Je suis le père noel, mais je pense que vous le saviez déjà.
+SantaHouse_Santa_Topic1_1 = Je m'occupe d'offrir aux personnes sages leurs cadeaux de noel. 
+SantaHouse_Santa_Topic2_0 = Je doit admettre que je ne m'attendais pas à me faire kidnapper.
+SantaHouse_Santa_Topic2_1 = Je vous suis redevable, qui sait ce qu'ils m'auraient fait sans votre intervention.
+
+SantaHouse_MainQuest2_0 = J'entre dans la maison du père noel, je le trouve dans son salon.
+SantaHouse_MainQuest2_1 = Vous voila ! Samara m'a dit que vous aviez vaincu tout les criminels.
+SantaHouse_MainQuest2_2 = Oui, l'atelier est en sureté maintenant.
+SantaHouse_MainQuest2_3 = Bien ! Les festivités de noel étant proche, cela aurait été terrible si ils avaient fait plus de dégats.
+SantaHouse_MainQuest2_4 = Mais je pense qu'il est temps de vous récompenser pour vos actes.
+SantaHouse_MainQuest2_5 = Vous avez sauvé noel, je pense que vous méritez un petit quelque chose.
+SantaHouse_MainQuest2_6 = Pas encore !
+SantaHouse_MainQuest2_7 = La porte du chalet s'ouvre et trois individus entrent à l'intérieur.
+SantaHouse_MainQuest2_8 = C'est Rickey, le Chevalier et Boyardee ! Que font-ils ici ?!
+SantaHouse_MainQuest2_9 = Encore vous ? Vous ne savez pas quand arretez, non ?
+SantaHouse_MainQuest2_10 = Euh.... Non, on vient pour autre chose...
+SantaHouse_MainQuest2_11 = Vraiment ?
+SantaHouse_MainQuest2_12 = Oui... On voulait juste dire que...
+SantaHouse_MainQuest2_13 = J'écoute.
+SantaHouse_MainQuest2_14 = Nous étions sous ordre de quelqu'un lorsqu'on a attaqué l'atelier.
+SantaHouse_MainQuest2_15 = Vraiment ? Qui ? Une autre personne qui n'a pas eu son cadeau de noel ?
+SantaHouse_MainQuest2_16 = Aucune idée, nous ne l'avons jamais rencontré.
+SantaHouse_MainQuest2_17 = Il nous contacte par lettre depuis un mois. Mais je ne sais pas à quoi il ressemble.
+SantaHouse_MainQuest2_18 = Vous n'avez aucune informations sur lui ? Rien du tout ?
+SantaHouse_MainQuest2_19 = .... Ah si ! Je me souviens de quelque chose.
+SantaHouse_MainQuest2_20 = Il nous a dit que si jamais il y avait un problème, on pouvait le trouver à l'écurie de l'atelier.
+SantaHouse_MainQuest2_21 = C'est.... plutôt direct. Il y est toujours ?
+SantaHouse_MainQuest2_22 = On n'y est jamais allé, donc on ne sait même pas si il y a été.
+SantaHouse_MainQuest2_23 = .... Un homme étrange à l'écurie ? Je pense que je sais qui c'est.
+SantaHouse_MainQuest2_24 = Vraiment ? Bravo, [MC] !
+SantaHouse_MainQuest2_25 = Je vais aller le confronter sur ce sujet, je vous tient au courant.
+SantaHouse_MainQuest2_26 = Et vous, ne tentez plus d'attaquer le père noel.
+SantaHouse_MainQuest2_27 = Oui oui... C'était la pire des idées en retrospective.
+SantaHouse_MainQuest2_28 = Ne vous inquietez pas [MC], tout va bien se passer.
+SantaHouse_MainQuest2_29 = Avec ces mots, je quitte le chalet.
+
+SantaHouse_MainQuest5_0 = J'entre dans la maison du père noel, rien n'a changé.
+SantaHouse_MainQuest5_1 = Rickey, Boyardee et le Chevalier sont toujours la.
+SantaHouse_MainQuest5_2 = [MC] ! Avez-vous réussit à trouver ce mystérieux personnage ?
+SantaHouse_MainQuest5_3 = Oui, c'était comme vous l'aviez dit : une personne qui n'avait pas eu son cadeau de noel.
+SantaHouse_MainQuest5_4 = Bien ! Maintenant que tout cela est reglé, je pense qu'il est temps de vous récompenser.
+SantaHouse_MainQuest5_5 = Tenez ! Vous l'avez bien mérité. Merci encore pour votre aide !
+SantaHouse_MainQuest5_6 = Le père noel me tend un panier remplit de friandises. Il est vraiment très lourd.
+SantaHouse_MainQuest5_7 = D'un coup, la porte s'ouvre et une personne entre dans le chalet.
+SantaHouse_MainQuest5_8 = [MC] ! J'ai entendu dire que vous aviez réussit à sauver l'atelier, bravo !
+SantaHouse_MainQuest5_9 = Oh, merci.
+SantaHouse_MainQuest5_10 = Harold ? .... Attendez une seconde...
+SantaHouse_MainQuest5_11 = Laissez-moi deviner, vous avez invoqué [MC] pour venir m'aider ?
+SantaHouse_MainQuest5_12 = Oui, c'est grâce à moi que tout va mieux !
+SantaHouse_MainQuest5_13 = .... La prochaine fois, si vous voulez finir sur ma liste des personnes sages, venez m'aider vous-même.
+SantaHouse_MainQuest5_14 = ... Je n'ai pas droit à mon cadeau ?
+SantaHouse_MainQuest5_15 = Non.
+SantaHouse_MainQuest5_16 = Et nous ? On a aidé aussi au final !
+SantaHouse_MainQuest5_17 = Je pense que vous êtes sur la liste des polissons pour au moins 5 ans de plus.
+SantaHouse_MainQuest5_18 = Zut...
+SantaHouse_MainQuest5_19 = Je savais que ce plan était nul...
+SantaHouse_MainQuest5_20 = Si c'est ça, vous savez ce que je vais faire ?
+SantaHouse_MainQuest5_21 = Non ?
+SantaHouse_MainQuest5_22 = Je vais voler un cadeau !
+SantaHouse_MainQuest5_23 = Harold se précipite sur un cadeau qui était sur une table.
+SantaHouse_MainQuest5_24 = Hé ! Partagez avec nous votre cadeau !
+SantaHouse_MainQuest5_25 = Très bien, il sera pour nous quatre.
+SantaHouse_MainQuest5_26 = Harold ouvre le cadeau et fait immédiatement une grimace.
+SantaHouse_MainQuest5_27 = Du charbon ?!
+SantaHouse_MainQuest5_28 = Oh Oh Oh ! Joyeux noel !
+
+
+
+# --------------------------------------------------------------
+# ------------------------------- Ecurie -----------------------
+# --------------------------------------------------------------
+
+
+Stable_Arrive = Je suis à l'écurie de l'atelier.
+
+Stable_CheckArea = L'écurie est vide, l'endroit est totalement désert.
+
+Stable_RickeyQuest1_0 = J'arrive à l'écurie de l'atelier.
+Stable_RickeyQuest1_1 = Selon Samara, je devrais pouvoir trouver Rudolphe ici.
+Stable_RickeyQuest1_2 = Mais.... Il n'y a personne ici.
+Stable_RickeyQuest1_3 = Tout les rennes ont disparu, c'est étrange.
+Stable_RickeyQuest1_4 = Hé Hé Hé ! Encore une victoire pour M.PasContent !
+Stable_RickeyQuest1_5 = Un homme est en train de danser devant l'écurie, je me demande si il sait quelque chose.
+Stable_RickeyQuest1_6 = Excusez moi, savez-vous ou sont les rennes ? On m'a dit qu'ils étaient ici.
+Stable_RickeyQuest1_7 = Hé Hé Hé ! Quoi ? Je ne vous écoutait pas, que voulez-vous ?
+Stable_RickeyQuest1_8 = Savez-vous ou sont les rennes du père noel ?
+Stable_RickeyQuest1_9 = Oui et non, hé hé hé.
+Stable_RickeyQuest1_10 = J'ai un mauvais préssentiment.
+Stable_RickeyQuest1_11 = Ils étaient la, mais ils ont du partir.
+Stable_RickeyQuest1_12 = Si vous voulez les trouver, allez dans les cavernes.
+Stable_RickeyQuest1_13 = Mais ne perdez pas de temps, qui sait ce qu'il peux leur arriver. 
+Stable_RickeyQuest1_14 = L'homme s'en va avant que je puisse lui répondre.
+Stable_RickeyQuest1_15 = J'ai la vague impression qu'il est responsable de leur disparition.
+Stable_RickeyQuest1_16 = Si c'est le cas, les rennes sont retenu prisonniers dans les cavernes alentours.
+Stable_RickeyQuest1_17 = Je dois les trouver avant qu'il ne leur arrive quelque chose.
+
+
+Stable_Rudolphe = Rudolphe est en train de manger. Je ne devrais pas le déranger.
+
+Stable_RickeyQuest3_0 = Je m'approche de Rudolphe.
+Stable_RickeyQuest3_1 = [MC] ! Je vous attendais !
+Stable_RickeyQuest3_2 = Merci enore pour m'avoir sauvé.
+Stable_RickeyQuest3_3 = Si j'ai bien compris, le père noel est en danger ?
+Stable_RickeyQuest3_4 = Oui, un individu sur un tank l'a kidnappé.
+Stable_RickeyQuest3_5 = C'est terrible ! Nous devons faire quelque chose !
+Stable_RickeyQuest3_6 = Venez, monter sur mon dos. Je vais poursuivre le fugitif.
+Stable_RickeyQuest3_7 = Très bien, allons-y.
+Stable_RickeyQuest3_8 = Je monte sur le dos de Rudolphe et nous decollons.
+Stable_RickeyQuest3_9 = La vue est très belle depuis le ciel. Mais pas de père noel à l'horizon.
+Stable_RickeyQuest3_10 = Après une dizaine de minutes, le tank est en vue.
+Stable_RickeyQuest3_11 = Rudolphe se pose devant le vehicule, le forcant à s'arreter.
+Stable_RickeyQuest3_12 = Un cerf volant ! C'est pas ma journée aujourd'hui. Ah Ah !
+Stable_RickeyQuest3_13 = Relachez le père noel !
+Stable_RickeyQuest3_14 = Quoi ? Attendez.... Vous êtes le lutin XXL de tout à l'heure !
+Stable_RickeyQuest3_15 = Vous ne savez pas quand vous rendre, pas vrai ?
+Stable_RickeyQuest3_16 = Peu importe ! J'ai un tank et vous un cerf volant !
+Stable_RickeyQuest3_17 = Je peux juste fuir comme ça ! Ah Ah !
+Stable_RickeyQuest3_18 = Rickey commence à fuir, Rudolphe est juste derrière lui.
+
+Stable_RickeyQuest3_19 = Avec un peu de persévérance, Rickey finit par s'arreter à nouveau.
+Stable_RickeyQuest3_20 = Rha ! Arretez de me suivre !
+Stable_RickeyQuest3_21 = Relachez le père noel !
+Stable_RickeyQuest3_22 = Mais j'ai besoin de lui pour avoir mon cadeau de noel !
+Stable_RickeyQuest3_23 = Bon, je n'ai pas le temps de débattre avec vous ! Adieux !
+Stable_RickeyQuest3_24 = Rickey essaie de démarer son tank, mais échoue.
+Stable_RickeyQuest3_25 = Quoi ? Le froid a cassé mon panzer ? Non !
+Stable_RickeyQuest3_26 = Vous ne pouvez plus fuir, rendez-vous !
+Stable_RickeyQuest3_27 = Grr.... Jamais ! Je ne me renderais jamais !
+Stable_RickeyQuest3_28 = Rickey saute de son tank et commence à prendre la fuite.
+Stable_RickeyQuest3_29 = Il a oublié le père noel, je n'ai aucune raison de le suivre.
+Stable_RickeyQuest3_30 = Ce dernier sort du tank et me fait face.
+Stable_RickeyQuest3_31 = Merci ! Vous m'avez vraiment aidé, Monsieur....
+Stable_RickeyQuest3_32 = [MC]. Je m'appelle [MC]. Tout le plaisir est pour moi. 
+Stable_RickeyQuest3_33 = Ce fou voulait le monde en cadeau de noel, c'est difficile d'être père noel.
+Stable_RickeyQuest3_34 = Heureusement que vous étiez là, [MC]. Qui sait ce qu'il m'aurait fait si vous n'étiez pas venu me sauver.
+Stable_RickeyQuest3_35 = Père noel, nous devrions rentrer.
+Stable_RickeyQuest3_36 = Rudolphe ? Vous êtes venu aussi me sauver ? Merci beaucoup !
+Stable_RickeyQuest3_37 = Mais il a raison, mon brave. Nous devrions rentrer à l'atelier.
+Stable_RickeyQuest3_38 = Il y a peu être encore des problèmes à résoudres la bas.
+Stable_RickeyQuest3_39 = C'est ainsi que nous sommes rentrés à l'écurie de l'atelier.
+Stable_RickeyQuest3_40 = Enfin de retour ! Cela fait du bien de ne pas être kidnappé.
+Stable_RickeyQuest3_41 = [MC], je ne vais pas vous déranger plus que cela.
+Stable_RickeyQuest3_42 = Quand vous aurez le temps, venez me rendre visite dans mon chalet.
+Stable_RickeyQuest3_43 = En attendant, bonne chance !
+Stable_RickeyQuest3_44 = Le père noel me laisse seul devant l'écurie, Rudolphe est allé manger pour reprendre des forces.
+
+
+Stable_MainQuest3_0 = J'arrive devant l'écurie de l'atelier.
+Stable_MainQuest3_1 = Si j'en crois mon intuition, M.PasContent est responsable de toute l'attaque.
+Stable_MainQuest3_2 = Je le trouve en retrait a coté d'un arbre. Il n'a pas l'air satisfait.
+Stable_MainQuest3_3 = Grr ! Les trois criminels ont arrété leur attaque, c'est vrai ?
+Stable_MainQuest3_4 = Oui, j'ai réussit à les vaincre. Mais j'ai une question pour vous.
+Stable_MainQuest3_5 = Pour moi ? Oui, mais pas ici. J'ai besoin d'intimité.
+Stable_MainQuest3_6 = Retrouvez moi vers la plage gelé. Je répondrais à vos questions la-bas.
+Stable_MainQuest3_7 = M.PasContent part avant de me laisser le temps de dire quoi que ce soit.
+Stable_MainQuest3_8 = Je ferais mieux d'aller le retrouver à la plage gelé.
+
+
+
+# --------------------------------------------------------------
+# ----------------------------- Cavernes -----------------------
+# --------------------------------------------------------------
+
+
+Cave_Arrive = Je suis devant l'entrée d'une caverne.
+
+Cave_CheckArea_0 = Je regarde dans la caverne...
+Cave_CheckArea_1 = Il n'y a personne a l'intérieur.
+
+Cave_CheckArea_Normal_0 = Il y a un renne coincé à l'interieur !
+Cave_CheckArea_Normal_1 = Merci beaucoup ! J'ai cru que j'allait mourir ici !
+Cave_CheckArea_Normal_2 = Le renne s'en va et retourne vers l'écurie de l'atelier.
+
+Cave_CheckArea_Rudolphe_0 = Il y a un renne à l'intérieur, c'est Rudolphe !
+Cave_CheckArea_Rudolphe_1 = Merci ! Je vous en dois une !
+Cave_CheckArea_Rudolphe_2 = Vous êtes le renne Rudolphe ?
+Cave_CheckArea_Rudolphe_3 = Oui ! Je suis le renne le plus rapide de l'atelier du père noel.
+Cave_CheckArea_Rudolphe_4 = J'aurais besoin de votre aide, le père noel est en danger.
+Cave_CheckArea_Rudolphe_5 = Vraiment ? .... Retrouvez-moi à l'écurie pour en parler.
+Cave_CheckArea_Rudolphe_6 = Cet endroit me donne la chair de poule ! A tout de suite.
+Cave_CheckArea_Rudolphe_7 = Rudolphe quitte les lieux, me laissant seul.
+
+Cave_RudolpheQuest_Done = J'ai trouvé tout les rennes. Cela fait un problème de moins.
+Cave_RudolpheQuest_NotDone = Il y a toujours des rennes coincés dans des cavernes, je dois les trouver.
+
+
+
+# --------------------------------------------------------------
+# -------------------------- Plage gelée -----------------------
+# --------------------------------------------------------------
+
+Beach_Arrive = Je suis a la plage gelée, il y a de la glace à perte de vue.
+
+Beach_CheckArea = La plage est completement gelée et la glace s'étend sur des kilomètres.
+
+Beach_MainQuest4_0 = Je m'approche de M.PasContent. Cette fois, je vais tout savoir.
+Beach_MainQuest4_1 = Vous voila... Vous aviez une question pour mois.
+Beach_MainQuest4_2 = Oui, je soupsonne que vous êtes responsable pour l'attaque de l'atelier du père noel.
+Beach_MainQuest4_3 = Quoi ? ..... Qui a parlé ? Qui m'a dénoncé !
+Beach_MainQuest4_4 = Donc c'était bien vous. Les trois criminels ont avoués être sous vos ordres.
+Beach_MainQuest4_5 = Grr ! Je savais que j'aurais du faire ça moi-même !
+Beach_MainQuest4_6 = Pourquoi avez-vous attaqué le père noel ? Qui êtes-vous ?
+Beach_MainQuest4_7 = Qui je suis ? Je suis....
+Beach_MainQuest4_8 = M.PasContent retire son masque, révelant enfin son vrai visage.
+Beach_MainQuest4_9 = .... Todd Howard !
+Beach_MainQuest4_10 = Quoi ? Mais pourquoi ?
+Beach_MainQuest4_11 = Le père noel n'a eu que ce qu'il mérite ! Il m'a piegé !
+Beach_MainQuest4_12 = Que vous a-t-il fait ?
+Beach_MainQuest4_13 = Je lui avait demandé un jeu incroyable l'année dernière. Un jeu qui me rendrait riche.
+Beach_MainQuest4_14 = Il m'a offert "Fallout 76", je pensait que c'était le meilleur jeu du monde.
+Beach_MainQuest4_15 = Mais j'ai eu tord ! Et maintenant mon entreprise a perdu beaucoup d'argent !
+Beach_MainQuest4_16 = Je dois donc me venger du père noel pour m'avoir offert un jeu qui n'était pas le meilleur ! 
+Beach_MainQuest4_17 = Il a perdu la raison, je dois faire quelque chose.
+Beach_MainQuest4_18 = Si je comprend bien, mon plan a échoué à cause de vous ?
+Beach_MainQuest4_19 = Euh... oui ?
+Beach_MainQuest4_20 = Alors je vais devoir vous détruire ! Ainsi le père noel sera vulnérable à nouveau !
+Beach_MainQuest4_21 = Todd me fonce dessus, je n'ai quasiment pas le temps de me préparer.
+
+Beach_MainQuest4_22 = Arrive au final à vaincre Todd.
+Beach_MainQuest4_23 = Impossible ! Je ne peux pas perdre contre vous !
+Beach_MainQuest4_24 = Rendez-vous à l'évidence ! Votre plan entier a échoué !
+Beach_MainQuest4_25 = Grr ! Ce n'est pas la dernière que vous entenderez parler de moi !
+Beach_MainQuest4_26 = Vous allez voir ! Je vais créer le jeu parfait et le père noel sera jaloux !
+Beach_MainQuest4_27 = Il regrettera de m'avoir offert un jeu nul l'année dernière !
+Beach_MainQuest4_28 = Todd fait volte face et saute dans la mer. Je ne sais pas comment il va faire pour survivre.
+Beach_MainQuest4_29 = Mais bon, au final j'ai réussit à déjouer son plan.
+Beach_MainQuest4_30 = Je devrais aller voir le père noel pour lui annoncer la nouvelle.
+Beach_MainQuest4_31 = Si j'ai encore des problèmes à résoudre, je devrais les résoudre avant de voir le père noel.

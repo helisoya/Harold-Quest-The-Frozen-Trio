@@ -1,0 +1,22 @@
+hide()
+hide()
+setBackground(Stable)
+playMusic(null)
+
+narrator "Stable_MainQuest3_0"
+narrator "Stable_MainQuest3_1"
+narrator "Stable_MainQuest3_2"
+
+changeCharacter(PasContent)
+show()
+*PasContent "Stable_MainQuest3_3"
+[MC] "Stable_MainQuest3_4"
+*PasContent "Stable_MainQuest3_5"
+*PasContent "Stable_MainQuest3_6"
+
+hide()
+narrator "Stable_MainQuest3_7"
+narrator "Stable_MainQuest3_8"
+
+variable(MainQuest,4)
+Load(Stable_Arrive)

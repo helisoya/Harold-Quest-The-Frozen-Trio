@@ -1,0 +1,48 @@
+
+setBackground(ChezHarold_Salon)
+changeCharacter(Harold_Cafe)
+show()
+
+*Harold "[voice(03_L_1)]... Je vois..."
+
+playSound(Degaine)
+changeCharacter(Harold_Arme)
+*Harold "[voice(03_L_2)]Je vais devoir vous convaincre un peu mieux alors."
+
+playSound(Tir)
+hide()
+setBackground(null)
+narrator "Je me prend une balle et je perd connaissance."
+narrator "................"
+narrator "Une fois de plus, j'ai l'impression que ma tête va exploser."
+narrator "J'ouvre les yeux, espérant ne pas trouver Harold devant moi."
+
+setBackground(ForteresseNoire_Prison)
+narrator "Je suis dans une cellule, il y a un garde qui me surveille."
+[MC] "Je me demande ou je suis, qui sait ou Harold a bien pu m'envoyer."
+
+changeCharacter(Invocateur,true)
+show()
+*Invocateur "[voice(03_L_3)]Eh , la ferme ! Tu n'as pas le droit de parler comme cela de notre chef, Harold. Les Invocateurs ne le permettent pas !"
+
+hide()
+narrator "Mon garde n'a pas l'air très commode cependant."
+narrator "Je vais devoir m'enfuir, qui sait ce qu'il vont me faire."
+narrator "La porte de ma cellule s'ouvre brusquement et un garde entre."
+
+show()
+*Invocateur "[voice(03_L_4)]Toi ! Le Grand veux te parler et éclairer ta vision brouillé par des masques impies et criminels."
+narrator "C'est ma seul occasion pour fuir ! Je ne doit pas échouer !"
+
+hide()
+narrator "Je fonce sur le garde et je le pousse par terre. J'en profite pour sortir de la cellule."
+Invocateur "[voice(03_L_5)]Alerte ! Le prisonnier s'échappe ! J'ai besoin d'aide pour l’arrêter !"
+
+setBackground(ForteresseNoire_Couloir)
+narrator "Je commence à courir, j’entends les 'invocateurs' se déplacer dans les couloirs."
+narrator "Après quelques minutes de course, je trouve une arme par terre."
+
+show()
+*Invocateur "[voice(03_L_6)]Le voila ! Ne le laisser pas s'échapper !"
+narrator "Il y a de nombreux 'invocateurs' autour de moi, je commence à ouvrir le feu."
+LoadScene(TSS)

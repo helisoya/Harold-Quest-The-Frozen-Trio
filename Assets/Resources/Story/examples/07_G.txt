@@ -1,0 +1,26 @@
+hide()
+setBackground(Ramos_Salle)
+changeCharacter(Genie,true)
+
+narrator "J'arrive sans trop de mal à détruire le robot."
+
+show()
+*Génie "[voice(07_G_1)]WWWAAAAAAAAAAHHHHHH !!! Le RDU (TM) est détruit !"
+*Génie "[voice(07_G_2)]NON ! C'est pas possible ! Je refuse d'y croire !"
+*Génie "[voice(07_G_3)]Tu es pas sympa ! Vraiment pas sympa ! Si c'est ça, je m'en vais !"
+
+hide()
+narrator "Le génie s'en va, me laissant seul avec l'orbe."
+Harold "[voice(07_G_4)]..... Je peut prendre l'orbe maintenant...."
+Harold "[voice(07_G_5)]Mon maître va être si content ! Ah Ah Ah !"
+
+setBackground(null)
+narrator "C'est ainsi que mon aventure dans les ruines se termina."
+narrator "Ma maître utilisa l'orbe pour nos illustres desseins."
+narrator "Enfin... Jusqu’à sa perte éventuelle... Mais ce n'est pas le topique..."
+narrator "Ce flashback étant terminé.... Il me faillait trouver une nouvelle aventure..."
+narrator "Je ne dois jamais oublier que les pages sont les clés...."
+
+narrator "FIN"
+FinishChapter(7)
+MainMenu()

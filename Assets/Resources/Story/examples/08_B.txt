@@ -1,0 +1,132 @@
+hide()
+setBackground(ValMort_Foret)
+
+narrator "Après quelques minutes de marche, j'arrive dans une clairière."
+narrator "Au centre, il y a un homme étrange, il me rappelle quelqu'un."
+narrator "Je m'approche de lui, espérant le reconnaître."
+??? "[voice(08_B_1)]Eh... Cela faisait longtemps, [MC]..."
+narrator "La figure étrange commence à me parler sans me regarder."
+??? "[voice(08_B_2)]J'ai beaucoup réfléchi depuis notre dernière rencontre..."
+??? "[voice(08_B_3)]La vie, la mort, mes choix antérieurs..."
+??? "[voice(08_B_4)]Mais cette fois, c'est la bonne..."
+
+changeCharacter(Harold_Fight)
+show()
+playMusic(Harold)
+narrator "La figure se retourne, dévoilant mon ennemi juré."
+*Harold "[voice(08_B_5)]Je suis de retour pour de bon, pour me venger !"
+[MC] "Harold ! Vous étiez pourtant mort ! Je vous avez tué !"
+*Harold "[voice(08_B_6)]Eh Eh Eh ! Je suis invincible ! Je ne peux pas perdre !"
+*Harold "[voice(08_B_7)]Ce duel de danse ne compte pas ! Je refuse d'accepter sa validité !"
+*Harold "[voice(08_B_8)]Je vais vous vaincre cette fois ! Pour de bon ! Eh Eh Eh !"
+playMusic(null)
+narrator "Je me sent soudain très mal..."
+
+hide()
+setBackground(null)
+narrator "Je ferme les yeux et perd connaissance."
+narrator "................................."
+
+setBackground(ValMort_Chalet)
+narrator "Je me réveille dans un lit, sous une montagne de couvertures."
+narrator "Harold m'a kidnappé ? Mais pourquoi ?"
+
+changeCharacter(Vieux)
+playMusic(Exploration_3)
+show()
+narrator "Je regarde à ma gauche, un homme me regarde depuis une chaise."
+[MC] "Qui... Qui êtes-vous ?"
+*Fluch "[voice(08_B_9)]Je suis Fluch, le garde forestier du Val'Mort."
+*Fluch "[voice(08_B_10)]Et vous ? Qui êtes vous ? Je me demande pourquoi vous étiez ici."
+[MC] "Je suis [MC], je devais rencontrer quelqu'un dans le Val'Mort."
+*Fluch "[voice(08_B_11)]Vraiment ? Je pense qu'on vous a menti."
+*Fluch "[voice(08_B_12)]La forêt est maudite, elle provoque des hallucinations en tout genre."
+*Fluch "[voice(08_B_13)]Peu importe ce que vous avez vu, il est probable que cela fut une illusion."
+[MC] "...................."
+narrator "Je me lève et sort du confort du lit dans lequel je me trouvait."
+[MC] "Merci pour tout, M.Fluch. Je vais devoir repartir maintenant."
+*Fluch "[voice(08_B_14)]Je vois. La jeunesse est vraiment prête à tout de nos jours."
+*Fluch "[voice(08_B_15)]Soyez prudent sur la route de Runan, les bandits sont nombreux."
+[MC] "Je ferais attention, au revoir."
+
+hide()
+setBackground(ValMort_Foret)
+narrator "Je sort de la cabane de M.Fluch. Elle est à la lisière de la forêt."
+narrator "Ma prochaine halte sera Runan, je dois parler à Waldo."
+narrator "Je me met donc en route pour Runan."
+
+setBackground(Runan_Var1)
+narrator "Après quelques heures de marche, je suis arrivé à Runan."
+narrator "J'étais déjà venu ici rendre visite à la famille de Waldo."
+narrator "Il vient en vacances de temps en temps pendant une semaine ici."
+narrator "Cette absence de son poste de PDG est justifié, il doit s'occuper de sa mère."
+narrator "Elle vit seule, et il craint le pire à chaque fois qu'il repart."
+narrator "Je me dirige donc vers leur maison, dans le centre de Runan."
+narrator "Pendant que je marche, je remarque qu'un duel d'échecs prend place."
+narrator "C'est une manière étrange de jouer au échecs.... Ils sautent partout...."
+narrator "J'arrive assez rapidement à la maison de Waldo."
+narrator "Je sonne et j’attends. J'espère qu'il est là...."
+narrator "Après quelques instant d'attente, la porte s'ouvre."
+
+changeCharacter(Waldo_Uniforme_Normal)
+show()
+*Waldo "[voice(08_B_16)][MC] ? C'est bien vous ? Entrez donc !"
+
+setBackground(Runan_Waldo)
+narrator "Waldo me pousse presque à l'intérieur, il m’amène vers le salon."
+*Waldo "[voice(08_B_17)]Asseyez-vous ici, je vais vous préparer du thé."
+*Waldo "[voice(08_B_18)]Mère ! Venez dire bonjour à [MC] ! Et apportez les biscuits !"
+
+hide()
+narrator "Waldo s'éclipse en cuisine, je m'assied sur le canapé."
+
+changeCharacter(Edna)
+show()
+narrator "Une jeu- la mère de Waldo arrive avec des biscuits."
+narrator "J'ai arrêté de me poser des questions depuis ma dernière visite."
+*Edna "[voice(08_B_19)]Bonjour, [MC]. Vous avez fait bon voyage ?"
+[MC] "Bonjour, j'ai fait bon voyage. Mais l'air est frais par ici."
+*Edna "[voice(08_B_20)]C'est vrai, il fait relativement froid par ici."
+narrator "Waldo revient de la cuisine avec du thé, il me sert une tasse."
+
+changeCharacter(Waldo_Uniforme_Normal)
+*Waldo "[voice(08_B_21)]Alors ? Quel bon vent vous a amené ici ?"
+[MC] "Je... je suis venu à la suite d'une lettre."
+[MC] "Un individu m'a demandé de venir au Val'Mort, je pense que c'est Harold."
+*Waldo "[voice(08_B_22)]Harold ?! Impossible ! Vous l'avez tué il y a quelques temps !"
+[MC] "Je sais, mais cette lettre m'a fait penser à lui..."
+
+changeCharacter(Edna)
+*Edna "[voice(08_B_23)]Montrez-la moi... Je veux en être sure..."
+narrator "Je donne la lettre à Edna, elle semble perplexe."
+Edna ".........................................."
+
+changeCharacter(Waldo_Uniforme_Normal)
+*Waldo "[voice(08_B_24)]Alors ? Qu'en pensez-vous, mère ?"
+
+changeCharacter(Edna)
+*Edna "[voice(08_B_25)]Cette lettre a probablement été envoyé par Harold...."
+*Edna "[voice(08_B_26)]Mais il est mort... C'est complètement illogique....  "
+
+changeCharacter(Waldo_Uniforme_Normal)
+*Waldo "[voice(08_B_27)]C'est... très illogique.... les gens meurent quand ils sont tués...."
+*Waldo "[voice(08_B_28)]J'ai une idée ! Vous devriez mener l'enquête à la forteresse noire !"
+*Waldo "[voice(08_B_29)]Si Harold n'est pas mort, vous devriez trouver des indices sur sa localisation."
+[MC] "C'est une bonne idée. Je vais me mettre en route tout de suite."
+*Waldo "[voice(08_B_30)]Prenez garde sur la route !"
+
+hide()
+narrator "Je me lève et commence à partir de la maison."
+narrator "Je doit trouver des indices sur Harold, sa position, ce qu'il fait."
+narrator "Je me dirige donc vers la forteresse noire ou il m'avais enlevé."
+
+setBackground(ForteresseNoire_Exterieur)
+playMusic(null)
+narrator "Après quelques heures de marche, je suis devant la forteresse noire."
+narrator "Cette forteresse obscure fut le QG de la terrible secte d'Harold."
+narrator "C'est aussi ici que j'ai combattu un puissant soldat de son ordre."
+narrator "Mais maintenant, elle est vide. Il n'y a plus personne."
+narrator "Je vais être tranquille pour trouver des indices."
+narrator "Il va me falloir trouver n'importe quoi sur Harold. Il me faut une piste."
+narrator "Je commence mon enquête."
+LoadScene(EFN)

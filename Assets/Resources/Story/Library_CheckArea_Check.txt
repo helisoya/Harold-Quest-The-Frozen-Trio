@@ -1,0 +1,4 @@
+hide()
+if "BoyardeeQuest"="1"
+  Load(Library_BoyardeeQuest1)
+Load(Library_CheckArea)

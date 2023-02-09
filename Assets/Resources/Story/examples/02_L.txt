@@ -1,0 +1,13 @@
+setBackground(Braise_Entrée)
+show()
+changeCharacter(Rickey_2_Angry,true)
+
+*Rickey "[voice(02_L_1)]Impossible ! Je ne peux pas perdre !"
+*Rickey "[voice(02_L_2)]Quel est votre nom, sale concurrent ?"
+[MC] "Mon nom est... Harold."
+*Rickey "[voice(02_L_3)]Grr ! Je me souviendrait de ce nom, Harold !"
+*Rickey "[voice(02_L_4)]Allons ! Partons, mes fidèles gardes !"
+
+hide()
+narrator "Rickey et ses sbires partent. Me laissant seul à l'entrée."
+Load(02_O)

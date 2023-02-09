@@ -1,0 +1,670 @@
+# -----------------------------------------------------------
+# --------------- Characters --------------------------------
+# -----------------------------------------------------------
+
+
+Char_Harold = Harold
+Char_Rickey = Rickey
+Char_Boyardee = Boyardee
+Char_Runcan = Runcan
+Char_Elf = Elf
+Char_Waldo = Waldo
+Char_Samara = Samara
+Char_Santa = Santa Claus
+Char_PasContent = M.Angry
+Char_Todd = Todd Howard
+Char_Renne = Reindeer
+Char_Rudolphe = Rudolph
+
+# -----------------------------------------------------------
+# --------------- Choices -----------------------------------
+# -----------------------------------------------------------
+
+Choice_Generic = What will you do ?
+Choice_Chat = What will you talk about ?
+Choice_Map = Map
+Choice_Harold = Talk to Harold
+Choice_Waldo = Talk to Waldo
+Choice_CheckArea = Check area
+Choice_Chat_Nothing = Nothing (Leave)
+Choice_Chat_Harold_Quest0 = Where is Santa's Workshop ?
+Choice_Chat_Harold_Quest1_Rickey = Tell me more about Rickey
+Choice_Chat_Harold_Quest1_Runcan = Tell me more about Runcan
+Choice_Chat_Harold_Quest1_Boyardee = Tell me more about Boyardee
+Choice_Chat_Waldo_Topic1 = Tell me more about yourself
+Choice_Chat_Waldo_Topic2 = What are you doing here ?
+Choice_BoyardeeQuest_Italy = Italian recipes
+Choice_BoyardeeQuest_Christmas = Christmas recipes
+Choice_BoyardeeQuest_Secret = Secret recipes
+Choice_EnterSantaHouse = Go Inside
+Choice_Chat_Samara_Topic1 = Tell me more about yourself
+Choice_Chat_Samara_Topic2 = Tell me more about Rudolphe
+Choice_Chat_Santa_Topic1 = Tell me more about yourself
+Choice_Chat_Santa_Topic2 = Tell me more about the attack
+
+# -----------------------------------------------------------
+# --------------- General -----------------------------------
+# -----------------------------------------------------------
+
+MainQuestsDone_0 = I stopped all the criminals. I should report back to Santa Claus.
+MainQuestsNotDone_0 = I still have to stop some criminals. I should hurry.
+
+
+
+# ---------------------------------------------------------
+# ------------------- Intro -------------------------------
+# ---------------------------------------------------------
+
+
+Intro_A_1 = ...................
+Intro_A_2 = Where... Where am I ?
+Intro_A_3 = My head hurts, it's really unpleasant.
+Intro_A_4 = Worst than that, I have no idea where I am.
+Intro_A_5 = I remember taking a nap at my desk, but now I'm in a lodge.
+Intro_A_6 = Maybe I was kidnapped ?
+Intro_A_7 = It makes no sense... Why would I be kidnapped ?
+Intro_A_8 = I'm not special or anything, why would anyone do that.
+Intro_A_9 = There must be another reason, a reason more logical.
+Intro_A_10 = Hero ? Are you there ?
+Intro_A_11 = The door burst open, and a man enters the room.
+Intro_A_12 = Ah ! There you are, I was beginning to think I failed my ritual.
+Intro_A_13 = What ? Wait... Who are you ?
+Intro_A_14 = Oh yes. I forgot to introduce myself. I am Harold, an humble old man.
+Intro_A_15 = I am also a magician in my free time.
+Intro_A_16 = Seriously ? This is not convincing...
+Intro_A_17 = I am responsible for your summoning in this world.
+Intro_A_18 = My summoning ?
+Intro_A_19 = Yes ! I specialize in the summoning of heros.
+Intro_A_20 = I summoned you today because I need your help, Hero !
+Intro_A_21 = A hero, me ? That's a joke !
+Intro_A_22 = I am not a hero, I'm just a normal person.
+Intro_A_23 = But all heros started as normal persons, no ?
+Intro_A_24 = I'm sure that you will handle my problem nicely, [MC] !
+Intro_A_25 = Why does he know my name ? Is he telling the truth ? 
+Intro_A_26 = Very well. What is this... problem you talked about ?
+Intro_A_27 = Nothing too dangerous. I just need you to do me a little favor.
+Intro_A_28 = I live right next to Santa Claus's Workshop. He needs help.
+Intro_A_29 = I believe he is going to be attacked by criminels. 
+Intro_A_30 = What ?
+Intro_A_31 = So you want me to go protect him, right ?
+Intro_A_32 = Yes ! That's right !
+Intro_A_33 = I would have done it myself, but I have back pain today.
+Intro_A_34 = So... you will help me, right ?
+Intro_A_35 = Why do I feel he will ignore my awnser ?
+Intro_A_36 = I thi-
+Intro_A_37 = Thank you, [MC] ! I knew I could count on you !
+Intro_A_38 = Of course...
+Intro_A_39 = To get to Santa's workshop, just go north. You can't misss it !
+Intro_A_40 = Good luck ! Don't hesitate to come see me to get informations.
+Intro_A_41 = Very well, I will go now.
+Intro_A_42 = I get out of his house and get outside.
+
+
+# --------------------------------------------------------------
+# ------------------ Chez Harold -------------------------------
+# --------------------------------------------------------------
+
+ChezHarold_Exterieur = I am in front of Harold's house.
+ChezHarold_Harold = Do you need something, [MC] ?
+
+ChezHarold_Harold_Quest0_1 = Santa's workshop is a little bit to the north.
+ChezHarold_Harold_Quest0_2 = You can't miss it !
+
+ChezHarold_Harold_Quest1_Rickey_1 = Rickey is the CEO of Rickeyland, an amusement park in the Vlatyr province.
+ChezHarold_Harold_Quest1_Rickey_2 = There, he makes a lot of money by stealing from his customers.
+ChezHarold_Harold_Quest1_Rickey_3 = He also loves tanks. This makes him very dangerous.
+ChezHarold_Harold_Quest1_Rickey_4 = If Rickey wants to attack Santa Claus, we have to act quick !
+
+ChezHarold_Harold_Quest1_Runcan_1 = The Knight of Runan, or Runcan of Runan, is a self proclamed knight from the Runan province.
+ChezHarold_Harold_Quest1_Runcan_2 = He is actually a criminal who kidnap women to create the world biggest harem.
+ChezHarold_Harold_Quest1_Runcan_3 = I have fought him several times in the past, he is quite strong.
+ChezHarold_Harold_Quest1_Runcan_4 = If he attacks the elves, who knows what he will do to them...
+
+
+ChezHarold_Harold_Quest1_Boyardee_1 = Boyardee is the owner of a restaurant in Valtyr.
+ChezHarold_Harold_Quest1_Boyardee_2 = I don't understand however why he is here.
+ChezHarold_Harold_Quest1_Boyardee_3 = He isn't a criminal. Why would he team up with Rickey and the Knight of Runan ?
+ChezHarold_Harold_Quest1_Boyardee_4 = I've got a bad felling about this. Be careful when dealing with him.
+
+
+# --------------------------------------------------------------
+# ----------------------- Entrée -------------------------------
+# --------------------------------------------------------------
+
+
+Entree_Normal = I am at the entrance of Santa's Workshop.
+
+Entree_CheckArea_1 = I can see buldings in the distance. However, I can't determine their function.
+Entree_CheckArea_2 = I should get closer in order to know that.
+
+Entree_MainQuest0_1 = I'm close to Santa's Workshop now.
+Entree_MainQuest0_2 = I can already see buldings in the distance.
+Entree_MainQuest0_3 = But all of this seems so unreal.
+Entree_MainQuest0_4 = Why would anyone attack Santa Claus ?
+Entree_MainQuest0_5 = Suddently, I hear a noise. I am not alone.
+Entree_MainQuest0_6 = I hide behind a bush in order to see who is here.
+Entree_MainQuest0_7 = Maybe it's the criminals Harold told me about.
+Entree_MainQuest0_8 = However, I can hear a... tank coming by ?
+Entree_MainQuest0_9 = An actual tank comes by me, three persons are using it.
+Entree_MainQuest0_10 = Ah Ah ! Santa's Workshop, finally !
+Entree_MainQuest0_11 = Yes ! I will finally be able to get revenge on the old man !
+Entree_MainQuest0_12 = Yay ! He will soon know not to cross our path !
+Entree_MainQuest0_13 = Ah Ah ! I hope you all remember the plan.
+Entree_MainQuest0_14 = ... What plan ?
+Entree_MainQuest0_15 = What ?! You have one job and you managed to fail ?!
+Entree_MainQuest0_16 = It's not my fault, I was sleeping !
+Entree_MainQuest0_17 = ... Very well, I will repeat the plan.
+Entree_MainQuest0_18 = Boyardee will attack the kitchen. I don't know why but hey, I don't care.
+Entree_MainQuest0_19 = They have high quality tomato juice !
+Entree_MainQuest0_20 = Of course... You, Runcan of Runan, you will attack the elves in the toy factory.
+Entree_MainQuest0_21 = It's the Knight of Runan for you !
+Entree_MainQuest0_22 = Whatever ! Me, Rickey, CEO of Rickeyland, will go attack our bearded friend !  
+Entree_MainQuest0_23 = Why do you keep the fun tasks for yourself ?
+Entree_MainQuest0_24 = Because I'm the CEO !
+Entree_MainQuest0_25 = Quiet ! We are coming close to the workshop.
+Entree_MainQuest0_26 = ... Yes, let us calm down. This is a special day after all.
+Entree_MainQuest0_27 = Very well... Let's go !
+Entree_MainQuest0_28 = ....
+Entree_MainQuest0_29 = This is bad, Harold was right.
+Entree_MainQuest0_30 = I come out of my hiding spot and I watch the tank in the distance.
+Entree_MainQuest0_31 = They are so fast. They will have started their plan by the time I get there.
+Entree_MainQuest0_32 = I don't have time to waste. I have to defeat all three of them.
+Entree_MainQuest0_33 = But I need to determine who to attack first.
+Entree_MainQuest0_34 = Harold might help me with that.
+
+
+
+# --------------------------------------------------------------
+# ---------------------- Atelier -------------------------------
+# --------------------------------------------------------------
+
+ToyFactory_Arrive = I am at the toys factory.
+
+ToyFactory_CheckArea_0 = I inspect the toy factory.
+ToyFactory_CheckArea_1 = There is nothing interresting here.
+ToyFactory_CheckArea_Quest = There are tools here. I can now help Waldo get out of his ice cage.
+
+
+ToyFactory_RuncanQuest0_1 = I enter the toy factory.
+ToyFactory_RuncanQuest0_2 = The place is huge. I guess it's normal for a factory like this.
+ToyFactory_RuncanQuest0_3 = According to Rickey, the Knight of Runan should be here with the elves.
+ToyFactory_RuncanQuest0_4 = But... something is not right...
+ToyFactory_RuncanQuest0_5 = Where are the elves ? There is nobody here.
+ToyFactory_RuncanQuest0_6 = The Knight is also nowhere to be found. Am I too late ?
+ToyFactory_RuncanQuest0_7 = While examinating the place, I find a handwritten letter.
+ToyFactory_RuncanQuest0_8 = It was probably written by the Knight of Runan.
+ToyFactory_RuncanQuest0_9 = I pick it up and start reading.
+ToyFactory_RuncanQuest0_10 = "Dear Santa Claus,"
+ToyFactory_RuncanQuest0_11 = "I have kidnapped your elves because we have problems between us."
+ToyFactory_RuncanQuest0_12 = "For several years, you have put me on the naughty list for Christmas. For this reason, I'm still waiting to this day for my super special present."
+ToyFactory_RuncanQuest0_13 = "If you want to see your elves alive, you have to put me on the correct list and give me my present."
+ToyFactory_RuncanQuest0_14 = "Il will wait for you at the lake with the elves."
+ToyFactory_RuncanQuest0_15 = "Sincerly, Knight of Runan"
+ToyFactory_RuncanQuest0_16 = ...
+ToyFactory_RuncanQuest0_17 = The Knight kidnapped the elves ! I have to stop him !
+ToyFactory_RuncanQuest0_18 = He told he was waiting at the lake. I think there is one nearby.
+ToyFactory_RuncanQuest0_19 = I have to hurry ! Who knows what he will do to the elves if I don't intervene.
+
+
+# --------------------------------------------------------------
+# -------------------------- Lac -------------------------------
+# --------------------------------------------------------------
+
+
+Lake_Arrive = I am at the frozen lake.
+
+Lake_CheckArea_WaldoQuestReceive_0 = I look at the lake, it is... frozen.
+Lake_CheckArea_WaldoQuestReceive_1 = ... There is someone on the lake. They aren't moving.
+Lake_CheckArea_WaldoQuestReceive_2 = I come closer and I understand that they are actually stuck in an ice cube.
+Lake_CheckArea_WaldoQuestReceive_3 = Hey ! You there, help me !
+Lake_CheckArea_WaldoQuestReceive_4 = I'm stuck in this ice cube, help me get out of here !
+Lake_CheckArea_WaldoQuestReceive_5 = How did you  end up here ?
+Lake_CheckArea_WaldoQuestReceive_6 = That's a long story... Help me and I will tell you everything.
+Lake_CheckArea_WaldoQuestReceive_7 = Okay, I will search for tools to get you out.
+Lake_CheckArea_WaldoQuestReceive_8 = Santa's workshop is close by, right ? You should be able to get tools there.
+Lake_CheckArea_WaldoQuestReceive_9 = But please hurry ! I'm starting to feel very cold.
+Lake_CheckArea_WaldoQuestReceive_10 = I'm coming back soon. What's your name by the way ?
+Lake_CheckArea_WaldoQuestReceive_11 = Waldo, my name is Waldo.
+Lake_CheckArea_WaldoQuestReceive_12 = Okay. Hang tight, Waldo.
+Lake_CheckArea_WaldoQuestReceive_13 = I move away from the frozen Waldo.
+
+
+Lake_CheckArea_WaldoQuest0_0 = Waldo is still stuck in the ice cube.
+Lake_CheckArea_WaldoQuest0_1 = I don't have tools to help him out.
+Lake_CheckArea_WaldoQuest0_2 = I should search for some at Santa's workshop.
+
+
+Lake_CheckArea_WaldoQuest1_0 = Waldo didn't move since my last visit.
+Lake_CheckArea_WaldoQuest1_1 = I have the required tools now. I can get him out of here.
+Lake_CheckArea_WaldoQuest1_2 = I come closer and start to work.
+Lake_CheckArea_WaldoQuest1_3 = ....
+Lake_CheckArea_WaldoQuest1_4 = I manage to get him out of the ice cube.
+Lake_CheckArea_WaldoQuest1_5 = Thanks ! I'm free now !
+Lake_CheckArea_WaldoQuest1_6 = I am indebted to you now. Ask me anything.
+
+
+Lake_Waldo = What do you want to know, my friend ?
+
+Lake_Waldo_Topic1_0 = I'm Waldo. I'm the only employee of the amusement park Rickeyland.
+Lake_Waldo_Topic1_1 = For this reason, I'm one of the most important people in the park.
+Lake_Waldo_Topic1_2 = Why is there only one employee ? It's strange.
+Lake_Waldo_Topic1_3 = The CEO prefers to pay more guards. We have over 15000 at the moment.
+Lake_Waldo_Topic1_4 = That's why Rickeyland is the world's most secure amusement park.
+
+Lake_Waldo_Topic2_0 = Me ? That's really a strange story. How to put it simply ?
+Lake_Waldo_Topic2_1 = This morning, the CEO told me he needed me ASAP in the meeting room.
+Lake_Waldo_Topic2_2 = There, he told me I had to infiltrate a terrorist complex.
+Lake_Waldo_Topic2_3 = I accepted because I had nothing better to do but I rapidly understood what was really going.
+Lake_Waldo_Topic2_4 = I was paradropped above Santa's workshop an hour after that.
+Lake_Waldo_Topic2_5 = I landed on the lake, but the ice broke under me. I was instantly frozen by the cold water.
+Lake_Waldo_Topic2_6 = Thanks again for saving me !
+
+Lake_RuncanQuest1_0 = I arrive at the frozen lake.
+Lake_RuncanQuest1_1 = According to the letter, the Knight and the elves should be here.
+Lake_RuncanQuest1_2 = I see a man on the distance. He is standing on the lake.
+Lake_RuncanQuest1_3 = He saw me too. He runs towards me.
+Lake_RuncanQuest1_4 = .... Not before slipping on the ice.
+Lake_RuncanQuest1_5 = He finally arrives, all sweaty. It's really the Knight of Runna.
+Lake_RuncanQuest1_6 = Santa Claus ! I was waiting for you !
+Lake_RuncanQuest1_7 = Where is my pr-.... Wait a second...
+Lake_RuncanQuest1_8 = No beard.... No red clothes....
+Lake_RuncanQuest1_9 = You're not Santa Claus !
+Lake_RuncanQuest1_10 = No. You are aware that your friend with the tank attacked him ?
+Lake_RuncanQuest1_11 = What ? Grr... I should have listened to the plan...
+Lake_RuncanQuest1_12 = But then, you don't have my christmas present, right ?
+Lake_RuncanQuest1_13 = If that's the case, I will have no choice but to kill the elves.
+Lake_RuncanQuest1_14 = Wait ! We can negociate ! What is this present you want ? I can arrange that you get it.
+Lake_RuncanQuest1_15 = I want a christmas harem filled with lolis ! I've been waiting for it for years !
+Lake_RuncanQuest1_16 = ....I think combat is the only option in the end.
+Lake_RuncanQuest1_17 = I... no. You can't have that for christmas.
+Lake_RuncanQuest1_18 = That's not event a physical object you're asking !
+Lake_RuncanQuest1_19 = Of course it is ! I'm also asking for the building containing the harem ! With bathes included !
+Lake_RuncanQuest1_20 = If you won't give it to me, then I will have to kill you !
+Lake_RuncanQuest1_21 = En garde ! You will soon see why they call me the Knight of Runan !
+Lake_RuncanQuest1_22 = The Knight starts to attack me. I prepare myself for battle.
+
+Lake_RuncanQuest1_23 = Impossible ! I can't lose !
+Lake_RuncanQuest1_24 = That's all you'll ever get for your acts.
+Lake_RuncanQuest1_25 = No ! I refuse to believe this !
+Lake_RuncanQuest1_26 = You seriously thought that kidnapping the elves would solve your problem ?
+Lake_RuncanQuest1_27 = Well... yes.
+Lake_RuncanQuest1_28 = But the elves are the one who make the toys ! This means they wouldn't be able to create your harem.
+Lake_RuncanQuest1_29 = I... damn ! I knew there was a flaw in my plan ! 
+Lake_RuncanQuest1_30 = But we'll meet again ! You will see eventually how cool I am !
+Lake_RuncanQuest1_31 = The Knight flees by the lake.
+Lake_RuncanQuest1_32 = ....Of course he slips again on the ice.
+Lake_RuncanQuest1_33 = The elves come near me. The knight didn't restrain them.
+Lake_RuncanQuest1_34 = Thank you ! You saved us !
+Lake_RuncanQuest1_35 = I hope he didn't hurt you.
+Lake_RuncanQuest1_36 = No, but he said that we would finish in a harem.
+Lake_RuncanQuest1_37 = ... I see. But now it's all over. He won't attack you again.
+Lake_RuncanQuest1_38 = Yes ! But I believe that you still have things to do. The workshop needs you.
+Lake_RuncanQuest1_39 = We will go home by ourselves, don't worry about us. 
+Lake_RuncanQuest1_40 = Good luck !
+Lake_RuncanQuest1_41 = The elves go away, leaving me alone at the lake.
+
+
+
+
+
+# --------------------------------------------------------------
+# ----------------------- Cuisine-------------------------------
+# --------------------------------------------------------------
+
+Kitchen_Arrive = I am inside the workshop's kitchen.
+
+Kitchen_CheckArea_0 = There are food leftovers all around the place.
+Kitchen_CheckArea_1 = I doubt Boyardee is even responsible for this mess.
+
+Kitchen_BoyardeeQuest0_0 = I enter the workshop's kitchen.
+Kitchen_BoyardeeQuest0_1 = Here are made meals for all of the people living in the workshop.
+Kitchen_BoyardeeQuest0_2 = According to the plan. Boyardee should be here doing... something ?
+Kitchen_BoyardeeQuest0_3 = What are you doing here ? This area is off limit !
+Kitchen_BoyardeeQuest0_4 = A man start speaking to me. It's Boyardee !
+Kitchen_BoyardeeQuest0_5 = I... I'm here to prevent you from....
+Kitchen_BoyardeeQuest0_6 = Hum... What are you doing actually ?
+Kitchen_BoyardeeQuest0_7 = Boyardee doesn't seem to be doing anything. That's strange.
+Kitchen_BoyardeeQuest0_8 = Me ? I look, I inspect, I learn.
+Kitchen_BoyardeeQuest0_9 = ... You aren't here to destroy the kitchen ?
+Kitchen_BoyardeeQuest0_10 = No ! Why would I destroy such an important place ?
+Kitchen_BoyardeeQuest0_11 = I am here to steal Santa's secret cooking knowledge.
+Kitchen_BoyardeeQuest0_12 = You see, he didn't give me my christmas present last year.
+Kitchen_BoyardeeQuest0_13 = I asked for a book that would make me the best chef in the wold but he refused.
+Kitchen_BoyardeeQuest0_14 = So you decided to come here and take revenge by stealing his recipes ?
+Kitchen_BoyardeeQuest0_15 = Yes. But tell me... do you mind helping me ?
+Kitchen_BoyardeeQuest0_16 = What ? Why would I do that ?
+Kitchen_BoyardeeQuest0_17 = I haven't done anything wrong. I'm just here for knowledge.
+Kitchen_BoyardeeQuest0_18 = But, there is nothing interresting here it seems.
+Kitchen_BoyardeeQuest0_19 = So let us make a deal : You help me find recipes and I get out of here.
+Kitchen_BoyardeeQuest0_20 = .... That was easier that what I thought it would be.
+Kitchen_BoyardeeQuest0_21 = Alright, I'll help you find recipes.
+Kitchen_BoyardeeQuest0_22 = Thank you ! Come back to me if you find anything.
+Kitchen_BoyardeeQuest0_23 = Boyardee starts searching in the various shelves of the kitchen. 
+Kitchen_BoyardeeQuest0_24 = I have to find the recipes, or else he will never leave.
+
+Kitchen_BoyardeeQuest1_0 = I still haven't found any recipes. I should look for some.
+
+
+Kitchen_BoyardeeQuest2_0 = Boyardee is still searching in the kitchen.
+Kitchen_BoyardeeQuest2_1 = I found some recipes, so he should be happy.
+Kitchen_BoyardeeQuest2_2 = You're back ! Did you have more luck than me with the recipes ?
+Kitchen_BoyardeeQuest2_3 = Yes. I found some recipes for you.
+Kitchen_BoyardeeQuest2_4 = Let me see...
+Kitchen_BoyardeeQuest2_5 = Mmhhh.... Really ? .........
+Kitchen_BoyardeeQuest2_6 = Incredible ! This is exactly what I need !
+Kitchen_BoyardeeQuest2_7 = These recipes are wonderful ! I need to test them right away !
+Kitchen_BoyardeeQuest2_8 = But first, I will do my part of our deal.
+Kitchen_BoyardeeQuest2_9 = I'm leaving the workshop. You'll never see me again here.
+Kitchen_BoyardeeQuest2_10 = With these recipes, I have all I need. I don't have any reason to stay here.
+Kitchen_BoyardeeQuest2_11 = So, goodbye and thank you !
+Kitchen_BoyardeeQuest2_12 = Boyardee runs out of the kitchen. He really wants to try these recipes.
+Kitchen_BoyardeeQuest2_13 = .... At least he didn't do anything really bad.
+Kitchen_BoyardeeQuest2_14 = If all the workshop's problems are as easy to solve as this. I will be finished soon.
+
+
+
+
+# --------------------------------------------------------------
+# -------------------- Librairie -------------------------------
+# --------------------------------------------------------------
+
+Library_Arrive = I am inside the workshop's library.
+
+Library_CheckArea_0 = There are many books here, most are about the creation of toys.
+
+Library_BoyardeeQuest1_0 = I have to find recipes for Boyardee. There should be recipe books in this library.
+Library_BoyardeeQuest1_1 = There are different types of recipe books however.
+Library_BoyardeeQuest1_2 = Which one should I take a look at ?
+Library_BoyardeeQuest1_Italy_0 = I look at an italian recipe book.
+Library_BoyardeeQuest1_Italy_1 = There are only pasta recipes in this book. I should pick another one.
+Library_BoyardeeQuest1_Secret_0 = I open a book entitled "Secret recipes of Santa Claus"
+Library_BoyardeeQuest1_Secret_1 = ... It's full of Chocolate bread recipes. This isn't a good idea.
+Library_BoyardeeQuest1_Christmas_0 = I take a book full of Christmas recipes.
+Library_BoyardeeQuest1_Christmas_1 = .... There are many recipes that should please Boyardee.
+Library_BoyardeeQuest1_Christmas_2 = I hope this book will be enough though.
+Library_BoyardeeQuest1_Christmas_3 = I should give it to him back at the kitchen.
+
+
+# --------------------------------------------------------------
+# ------------------ Chalet du Père Noel -----------------------
+# --------------------------------------------------------------
+
+
+SantaHouse_Arrive = I am in front of Santa's House.
+
+SantaHouse_RickeyQuest0_0 = I arrive at Santa's house, the place seems calm.
+SantaHouse_RickeyQuest0_1 = According to the plan, Rickey should attack Santa Claus here.
+SantaHouse_RickeyQuest0_2 = But... There is no tank here as far as I can see.
+SantaHouse_RickeyQuest0_3 = Maybe I got there first ? I should take this opportunity to warn Santa. 
+SantaHouse_RickeyQuest0_4 = Suddently, I hear a loud noise coming from the house.
+SantaHouse_RickeyQuest0_5 = He is already there ? Quick, I have to hurry !
+SantaHouse_RickeyQuest0_6 = I enter Santa's house, what I see before me is...
+SantaHouse_RickeyQuest0_7 = You're going to come with me, old hag !
+SantaHouse_RickeyQuest0_8 = Help ! I'm being kidnapped !
+SantaHouse_RickeyQuest0_9 = Ah Ah ! I'm going to take revenge for not getting my present 4 years ago !
+SantaHouse_RickeyQuest0_10 = But I cant't offer you the world on a silver plate ! That's too much !
+SantaHouse_RickeyQuest0_11 = I don't care ! I will torture you until you give me my present !
+SantaHouse_RickeyQuest0_12 = I have to do something ! But he has a tank... No, I have to try at least.
+SantaHouse_RickeyQuest0_13 = Don't move ! Give up or....... Hum......
+SantaHouse_RickeyQuest0_14 = What, a 2 feets tall elf ? But I thought the Knight got rid of them !
+SantaHouse_RickeyQuest0_15 = But I doesn't matter ! I'll tear you appart !
+SantaHouse_RickeyQuest0_16 = Let's go !
+SantaHouse_RickeyQuest0_17 = Rickey moves toward me with his tank. I prepare myself for a fight.
+
+SantaHouse_RickeyQuest0_18 = I managed to repel the attacks of Rickey.
+SantaHouse_RickeyQuest0_19 = What, I failed ?! That's impossible !
+SantaHouse_RickeyQuest0_20 = .... But hey, it doesn't matter in the end ! I still win !
+SantaHouse_RickeyQuest0_21 = What do you mean ?
+SantaHouse_RickeyQuest0_22 = I have Santa Claus and a tank ! I can flee whenever I want !
+SantaHouse_RickeyQuest0_23 = Look at that speed !
+SantaHouse_RickeyQuest0_24 = Rickey goes in reverse and starts fleeing.
+SantaHouse_RickeyQuest0_25 = He is pretty fast... I won't be able to catch up to him on foot.
+SantaHouse_RickeyQuest0_26 = But I have to do something, Santa Claus is in danger.
+SantaHouse_RickeyQuest0_27 = ..... Is he gone ?
+SantaHouse_RickeyQuest0_28 = I hear a voice behind me. It's an elf.
+SantaHouse_RickeyQuest0_29 = Yes, he is gone. But he kidnapped Santa Claus.
+SantaHouse_RickeyQuest0_30 = Oh no ! You have to do something !
+SantaHouse_RickeyQuest0_31 = I'm Samara, the favorite elf of Santa Claus.
+SantaHouse_RickeyQuest0_32 = I can give you any informations on the workshop to help you on your quest.
+SantaHouse_RickeyQuest0_33 = Okay, I will need a ride fast enough to catch up to that tank.
+SantaHouse_RickeyQuest0_34 = .... I know ! Go see Rudolph at the stables, he can help you.
+SantaHouse_RickeyQuest0_35 = He is our fastest reindeer, he can catch up to that tank.
+SantaHouse_RickeyQuest0_36 = I see, thank you very much.
+
+
+SantaHouse_Samara = Do you need something ?
+SantaHouse_Samara_Topic1_0 = I am Samara, Santa's favorite elf.
+SantaHouse_Samara_Topic1_1 = My duty is to fill the lists of naughty and nice people for Santa Claus.
+SantaHouse_Samara_Topic2_0 = Rudolph is the fastest reindeer of the workshop.
+SantaHouse_Samara_Topic2_1 = Santa Claus brings him to all of his night escapades.
+
+
+SantaHouse_Santa = What do you neeed, [MC] ?
+SantaHouse_Santa_Topic1_0 = I am Santa Claus, but I think you know that already.
+SantaHouse_Santa_Topic1_1 = I give gifts to peoples who were nice each year. 
+SantaHouse_Santa_Topic2_0 = I must admit that I didn't think I would be kidnapped today.
+SantaHouse_Santa_Topic2_1 = I thank you truly for saving me. Who knows what they would have done to me if you didn't come to rescue me.
+
+SantaHouse_MainQuest2_0 = I enter Santa's house, I find him in his living room.
+SantaHouse_MainQuest2_1 = There you are ! Samara told me you defeated all the criminals.
+SantaHouse_MainQuest2_2 = Yes, the workshop is sage now.
+SantaHouse_MainQuest2_3 = Good ! Given the fact that Christmas is coming soon, it would have been bad if they did any more damage.
+SantaHouse_MainQuest2_4 = But I believe it is time to reward you for your bravery.
+SantaHouse_MainQuest2_5 = You saved Christmas, I think it's only fair that you get a little something.
+SantaHouse_MainQuest2_6 = Not yet !
+SantaHouse_MainQuest2_7 = The house's door opens and three individuals enters the living room.
+SantaHouse_MainQuest2_8 = It's Rickey, Boyardee and the Knight ! What are they doing here ?
+SantaHouse_MainQuest2_9 = You again ? You don't know when to quit, do you ?
+SantaHouse_MainQuest2_10 = Oh.... no... we come for something else.
+SantaHouse_MainQuest2_11 = Really ?
+SantaHouse_MainQuest2_12 = Yes... Actually, we wanted to say that.....
+SantaHouse_MainQuest2_13 = I'm all ears.
+SantaHouse_MainQuest2_14 = We were told to attack the workshop by someone.
+SantaHouse_MainQuest2_15 = Really, who ? Is this person another person from the naughty list ?
+SantaHouse_MainQuest2_16 = I don't know. We never met the guy.
+SantaHouse_MainQuest2_17 = We started receiving letters from him about a month about. We don't know his face or anything.
+SantaHouse_MainQuest2_18 = You have nothing on him ? Not event a little bit of informations ?
+SantaHouse_MainQuest2_19 = .... Ah yes ! I just remembered something !
+SantaHouse_MainQuest2_20 = He told us that if we ever had a problem, we could find him at the workshop's stables.
+SantaHouse_MainQuest2_21 = That's.... very direct from him. Is he still there ?
+SantaHouse_MainQuest2_22 = We never went there, so we don't know.
+SantaHouse_MainQuest2_23 = .... A strange man a the stables ? I think I know who it is.
+SantaHouse_MainQuest2_24 = Really ? Good job, [MC] !
+SantaHouse_MainQuest2_25 = I'm going to confront him. I'll let you know of what I find.
+SantaHouse_MainQuest2_26 = And you, don't attack Santa Claus again.
+SantaHouse_MainQuest2_27 = Yes Yes.... This whole operation was a bad idea anyway.
+SantaHouse_MainQuest2_28 = Don't worry, [MC]. I'm going to be fine. Now go and catch that man.
+SantaHouse_MainQuest2_29 = With these words, I get out of the house.
+
+SantaHouse_MainQuest5_0 = I enter Santa's house, nothing changed.
+SantaHouse_MainQuest5_1 = Rickey, Boyardee and the knight are still here.
+SantaHouse_MainQuest5_2 = [MC] ! Did you find our mysterious conspirator ?
+SantaHouse_MainQuest5_3 = Yes, and it was just like you said : an angry person from the naught list.
+SantaHouse_MainQuest5_4 = Good ! Now that everything is sorted, I think you deserve a reward.
+SantaHouse_MainQuest5_5 = Take this ! It's a present for you, thank you again for saving the workshop.
+SantaHouse_MainQuest5_6 = Santa gives me a bag full of chocolates and candies. It's really heavy.
+SantaHouse_MainQuest5_7 = Suddently, the door slams open and someone enters.
+SantaHouse_MainQuest5_8 = [MC] ! I heard you managed to save the workshop, good job !
+SantaHouse_MainQuest5_9 = Oh, thanks.
+SantaHouse_MainQuest5_10 = Harold ? .... Wait a second...
+SantaHouse_MainQuest5_11 = Let me guess, you summoned [MC] to help me ?
+SantaHouse_MainQuest5_12 = Yes ! Thanks to me, the workshop is saved !
+SantaHouse_MainQuest5_13 = .... Next time, if you want to get on the nice list, go help me yourself.
+SantaHouse_MainQuest5_14 = ... I can't get my present ?
+SantaHouse_MainQuest5_15 = No.
+SantaHouse_MainQuest5_16 = And us ? We helped a lot in the end !
+SantaHouse_MainQuest5_17 = I think you are stuck on the naughty list for at least 5 years.
+SantaHouse_MainQuest5_18 = Damn...
+SantaHouse_MainQuest5_19 = I knew this plan was bad...
+SantaHouse_MainQuest5_20 = If it's going to be like that, guess what I will do ?
+SantaHouse_MainQuest5_21 = No ?
+SantaHouse_MainQuest5_22 = I'm going to steal a present !
+SantaHouse_MainQuest5_23 = Harold rushes on a present that was on the table of the living room.
+SantaHouse_MainQuest5_24 = Hey ! Let us share the present !
+SantaHouse_MainQuest5_25 = Okay, this one will be for the four of us.
+SantaHouse_MainQuest5_26 = Harold opens the present and stops moving.
+SantaHouse_MainQuest5_27 = Coal ?!
+SantaHouse_MainQuest5_28 = Oh Oh Oh ! Merry Christmas !
+
+
+
+# --------------------------------------------------------------
+# ------------------------------- Ecurie -----------------------
+# --------------------------------------------------------------
+
+
+Stable_Arrive = I am at the workshop's stable.
+
+Stable_CheckArea = The stable is empty, nobody is here aside from me.
+
+Stable_RickeyQuest1_0 = I arrive at the workshop's stable.
+Stable_RickeyQuest1_1 = According to Samara, I can find Rudolph here.
+Stable_RickeyQuest1_2 = But... there's nobody here.
+Stable_RickeyQuest1_3 = All the reindeers are missing, that's strange.
+Stable_RickeyQuest1_4 = He He He ! Another victory for Mr.Angry !
+Stable_RickeyQuest1_5 = A man is dancing in front of the stable. I wonder if he knows anything.
+Stable_RickeyQuest1_6 = Excuse me, do you know where the reindeers are ? I was told they were here.
+Stable_RickeyQuest1_7 = He He He ! What ? I wasn't paying attention.
+Stable_RickeyQuest1_8 = Do you know where Santa's reindeers are ?
+Stable_RickeyQuest1_9 = Yes and no. He He He !
+Stable_RickeyQuest1_10 = I've got a bad feeling about this...
+Stable_RickeyQuest1_11 = They were here, but they had to go.
+Stable_RickeyQuest1_12 = If you want to find them, you need to search the caves.
+Stable_RickeyQuest1_13 = But do hurry, who knows what might happen to them.
+Stable_RickeyQuest1_14 = He moves away before I can even reply.
+Stable_RickeyQuest1_15 = I think he may be behind the kidnapping of the reindeers.
+Stable_RickeyQuest1_16 = If that's the case, the reindeers are locked in the caves.
+Stable_RickeyQuest1_17 = I have to find them before they get hurt.
+
+
+Stable_Rudolphe = Rudolph is eating. I shouldn't bother him.
+
+Stable_RickeyQuest3_0 = I approach Rudolph the reindeer.
+Stable_RickeyQuest3_1 = [MC] ! I was waiting for you !
+Stable_RickeyQuest3_2 = Thanks again for saving me !
+Stable_RickeyQuest3_3 = If I understand everything correctly, Santa is in danger ?
+Stable_RickeyQuest3_4 = Yes, a man with a tank kidnapped him.
+Stable_RickeyQuest3_5 = That's horrible ! We have to do something !
+Stable_RickeyQuest3_6 = Quick, get on my back ! I will pursue the tank.
+Stable_RickeyQuest3_7 = Okay, let's go.
+Stable_RickeyQuest3_8 = I climb on Rudolph and he takes off.
+Stable_RickeyQuest3_9 = The view is nice in the skies. But I can't see Santa Claus.
+Stable_RickeyQuest3_10 = After a few dozen minutes, we spot the tank.
+Stable_RickeyQuest3_11 = Rudolph stops in front of it. Forcing it to stop.
+Stable_RickeyQuest3_12 = A flying deer ! Today is clearly not my day. Ah Ah !
+Stable_RickeyQuest3_13 = Let Santa Claus go !
+Stable_RickeyQuest3_14 = What ? Wait.... You are the giant elf from before !
+Stable_RickeyQuest3_15 = You don't know when to quit, do you ?
+Stable_RickeyQuest3_16 = It doesn't matter ! I have a tank, and you a flying deer !
+Stable_RickeyQuest3_17 = I can just run away, like that ! Ah Ah !
+Stable_RickeyQuest3_18 = Rickey starts fleeing. Rudolph follows him closely.
+
+Stable_RickeyQuest3_19 = After a bit, the panzer stops again.
+Stable_RickeyQuest3_20 = Hey ! Stop following me !
+Stable_RickeyQuest3_21 = Let Santa Claus go !
+Stable_RickeyQuest3_22 = But I need him for my christmas present !
+Stable_RickeyQuest3_23 = Grr ! I don't have time for this ! Goodbye !
+Stable_RickeyQuest3_24 = Rickey tries to start up his tank, but fails.
+Stable_RickeyQuest3_25 = What ? The engine broke ? No !
+Stable_RickeyQuest3_26 = You can't run ! Give up !
+Stable_RickeyQuest3_27 = Grr.... Never ! I'll never get caught by an elf !
+Stable_RickeyQuest3_28 = Rickey jumps off his tank and runs away.
+Stable_RickeyQuest3_29 = He forgot Santa Claus, so I let him go.
+Stable_RickeyQuest3_30 = Santa jumps off the tank too and looks at me.
+Stable_RickeyQuest3_31 = Thank you ! You really saved me, Mister....
+Stable_RickeyQuest3_32 = [MC]. My name is [MC]. I'm glad you are okay.
+Stable_RickeyQuest3_33 = This madman wanted the world for christmas. Being Santa Claus is hard sometimes.
+Stable_RickeyQuest3_34 = Thankfuly, you were there, [MC]. Who knows what he would have done if you hadn't save me.
+Stable_RickeyQuest3_35 = Santa Claus, we should go back.
+Stable_RickeyQuest3_36 = Rudolph ? You came to rescue me too ? Thank you so much !
+Stable_RickeyQuest3_37 = But he is right. We should go back to the workshop.
+Stable_RickeyQuest3_38 = Maybe there are other problems left unsolved aside from my abduction.
+Stable_RickeyQuest3_39 = That's how we got back to the stable.
+Stable_RickeyQuest3_40 = Finally back ! It's so good not to be kidnapped.
+Stable_RickeyQuest3_41 = [MC], I won't take any more of you time.
+Stable_RickeyQuest3_42 = If you ever need me, you can find me in my house.
+Stable_RickeyQuest3_43 = Until then, good luck !
+Stable_RickeyQuest3_44 = Santa Claus leaves me alone in front of the stable. Rudolph went eating some carrots to get some energy back.
+
+
+Stable_MainQuest3_0 = I arrive in front of the workshop's stable.
+Stable_MainQuest3_1 = If I'm correct, Mr.Angry is responsible for all of this.
+Stable_MainQuest3_2 = I find him near a tree. He doesn't look happy.
+Stable_MainQuest3_3 = Grr ! The three criminals stopped their attack, is that right ?
+Stable_MainQuest3_4 = Yes, I managed to defeat them. But I have some questions for you.
+Stable_MainQuest3_5 = For me ? .... Okay, but not here. I need some privacy.
+Stable_MainQuest3_6 = Meet me at the frozen beach, I will awnser you questions there.
+Stable_MainQuest3_7 = Mr.Angry leaves before I can even say anything.
+Stable_MainQuest3_8 = I should talk to him at the frozen beach.
+
+
+
+# --------------------------------------------------------------
+# ----------------------------- Cavernes -----------------------
+# --------------------------------------------------------------
+
+
+Cave_Arrive = I am in front of the entrance of a cave.
+
+Cave_CheckArea_0 = I search the cave...
+Cave_CheckArea_1 = There is nothing inside.
+
+Cave_CheckArea_Normal_0 = There is a reindeer stuck inside !
+Cave_CheckArea_Normal_1 = Thanks ! I thought I would die here !
+Cave_CheckArea_Normal_2 = The reindeer starts going back to the stable.
+
+Cave_CheckArea_Rudolphe_0 = There is a reindeer stuck inside, it's Rudolph.
+Cave_CheckArea_Rudolphe_1 = Thanks ! I owe you one !
+Cave_CheckArea_Rudolphe_2 = You are Rudolph the reindeer ?
+Cave_CheckArea_Rudolphe_3 = Yes ! I'm the fastest reindeer in the workshop.
+Cave_CheckArea_Rudolphe_4 = I need your help. Santa Claus is in danger.
+Cave_CheckArea_Rudolphe_5 = Really ? .... Okay, but let's meet up at the stable first.
+Cave_CheckArea_Rudolphe_6 = This place gives me the creep. See you later !
+Cave_CheckArea_Rudolphe_7 = Rudolph leaves the area, leaving me alone.
+
+Cave_RudolpheQuest_Done = I found all the reindeers ! That's one problem dealt with.
+Cave_RudolpheQuest_NotDone = There are still missing reindeers. I should find them.
+
+
+
+# --------------------------------------------------------------
+# -------------------------- Plage gelée -----------------------
+# --------------------------------------------------------------
+
+Beach_Arrive = I am at the frozen beach. There is ice everywhere.
+
+Beach_CheckArea = The beach is completely frozen. Ice spreads to the horizon. 
+
+Beach_MainQuest4_0 = I approach M.Angry. This time, I will know the truth.
+Beach_MainQuest4_1 = There you are.... You wanted to ask me something ?
+Beach_MainQuest4_2 = Yes, I believe you are responsible for the attack on the workshop.
+Beach_MainQuest4_3 = What ? ........ Who talked ? Who has spiled the beans ?
+Beach_MainQuest4_4 = So it was really you. The three criminals admitted being under your orders.
+Beach_MainQuest4_5 = Grr ! I knew I should have do this myself.
+Beach_MainQuest4_6 = Why did you attack Santa Claus ? Who are you ?
+Beach_MainQuest4_7 = Who I am ? I'm.......
+Beach_MainQuest4_8 = M.Angry takes off his mask, revealing his true face.
+Beach_MainQuest4_9 = .... Todd Howard !
+Beach_MainQuest4_10 = What ? But why ?
+Beach_MainQuest4_11 = Santa Claus got what he deserved ! He framed me !
+Beach_MainQuest4_12 = What did he do to you ?
+Beach_MainQuest4_13 = Last year, I asked for the perfect game for christmas. One that would make me a lot of money.
+Beach_MainQuest4_14 = He gave me "Fallout 76" on christmas. I thought it was the perfect game I was waiting for.
+Beach_MainQuest4_15 = But I was wrong ! And now my company lost a lot of money !
+Beach_MainQuest4_16 = So I have to get revenge on Santa ! He deserves to be punished for what he did !
+Beach_MainQuest4_17 = He has gone mad, I have to do something.
+Beach_MainQuest4_18 = If I understrand it correctly, you are the one who made my plan fail ?
+Beach_MainQuest4_19 = Hum... yes ?
+Beach_MainQuest4_20 = So I have to kill you ! That way, Santa Claus will be vulnerable again !
+Beach_MainQuest4_21 = Todd sprints toward me. I can barely prepare myself for the fight.
+
+Beach_MainQuest4_22 = In the end, I manage to defeat Todd.
+Beach_MainQuest4_23 = Impossible ! I can't lose against you !
+Beach_MainQuest4_24 = Give up, Todd ! Your plan failed and you know it !
+Beach_MainQuest4_25 = Grr ! I will come back, you'll see !
+Beach_MainQuest4_26 = I'll create the perfect game and Santa Claus will be jealous !
+Beach_MainQuest4_27 = He will soon regret giving me a bad game last year !
+Beach_MainQuest4_28 = Todd starts running away andd jumps into the ocean. I don't know if he will survive the cold.
+Beach_MainQuest4_29 = But hey, I managed to defeat him. The workshop if now safe.
+Beach_MainQuest4_30 = I should report back to Santa to tell him the news.
+Beach_MainQuest4_31 = If I still have to solve problems in the workshop, I should solve them first thought.

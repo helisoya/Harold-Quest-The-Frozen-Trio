@@ -1,0 +1,31 @@
+show()
+show()
+changeCharacter(Rick0,true)
+setBackground(RickeyLand_Trone)
+
+*Rick0 "[voice(06_G_1)]Impossible ! C'est impossible !!!!"
+*Rick0 "[voice(06_G_2)]Je suis supposé être invincible ! Mes modifications..."
+[MC] "J'avais déjà vaincu Rickey de la même manière !"
+[MC] "Tu n'es qu'un simple robot ! Rien de plus !"
+*Rick0 "[voice(06_G_3)]NNNNNNNNOOOOOOOOOOOONNNNNNNNNNNNNN !!!!!"
+narrator "Rick0 se met à briller de mille feux."
+
+hide()
+narrator "Il explose et ses morceaux se retrouvent éparpillés dans la salle."
+narrator "Je libère Waldo de sa cage. Il a assez souffert."
+
+changeCharacter(Waldo_Uniforme_Normal)
+show()
+*Waldo "[voice(06_G_4)]Merci ! Une fois de plus, vous avez sauvé le parc !"
+[MC] "Ce n'était rien..."
+*Waldo "[voice(06_G_5)]Eh Eh ! Bon, cette fois, allons vraiment chez ma famille !"
+[MC] "Très bien ! Allons-y !"
+
+hide()
+setBackground(null)
+narrator "Ainsi se fini mon aventure à Vlatyr."
+narrator "Comment aurais-je pus avoir qu'elle serait la dernière ?"
+narrator "FIN"
+
+FinishChapter(6)
+MainMenu()

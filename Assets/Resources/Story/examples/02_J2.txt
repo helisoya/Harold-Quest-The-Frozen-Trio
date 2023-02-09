@@ -1,0 +1,49 @@
+setBackground(Braise_Entrée)
+hide()
+
+narrator "J'arrive sans trop de mal à détourner le système de sécurité."
+narrator "La porte s'ouvre toute seule en faisant un bruit monstre."
+[MC] "Maintenant que cela est fait, je peux entrer dans la forteresse."
+narrator "J'entre donc à l'intérieur en espérant qu'elle soit vide."
+
+setBackground(Braise_Couloir)
+narrator "La forteresse est silencieuse, il n'y a aucun bruit"
+narrator "Je marche dans les couloirs déserts en espérant trouver quelque chose."
+narrator "Après quelques minutes, j'arrive devant une grande porte."
+[MC] "C'est peut être la salle de trône du dragon."
+[MC] "Si il y a bien un endroit à vérifier, c'est ici."
+
+setBackground(Braise_Trone)
+narrator "J'entre donc dans la salle et je suis bouche bée."
+narrator "Il y a des montagnes d'or dans les coins de la salle."
+narrator "A centre, un trône témoignant la puissance de son possesseur."
+narrator "Derrière lui, un puits géant dont on ne voit pas le fond."
+narrator "Mais.... pas de dragon à voir. Je suis tout seul."
+[MC] "On dirait que le dragon est bel et bien mort."
+[MC] "J'ai de la chance, si je devais le combattre...."
+narrator "D'un coup, j'entends un puissant rugissement provenant du puits."
+narrator "Puis, deux grandes pattes s'accrochent au bord du puits."
+narrator "Enfin, la tête d'un puissant dragon surgit du puits."
+
+show()
+changeCharacter(Braise)
+*??? "[voice(02_J_1)]Grrrr !!!! Je ne suis pas encore mort, mortel !"
+*Braise "[voice(02_J_2)]Moi, le seigneur Braise, est insensible aux musiques !"
+*Braise "[voice(02_J_3)]Je suis allé dans le puits de mon plein gré !"
+[MC] "Vous êtes insensible aux musiques ? Comme ça ?"
+narrator "Je siffle une douce mélodie, le dragon ferme les yeux."
+*Braise "[voice(02_J_4)]...Ça ne set à rien.... Je suis..... In...."
+[MC] "Pourquoi ne pas retourner dans le puits ?"
+[MC] "Je suis sur qu'il est bien plus confortable."
+*Braise "[voice(02_J_5)]... Oui... Il est mieux.... Bonne nuit...."
+
+hide()
+narrator "Le dragon se laisse tomber dans le puits."
+narrator "Après quelques secondes, j'entends un bruit sourd."
+[MC] "Le puits est très profond..."
+[MC] "Bon, maintenant que le dragon n'est plus, partons."
+narrator "Je sort de la salle et me dirige vers la sortie."
+
+setBackground(Braise_Entrée)
+narrator "Une fois sorti, je suis frappé de stupeur."
+Load(02_M)

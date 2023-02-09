@@ -1,0 +1,19 @@
+show()
+changeCharacter(Waldo_Normal)
+setBackground(RickeyLand_Boutique_Interieur)
+
+[MC] "Non merci !"
+
+hide()
+narrator "Je sort de la boutique en courant."
+
+setBackground(RickeyLand_Boutique)
+[MC] "Je n'allait tout de même pas acheter quelque chose ici !"
+
+changeCharacter(SeigneurNoir)
+show()
+narrator "Je remarque que l'homme de l'entrée est à coté de moi."
+*Seigneur Noir "[voice(03_G_6)]Comment ? Vous n'avez rien acheté ?! C'est inacceptable !"
+*Seigneur Noir "[voice(03_G_7)]Je vais vous exterminer ! C'est un crime de ne pas aller acheter quelque chose dans la boutique de souvenir."
+narrator "Le seigneur noir me fonce dessus, il m'engage dans un duel de... Tetris ?"
+LoadScene(T)

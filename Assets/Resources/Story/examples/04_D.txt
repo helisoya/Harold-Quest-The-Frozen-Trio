@@ -1,0 +1,18 @@
+hide()
+hide()
+setBackground(Braise_Salle)
+
+narrator "J'ai réussi à assommer le soldat."
+
+show()
+changeCharacter(Harold_Arme)
+*Harold "[voice(04_D_1)]Comment ?! C'est impossible !"
+*Harold "[voice(04_D_2)]C'est pourtant mon plus puissant guerrier !"
+*Harold "[voice(04_D_3)]Grrr ! Je n'ai plus le choix !"
+
+changeCharacter(Harold_Fight)
+narrator "Harold retrousse ses manche et range son arme."
+*Harold "[voice(04_D_4)]Je vais devoir t'apprendre une nouvelle leçon !"
+*Harold "[voice(04_D_5)]'Prendre une dérouillé de A à Z' ! A l'attaque !"
+n "Harold me saute lui aussi dessus."
+LoadScene(CCH)

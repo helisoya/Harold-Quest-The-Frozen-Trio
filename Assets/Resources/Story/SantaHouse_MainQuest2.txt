@@ -1,0 +1,52 @@
+hide()
+hide()
+setBackground(SantaHouse_Interieur)
+playMusic(null)
+
+narrator "SantaHouse_MainQuest2_0"
+
+changeCharacter(PereNoel)
+show()
+*Santa "SantaHouse_MainQuest2_1"
+[MC] "SantaHouse_MainQuest2_2"
+*Santa "SantaHouse_MainQuest2_3"
+*Santa "SantaHouse_MainQuest2_4"
+*Santa "SantaHouse_MainQuest2_5"
+Rickey "SantaHouse_MainQuest2_6"
+narrator "SantaHouse_MainQuest2_7"
+narrator "SantaHouse_MainQuest2_8"
+*Santa "SantaHouse_MainQuest2_9"
+
+changeCharacter(ChevalierRunan)
+*Runcan "SantaHouse_MainQuest2_10"
+changeCharacter(PereNoel)
+*Santa "SantaHouse_MainQuest2_11"
+changeCharacter(Boyardee)
+*Boyardee "SantaHouse_MainQuest2_12"
+changeCharacter(PereNoel)
+*Santa "SantaHouse_MainQuest2_13"
+changeCharacter(Rickey_1)
+*Rickey "SantaHouse_MainQuest2_14"
+changeCharacter(PereNoel)
+*Santa "SantaHouse_MainQuest2_15"
+changeCharacter(Rickey_1)
+*Rickey "SantaHouse_MainQuest2_16"
+*Rickey "SantaHouse_MainQuest2_17"
+[MC] "SantaHouse_MainQuest2_18"
+*Rickey "SantaHouse_MainQuest2_19"
+*Rickey "SantaHouse_MainQuest2_20"
+[MC] "SantaHouse_MainQuest2_21"
+*Rickey "SantaHouse_MainQuest2_22"
+[MC] "SantaHouse_MainQuest2_23"
+
+changeCharacter(PereNoel)
+*Santa "SantaHouse_MainQuest2_24"
+[MC] "SantaHouse_MainQuest2_25"
+[MC] "SantaHouse_MainQuest2_26"
+changeCharacter(ChevalierRunan)
+*Runcan "SantaHouse_MainQuest2_27"
+changeCharacter(PereNoel)
+*Santa "SantaHouse_MainQuest2_28"
+narrator "SantaHouse_MainQuest2_29"
+variable(MainQuest,3)
+Load(SantaHouse_Arrive)

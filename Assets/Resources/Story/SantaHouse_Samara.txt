@@ -1,0 +1,15 @@
+changeCharacter(Samara)
+changeCharacter(Samara)
+show()
+setBackground(SantaHouse_Interieur)
+*Samara "SantaHouse_Samara"
+
+choice "Choice_Chat"
+{
+  "Choice_Chat_Samara_Topic1"
+    Load(SantaHouse_Samara_Topic1)
+  "Choice_Chat_Samara_Topic2"
+    Load(SantaHouse_Samara_Topic2)
+  "Choice_Chat_Nothing"
+    Load(SantaHouse_Arrive)
+}

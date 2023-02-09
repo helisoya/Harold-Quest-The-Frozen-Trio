@@ -1,0 +1,38 @@
+hide()
+setBackground(Marais_Var3)
+
+narrator "J'arrive à distancer l'ogre de plusieurs mètres, mais il est toujours derrière moi."
+Ogre "[voice(01_H_1)]Ah Ah Ah ! Je ne vais faire qu'une bouché de toi !"
+
+setBackground(Marais_Pont)
+narrator "J'arrive au niveau d'un pont, on dirait la sortie du marais."
+[MC] "La sortie ! Je suis sauvé !"
+
+changeCharacter(Ogre)
+show()
+*Ogre "[voice(01_H_2)]Sauf si je te suis ! Ah Ah Ah !"
+narrator "Je m'élance sur le pont, il doit bien y avoir un moyen de me débarrasser de l'ogre."
+narrator "Je traverse sans mal le pont, l'ogre me suis de près."
+narrator "Je cherche un moyen de détacher le pont, mais je n'ai pas ce qu'il faut."
+narrator "L'ogre se rapproche de moi. Il est au milieu du pont."
+*Ogre "[voice(01_H_3)]Ah Ah Ah ! C'est fini ! Vient par ici, mon casse-croûte !"
+[MC] "NON ! Pas comme ça ! Aidez-moi par pitié !"
+
+changeCharacter(Archer_Normal)
+*??? "[voice(01_H_4)]Bien sur ! Meurt, sale monstre !"
+narrator "Un archer tombe sur l'ogre et lui plante une flèche dans la tête."
+narrator "L'ogre tombe au sol, mort. L'archer me regard avec un sourire ridicule."
+*Archer "[voice(01_H_5)]Ah Ah ! J'ai tué l'ogre du marais ! Je suis un héro !"
+[MC] "Euh... merci beaucoup, monsieur."
+[MC] "Je cherche le seigneur braise, savez-vous o-"
+*Archer "[voice(01_H_6)]Le dragon ? Rien de plus simple ! Suivez ce chemin !"
+*Archer "[voice(01_H_7)]Il se terre dans une grande forteresse, vous ne pouvez pas vous tromper !"
+*Archer "[voice(01_H_8)]Ah Ah ! Mon nom va être inscrit dans les livres d'histoire !"
+*Archer "[voice(01_H_9)]Mon nom ! Le glorieux nom de A-"
+
+hide()
+narrator "Le pont s’effondre et l'archer tombe dans la rivière avec le corps de l'ogre."
+[MC] "... Au moins je suis sain et sauf..."
+[MC] "Bien... Je devrais suivre la route, elle va me mener au dragon."
+narrator "J'emprunte donc le chemin et me dirige vers les montagnes."
+Load(01_I)

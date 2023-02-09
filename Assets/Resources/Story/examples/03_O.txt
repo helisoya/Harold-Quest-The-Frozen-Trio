@@ -1,0 +1,31 @@
+show()
+changeCharacter(Harold_Kimono)
+setBackground(ForteresseNoire_Salle)
+
+*Harold "[voice(03_O_1)]Impossible ! Comment ais-je pu perdre à mon propre mini jeu ?"
+*Harold "[voice(03_O_2)]Je n'ai plus le choix ! Vous allez le regretter !"
+*Harold "[voice(03_O_3)]Je vais utiliser ma plus grande arme !"
+
+changeCharacter(Harold_Kimono_CardH)
+*Harold "[voice(03_O_4)]La carte Harold ! Avec elle, je vais lancer un sortilège qui va vous détruire !"
+
+changeCharacter(Harold_Kimono_CardW)
+narrator "J'arrache la carte de la main d'Harold et la remplace par une carte que j'avais dans ma poche."
+*Harold "[voice(03_O_5)]Quel est cette chose ? Au secours ! Mes yeux sont en train de brûler !"
+narrator "Harold fait des pas en arrière. Il s'approche de la fenêtre."
+
+hide()
+narrator "Harold saute par la fenêtre, il va évidemment mourir de la chute."
+[MC] "J'ai gagné. Ma quête est enfin fini. Je devrais trouver un moyen de rentrer chez moi."
+setBackground(null)
+
+[MC] "Depuis ce jour, je vis dans la région de Vlatyr."
+[MC] "Harold était le seul qui pouvait me renvoyer chez moi, ironique..."
+[MC] "Mais je passe du temps avec Waldo, il a besoin d'aide pour administrer le parc."
+[MC] "Grâce à nos efforts, WaldoLand est devenu très populaire."
+[MC] "Quand à Harold et à ses sbires, je pense les avoir vaincu pour de bon."
+[MC] "J'ai enfin atteint la fin, j'ai amené la paix dans la région."
+narrator "FIN"
+
+FinishChapter(3)
+MainMenu()

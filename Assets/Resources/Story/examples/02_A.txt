@@ -1,0 +1,33 @@
+setBackground(null)
+changeCharacter(Harold_Cafe)
+hide()
+
+Harold "[voice(02_A_1)]Il y a longtemps, dans la lointaine province de Vlatyr, le chaos régnait."
+Harold "[voice(02_A_2)]Le terrible Seigneur Braise terrorisait la région en commettant de nombreux crimes horribles."
+Harold "[voice(02_A_3)]Mais son règne fut abrégé par un héro au cœur noble et vaillant, qui le tua à l'aide de ses habilités hors normes."
+Harold "[voice(02_A_4)]Depuis ce jour, la région fut en paix, libre de toutes menaces."
+Harold "[voice(02_A_5)]Mais des rumeurs circulaient sur la mort du dragon, beaucoup doutaient qu'un tel miracle puisse arriver."
+Harold "[voice(02_A_6)]Certains affirmaient qu'il était toujours en vie, et qu'une chose terrible allait se produire."
+Harold "[voice(02_A_7)]Son château était une forteresse impénétrable et il serait facile de fomenter quelques crimes derrière ses remparts."
+Harold "[voice(02_A_8)]Mais personne n’eus le courage d'approcher le dangereux château. Il était bien trop loin dans les montagnes et les chemins n'étaient pas surs."
+Harold "[voice(02_A_9)]Vlatyr allait donc devoir faire face à une nouvelle menace, si personne n'allait enquêter dans le château."
+Harold "[voice(02_A_10)]Il fallait donc un miracle de plus pour la petite région."
+
+show()
+setBackground(ChezHarold_Salon)
+*Harold "[voice(02_A_11)]J'espère que vous avez compris votre mission, [MC] !"
+*Harold "[voice(02_A_12)]Promis, je vous renvois chez vous quand vous aurez fini. Paroles d'Harold !" 
+*Harold "[voice(02_A_13)]Cela fait 2 semaines que le dragon est mort, et pourtant, je ne me sent plus en sécurité dans la région."
+*Harold "[voice(02_A_14)]On dirait que quelque chose se passe avec le château, vous devriez aller voir ce qu'il s'y passe."
+*Harold "[voice(02_A_15)]Vous seul pouvez combattre les forces obscures qui nous menacent. Vous devez m'aider."
+Adrien "Hmm... Pourquoi moi ? Je n'ai rien demandé à personne, je ne suis même pas de la région..."
+*Harold "[voice(02_A_16)]Vous êtes jeune et fort, [MC] ! Vous pouvez facilement vaincre vos ennemis. C'est pour cela que j'ai besoin de vous."
+*Harold "[voice(02_A_17)]Vous allez m'aider, pas vrai ?"
+
+choice "Que faire ?"
+{
+  "Accepter"
+    Load(02_A1)
+  "Refuser"
+    Load(02_A2)
+}

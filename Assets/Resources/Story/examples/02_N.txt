@@ -1,0 +1,11 @@
+setBackground(Braise_Entrée)
+show()
+changeCharacter(Archer_Ultra)
+
+*Archer "[voice(02_N_1)]Quoi ? Comment est-ce possible ?"
+*Archer "[voice(02_N_2)]Je ne peux pas perdre contre un type aussi pas cool que toi !"
+*Archer "[voice(02_N_3)]RHHHA ! Je.... Jamais !"
+
+hide()
+narrator "L'archer prend la fuite. Me laissant seul devant la porte."
+Load(02_O)

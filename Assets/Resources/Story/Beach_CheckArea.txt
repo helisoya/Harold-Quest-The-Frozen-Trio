@@ -1,0 +1,6 @@
+hide()
+hide()
+setBackground(Beach)
+
+narrator "Beach_CheckArea"
+Load(Beach_Arrive)

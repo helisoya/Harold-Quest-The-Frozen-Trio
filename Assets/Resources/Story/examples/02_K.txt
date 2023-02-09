@@ -1,0 +1,25 @@
+setBackground(Braise_Entrée)
+hide()
+
+narrator "Un homme en uniforme et des gardes du corps m'attendent."
+narrator "L'homme s'avance et m'adresse la parole."
+
+show()
+playSound(Degaine)
+changeCharacter(Rickey_2_Normal,true)
+??? "[voice(02_K_1)]Ah Ah ! Alors ? On s'aventure dans des lieux abandonnés ?"
+*Rickey "[voice(02_K_2)]Je suis Rickey, le PDG de RickeyLand et nouveau propriétaire des lieux."
+[MC] "Comment ? Que voulez-vous dire ?"
+*Rickey "[voice(02_K_3)]Maintenant que le seigneur Braise est mort, la forteresse est vide."
+*Rickey "[voice(02_K_4)]C'est pour cela que je vais me l’approprier, ainsi que les montagnes d'or du dragon !"
+*Rickey "[voice(02_K_5)]Ainsi, je ferais de cet endroit mon nouveau siège social !"
+*Rickey "[voice(02_K_6)]Ma compagnie, 'Rickey Inc.' a besoin de fonds pour s'étendre au marché international."
+*Rickey "[voice(02_K_7)]Et cette forteresse est un très bon investissement ! Ah Ah !"
+[MC] "Je ne peux pas vous laisser faire ça !"
+*Rickey "[voice(02_K_8)]Vraiment ? On me fait de la concurrence ?"
+*Rickey "[voice(02_K_9)]J'ai une solution contre la concurrence, moi ! Ah Ah !"
+narrator "Rickey me pointe avec son arme."
+*Rickey "[voice(02_K_10)]Allons ! Je vais te tuer ! Comme ça, plus de concurrence !"
+[MC] "Si c'est un combat que vous voulez, vous l'aurez !"
+narrator "Je me prépare au combat."
+LoadScene(DCR)

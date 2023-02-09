@@ -1,0 +1,38 @@
+hide()
+setBackground(Marais_Var2)
+
+narrator "J'ai couru sans m'arrêter pendant plusieurs minutes."
+narrator "L'archer ne me suis plus, je pense l'avoir semé."
+narrator "Le marais est silencieux, trop silencieux."
+narrator "J'ai l'impression d'être épié depuis les arbres."
+narrator "C'est sûrement mon imagination une fois de plus..."
+
+setBackground(Marais_Var3)
+narrator "Par précaution, je fait une roulade en avant."
+narrator "J'esquive une flèche, elle vient se planter dans un arbre à coté de moi."
+Archer "[voice(02_E_1)]Intéressant... tu n'est pas si mauvais après tout..."
+narrator "L'archer se cache quelque part... mais ou ?"
+[MC] "Sortez de votre cachette !"
+Archer "[voice(02_E_2)]Pourquoi donc ? La sortie est proche..."
+Archer "[voice(02_E_3)]Il y a quelques semaines, il y avait un ogre ici, un être horrible qui dévorait tout ceux qui s'aventurait par ici..."
+Archer "[voice(02_E_4)]Mais j'en ai eu assez de ce personnage grotesque."
+Archer "[voice(02_E_5)]Il y a une semaine, je l'ai tué de mes propres mains."
+narrator "Je continue d'avancer pendant qu'il parle."
+
+setBackground(Marais_Pont)
+narrator "J'arrive près d'un pont. Je commence à le franchir."
+Archer "[voice(02_E_6)]C'est ici qu'il est mort... A cet endroit même..."
+narrator "Le pont à l'air en mauvais état. Il a l'air très vieux."
+Archer "[voice(02_E_7)]Le pont a cédé sous le poids du monstre."
+Archer "[voice(02_E_8)]Tu sais, j'ai entendu une rumeur il y a quelques temps."
+Archer "[voice(02_E_9)]Un homme est allé dans les montagnes, et le seigneur dragon est mort."
+Archer "[voice(02_E_10)]Maintenant, la forteresse est soit disant vide."
+Archer "[voice(02_E_11)]J'avais pensé à piller l'endroit, mais j'ai mieux à faire."
+Archer "[voice(02_E_12)]Je te laisse la forteresse. Si jamais tu veux la piller."
+Archer "[voice(02_E_13)]Tu as survécu a mes flèches, tu est un puissant guerrier..."  
+Archer "[voice(02_E_14)]Puisse-tu trouver la fortune, mon ami."
+narrator "La voix se tait, l'archer est parti..."
+[MC] "Mmmhhh... Au moins je n'aurais pas à m'occuper de lui."
+[MC] "Je devrais partir, avant de trouver d'autres dangers dans ce marais."
+narrator "Je sort donc du marais et je commence à partir pour les montagnes."
+Load(02_H1)

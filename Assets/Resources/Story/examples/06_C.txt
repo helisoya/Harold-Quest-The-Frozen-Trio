@@ -1,0 +1,25 @@
+hide()
+setBackground(Runan_Route)
+
+narrator "J'arrive sans trop de mal à empêcher mon abduction."
+
+
+changeCharacter(Waldo_Uniforme_Normal)
+show()
+*Waldo "[voice(06_C_1)]Ah ! [MC] ! Au secours !"
+narrator "Je regarde le ciel, Waldo a été capturé par les gardes !"
+[MC] "Ne vous en faites pas ! Je vais vous sauver, Waldo !"
+
+changeCharacter(NeoGardeRickey)
+*Garde "[voice(06_C_2)]Silence ! Nous allons maintenant retrouver notre Cyber-PDG !"
+*Garde "[voice(06_C_3)]Et bien sur, vous n'avez aucune idée d'où il se trouve ! Ah Ah !"
+[MC] "Bien sur.................."
+narrator "....Que non. Ils vont au parc de Vlatyr. Rickey s'y trouve !"
+
+hide()
+narrator "Les gardes commencent à partir à la file indienne."
+narrator "Bientôt, il ne reste plus que moi sur la route."
+[MC] "Bon.... Je dois refaire tout le trajet jusqu'à Vlatyr !"
+[MC] "Waldo, j'arrive pour te sauver !"
+narrator "Je commence à avancer sur la route."
+LoadScene(TEC)

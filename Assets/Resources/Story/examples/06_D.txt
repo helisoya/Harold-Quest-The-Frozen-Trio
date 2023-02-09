@@ -1,0 +1,25 @@
+hide()
+setBackground(WaldoLand_Entree)
+
+narrator "Après quelques heures de course sur mon cheval, je suis enfin arrivé".
+[MC] "RickeyLa-... WaldoLand...."
+[MC] "C'est ici que se trouve Rickey et Waldo."
+[MC] "Je dois faire attention, le parc doit grouiller de gardes."
+narrator "Je m'approche des grilles et j'entre dans le parc."
+narrator "Une fois entré, je suis époustouflé..."
+
+setBackground(RickeyLand_Allée)
+narrator "Il y a BEAUCOUP de gardes dans le parc...."
+narrator "Je vais devoir faire très attention........"
+narrator "D'un coup, une voix surgit des interphones du parc."
+Rickey "[voice(06_D_1)]Ah Ah ! C'est moi, votre Cyber-PDG Rickey !"
+Rickey "[voice(06_D_2)]Après un peux de tort-... persuasion, j'ai enfin retrouvé mon chapeau !"
+Rickey "[voice(06_D_3)]Je suis de nouveau le PDG légitime de ce parc !"
+Rickey "[voice(06_D_4)]Cyber-Néo-RickeyLand a un avenir glorieux ! Ah Ah !"
+narrator "Mince.... J'espère que Waldo va bien...."
+narrator "Je dois le sauver tout de suite, je n'ai plus de temps."
+narrator "Qui sait ce que Rickey va lui faire maintenant..."
+narrator "Je commence à descendre du rempart de manière discrète."
+narrator "Je dois accéder au palais du PDG sans me faire voir."
+narrator "Je commence donc à marcher dans le parc."
+LoadScene(IR)

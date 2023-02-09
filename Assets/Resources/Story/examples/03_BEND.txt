@@ -1,0 +1,14 @@
+
+hide()
+hide()
+setBackground(null)
+
+Harold "[voice(03_BEND_1)]Excellent choix ! Le monde vous remerciera tôt ou tard."
+Harold "[voice(03_BEND_2)]Notre culte vise à amener le chaos dans le monde, comme notre maître nous l'a commandé."
+Harold "[voice(03_BEND_3)]Il s'est beaucoup intéressé à vous et à vos talents, il trouve que vous avez un potentiel infini."
+Harold "[voice(03_BEND_4)]J'ai aussi une personne à vous faire rencontrer, il sera votre partenaire pour votre mission."
+Harold "[voice(03_BEND_5)]Avec vos potentiels combinés, vous serez inarrêtables. Le monde sera à vos pied."
+Harold "[voice(03_BEND_6)]Mais avant de libérer le monde de sa dissidence, vous devez vous reposez."
+Harold "[voice(03_BEND_7)]Alors, reposez-vous. [MC] ... reposez-vous..."
+narrator "FIN"
+MainMenu()

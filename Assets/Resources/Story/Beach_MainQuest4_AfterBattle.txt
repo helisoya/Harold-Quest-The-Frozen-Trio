@@ -1,0 +1,19 @@
+changeCharacter(Todd)
+changeCharacter(Todd)
+show()
+setBackground(Beach)
+
+narrator "Beach_MainQuest4_22"
+*Todd "Beach_MainQuest4_23"
+[MC] "Beach_MainQuest4_24"
+*Todd "Beach_MainQuest4_25"
+*Todd "Beach_MainQuest4_26"
+*Todd "Beach_MainQuest4_27"
+
+hide()
+narrator "Beach_MainQuest4_28"
+narrator "Beach_MainQuest4_29"
+narrator "Beach_MainQuest4_30"
+narrator "Beach_MainQuest4_31"
+variable(MainQuest,5)
+Load(Beach_Arrive)

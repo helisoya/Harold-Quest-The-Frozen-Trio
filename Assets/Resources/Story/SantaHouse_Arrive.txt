@@ -1,0 +1,14 @@
+hide()
+hide()
+setBackground(SantaHouse_Exterieur)
+playMusic(Exploration_2)
+narrator "SantaHouse_Arrive"
+
+
+choice "Choice_Generic"
+{
+  "Choice_EnterSantaHouse"
+    Load(SantaHouse_Inside_Check)
+  "Choice_Map"
+    Map(SantaHouse)
+}

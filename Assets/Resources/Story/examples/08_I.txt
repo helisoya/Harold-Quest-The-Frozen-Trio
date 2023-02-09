@@ -1,0 +1,35 @@
+show()
+show()
+changeCharacter(Cerf)
+setBackground(FVR_Control)
+
+*Cerf "[voice(08_I_1)]Impossible ! Je suis le dieu du chaos !"
+*Cerf "[voice(08_I_2)]Comment ais-je pu perdre contre un nabot mortel ?"
+*Cerf "[voice(08_I_3)]RHHAAA ! Je refuse de l'accepter !"
+
+hide()
+narrator "Le cerf commence à disparaître. J'ai gagné."
+narrator "Il ne reste plus que moi et Harold dans la salle."
+[MC] "Il ne me reste qu'une chose à faire."
+narrator "Je m'avance vers les contrôles de la forteresse."
+narrator "Je m'arrange pour que la forteresse s'écrase sur le sol."
+narrator "Je n'ai plus qu'a trouver le module d'évacuation et partir."
+narrator "Je laisse donc Harold dans la salle et parcours le couloir."
+
+setBackground(FVR_Pods)
+narrator "Après quelques minutes de recherche, je trouve enfin la bonne salle."
+narrator "Il n'y a qu'une seule capsule de sauvetage... Tout le monde à bord va mourir."
+narrator "La forteresse est déjà en train de se pencher, elle va bientôt s'écraser."
+narrator "Je m’approche de la capsule quand...."
+
+changeCharacter(Harold_Kimono)
+show()
+*Harold "[voice(08_I_4)]Pas si vite ! Vous pensez que je ne sait rien de votre petit jeu ?"
+narrator "Harold m'a rattrapé. Pire encore, il a fait partir la capsule."
+narrator "Je ne peux plus quitter les lieux, je vais mourir ici."
+[MC] "Vous ne savez pas quand vous rendre ? C'est trop tard..."
+*Harold "[voice(08_I_5)]Je sais. Mais je ne peux pas vous laisser partir !"
+*Harold "[voice(08_I_6)]Je vais vous tuer ! Même si c'est la dernière chose que je vais faire !"
+*Harold "[voice(08_I_7)]Alors, préparez-vous ! Car ce combat sera votre dernier !"
+narrator "Je me prépare au combat."
+LoadScene(DC)

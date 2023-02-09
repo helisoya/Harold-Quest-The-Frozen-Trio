@@ -1,0 +1,82 @@
+hide()
+setBackground(ForteresseNoire_Exterieur)
+
+
+narrator "C'est tout de même étrange, il y a des cendres ici."
+narrator "C'est pourtant un endroit éloigné de tout cheminé..."
+narrator "Et puis, ces cendres ont comme une aura étrange."
+narrator "Pire encore, elles se trouvent à l'endroit ou Harold est mort..."
+[MC] "Je pense que ces cendres sont suspectes...."
+[MC] "Harold est peut être revenu à la vie....."
+[MC] "Mais c'est absurde.... C'est impossible...."
+
+changeCharacter(Harold_Fight)
+show()
+playMusic(Harold)
+*Harold "[voice(08_C_1)]Mais c'est possible pourtant ! Pas vrai, [MC] ?"
+[MC] "Impossible ! Je vous avais tué !"
+*Harold "[voice(08_C_2)]Eh Eh Eh ! J'ai survécu à ma mort certaine !"
+[MC] "Mais.... comment ?! C'est impossible !"
+*Harold "[voice(08_C_3)]Ah ! Mais c'est très simple ! Un seul être pouvait me sauver : mon maître !"
+*Harold "[voice(08_C_4)]Mais pour l'invoquer, je devais retrouver les 7 pages de son iconographie."
+*Harold "[voice(08_C_5)]Ne les ayant pas, j'ai utilisé ma magie pour transcender l'espace et le temps !"
+*Harold "[voice(08_C_6)]Ainsi, j'ai réussi à obtenir les 7 pages et à compléter son image !"
+*Harold "[voice(08_C_7)]Une fois invoqué dans ce monde, il a utilisé sa puissance chaotique pour me sauver !"
+*Harold "[voice(08_C_8)]C'est comme ça que j'ai survécu ! Grace à un coup de poker !"
+playMusic(null)
+[MC] "..............................................................."
+*Harold "[voice(08_C_9)]Quoi ? Vous avez un problème avec mon histoire ?"
+[MC] "Si vous pouvez transcender l'espace-temps.... pourquoi ne pas juste vous téléporter ?"
+Harold "................................."
+*Harold "[voice(08_C_10)]En fait c'est très simple !"
+
+playSound(Frappe)
+narrator "Harold me saute dessus et m'assène un coup."
+*Harold "[voice(08_C_11)]Je vais gagner cette fois, n'en doutez pas !"
+*Harold "[voice(08_C_12)]Je pensait vous tuer avec le Val'Mort, mais j'ai eu tord..."
+*Harold "[voice(08_C_13)]Mon prochain coup sera fatal, soyez-en sure !"
+
+setBackground(null)
+hide()
+narrator "Je perd connaissance, une fois de plus...."
+??? "[MC]....... réveillez-vous......."
+??? "Réveillez-vous........vous......."
+??? "[MC] !!! DEBOUT !!!!"
+
+setBackground(Runan_Waldo)
+changeCharacter(Waldo_Uniforme_Normal)
+show()
+narrator "Je me réveille en sursaut, Waldo est à coté de moi."
+*Waldo "[voice(08_C_14)][MC] ! Vous allez bien ? J'étais inquiet !"
+[MC] "Je... je vais bien.... Mais, comment...."
+*Waldo "[voice(08_C_15)]J'ai décide de vous suivre après votre départ."
+*Waldo "[voice(08_C_16)]Quand je suis arrivé à la forteresse, je vous ai cherché."
+*Waldo "[voice(08_C_17)]J'ai fini par vous trouver au sol, inconscient."
+*Waldo "[voice(08_C_18)]Je vous ai donc ramené ici, en vous portant sur mes épaules."
+[MC] "Je vois.... merci, Waldo..."
+*Waldo "[voice(08_C_19)]Sinon... Qu'avez-vous trouvé à la forteresse noire ?"
+*Waldo "[voice(08_C_20)]Vous avez trouvé quelque chose au moins ?"
+[MC] "J'ai trouvé Harold, mais il m'a assommé..."
+[MC] "Il est de retour, et il veut me tuer."
+*Waldo "[voice(08_C_21)]Vraiment ?! Mais pourquoi ne vous a-t-il pas tué maintenant ?"
+[MC] "Je l'ignore.... Mais il a parlé d'un prochain coup fatal."
+*Waldo "[voice(08_C_22)]Hmmm..... Vraiment ? Nous devons agir au plus vite alors..."
+*Waldo "[voice(08_C_23)]J'ai une idée ! Vous devriez demander de l'aide à un spécialiste."
+[MC] "Un spécialiste ? Il existe une personne qui sait comment vaincre Harold ?"
+*Waldo "[voice(08_C_24)]Oui ! C'est le Chevalier de Runan ! Son ennemi juré !"
+*Waldo "[voice(08_C_25)]Il est a la retraite de nos jours, mais il fut l'ennemi d'Harold."
+*Waldo "[voice(08_C_26)]Je suis sur qu'il va vous apprendre des techniques pour vaincre notre ennemi."
+[MC] "Je vois ! Merci Waldo ! Je vais trouver ce Chevalier tout de suite."
+
+hide()
+narrator "Je me lève et me dirige vers le manoir du Chevalier de Runan."
+
+setBackground(Runan_Route)
+narrator "La route est longue, mais je dois trouver un moyen de vaincre Harold."
+narrator "Mais.... tout ne se déroule pas comme prévu..."
+Bandit "[voice(08_C_27)]Toi ! Je veux ton or ! Tout de suite !"
+narrator "J'ai été attaqué en chemin par des bandits..."
+Bandit "[voice(08_C_28)]Tu ne veux pas nous payer ? Tant pis pour toi !"
+narrator "Les bandits s'approchent de moi, je dois les combattre."
+narrator "Je me prépare au combat."
+LoadScene(RB)

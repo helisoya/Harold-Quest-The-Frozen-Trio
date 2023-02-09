@@ -1,0 +1,14 @@
+hide()
+hide()
+setBackground(Beach)
+playMusic(Exploration_1)
+narrator "Beach_Arrive"
+
+
+choice "Choice_Generic"
+{
+  "Choice_CheckArea"
+    Load(Beach_CheckArea_Check)
+  "Choice_Map"
+    Map(Beach)
+}

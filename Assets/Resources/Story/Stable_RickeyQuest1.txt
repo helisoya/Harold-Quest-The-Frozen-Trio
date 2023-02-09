@@ -1,0 +1,32 @@
+hide()
+hide()
+setBackground(Stable)
+playMusic(null)
+
+narrator "Stable_RickeyQuest1_0"
+narrator "Stable_RickeyQuest1_1"
+narrator "Stable_RickeyQuest1_2"
+narrator "Stable_RickeyQuest1_3"
+
+changeCharacter(PasContent)
+show()
+*PasContent "Stable_RickeyQuest1_4"
+narrator "Stable_RickeyQuest1_5"
+[MC] "Stable_RickeyQuest1_6"
+*PasContent "Stable_RickeyQuest1_7"
+[MC] "Stable_RickeyQuest1_8"
+*PasContent "Stable_RickeyQuest1_9"
+narrator "Stable_RickeyQuest1_10"
+*PasContent "Stable_RickeyQuest1_11"
+*PasContent "Stable_RickeyQuest1_12"
+*PasContent "Stable_RickeyQuest1_13"
+hide()
+
+narrator "Stable_RickeyQuest1_14"
+narrator "Stable_RickeyQuest1_15"
+narrator "Stable_RickeyQuest1_16"
+narrator "Stable_RickeyQuest1_17"
+
+variable(RickeyQuest,2)
+variable(RudolphQuest,0)
+Load(Stable_Arrive)
